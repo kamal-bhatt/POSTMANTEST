@@ -1,0 +1,4421 @@
+{
+  "info": {
+    "name": "Awesome Collection",
+    "_postman_id": "78a9c628-dc89-3b93-07b9-9bb89d906e2b",
+    "description": "",
+    "schema": "https://schema.getpostman.com/json/collection/v2.0.0/collection.json"
+  },
+  "item": [
+    {
+      "_postman_id": "f1a20c89-1148-d3bd-d45d-73a72f48ea39",
+      "name": "metadata",
+      "request": {
+        "method": "get",
+        "header": [],
+        "body": {},
+        "url": "http://localhost:3000/metadata",
+        "description": "Exposes api metadata that can be imported directly into postman"
+      },
+      "response": []
+    },
+    {
+      "_postman_id": "0a72c895-a99d-aaa2-ed5f-818163ba6624",
+      "name": "http://localhost:3000/",
+      "request": {
+        "method": "get",
+        "header": [],
+        "body": {},
+        "url": "http://localhost:3000/",
+        "description": null
+      },
+      "response": []
+    },
+    {
+      "_postman_id": "06e5edfd-2cf6-f733-9b7a-85cd45148607",
+      "name": "explorer/",
+      "request": {
+        "method": "get",
+        "header": [],
+        "body": {},
+        "url": "http://localhost:3000/explorer/",
+        "description": null
+      },
+      "response": []
+    },
+    {
+      "_postman_id": "956e31c5-7680-b189-ef8e-038a90618a66",
+      "name": "v1/api-doc.json",
+      "request": {
+        "method": "get",
+        "header": [],
+        "body": {},
+        "url": "http://localhost:3000/v1/api-doc.json",
+        "description": null
+      },
+      "response": []
+    },
+    {
+      "_postman_id": "0c286f25-9fde-554c-4789-5e72e0218ba3",
+      "name": "views/{filename*}",
+      "request": {
+        "method": "get",
+        "header": [],
+        "body": {},
+        "url": "http://localhost:3000/views/{filename*}",
+        "description": null
+      },
+      "response": []
+    },
+    {
+      "_postman_id": "899e450e-c731-28e1-5047-685879241452",
+      "name": "v1/accrbodies/",
+      "request": {
+        "method": "get",
+        "header": [],
+        "body": {},
+        "url": "http://localhost:3000/v1/accrbodies/",
+        "description": null
+      },
+      "response": []
+    },
+    {
+      "_postman_id": "35b60eca-05cb-dccd-a631-d0088fb6c469",
+      "name": "v1/accrbodyparticipants/",
+      "request": {
+        "method": "get",
+        "header": [],
+        "body": {},
+        "url": "http://localhost:3000/v1/accrbodyparticipants/",
+        "description": null
+      },
+      "response": []
+    },
+    {
+      "_postman_id": "4ef417ed-116f-1626-d10d-27cedf589c36",
+      "name": "v1/cecourses/",
+      "request": {
+        "method": "get",
+        "header": [],
+        "body": {},
+        "url": "http://localhost:3000/v1/cecourses/",
+        "description": null
+      },
+      "response": []
+    },
+    {
+      "_postman_id": "7225a2c0-a958-c6dd-e46c-896f08471c25",
+      "name": "v1/cecycle/",
+      "request": {
+        "method": "get",
+        "header": [],
+        "body": {},
+        "url": "http://localhost:3000/v1/cecycle/",
+        "description": null
+      },
+      "response": []
+    },
+    {
+      "_postman_id": "a82d3101-d37c-85fa-5bde-411befd62e66",
+      "name": "v1/ceprogressreport/",
+      "request": {
+        "method": "get",
+        "header": [],
+        "body": {},
+        "url": "http://localhost:3000/v1/ceprogressreport/",
+        "description": null
+      },
+      "response": []
+    },
+    {
+      "_postman_id": "8f3757bc-13fd-d277-5486-0a132c3ebbc3",
+      "name": "v1/cestaffs/",
+      "request": {
+        "method": "get",
+        "header": [],
+        "body": {},
+        "url": "http://localhost:3000/v1/cestaffs/",
+        "description": null
+      },
+      "response": []
+    },
+    {
+      "_postman_id": "9eec5b77-beac-dc59-553a-5a95ac360408",
+      "name": "v1/cetrackerdetails/",
+      "request": {
+        "method": "get",
+        "header": [],
+        "body": {},
+        "url": "http://localhost:3000/v1/cetrackerdetails/",
+        "description": null
+      },
+      "response": []
+    },
+    {
+      "_postman_id": "386cefce-79c5-87fb-27c9-0af94ea13f09",
+      "name": "v1/course/",
+      "request": {
+        "method": "get",
+        "header": [],
+        "body": {},
+        "url": "http://localhost:3000/v1/course/",
+        "description": null
+      },
+      "response": []
+    },
+    {
+      "_postman_id": "65318f51-db76-9a4b-799a-08855c5c0265",
+      "name": "v1/dashboard/",
+      "request": {
+        "method": "get",
+        "header": [],
+        "body": {},
+        "url": "http://localhost:3000/v1/dashboard/",
+        "description": null
+      },
+      "response": []
+    },
+    {
+      "_postman_id": "6ad16c67-e221-0aa0-694a-1349ae52d78b",
+      "name": "v1/qualifiedcourses/",
+      "request": {
+        "method": "get",
+        "header": [],
+        "body": {},
+        "url": "http://localhost:3000/v1/qualifiedcourses/",
+        "description": null
+      },
+      "response": []
+    },
+    {
+      "_postman_id": "be338acc-1dc4-cbbb-d4ae-448cd578cc7a",
+      "name": "v1/{model}/{id?}",
+      "request": {
+        "method": "get",
+        "header": [],
+        "body": {},
+        "url": {
+          "raw": "http://localhost:3000/v1/{model}/{id?}",
+          "protocol": "http",
+          "host": [
+            "localhost"
+          ],
+          "port": "3000",
+          "path": [
+            "v1",
+            "{model}",
+            "{id"
+          ],
+          "query": [
+            {
+              "key": "}",
+              "value": null
+            }
+          ]
+        },
+        "description": null
+      },
+      "response": []
+    },
+    {
+      "_postman_id": "b5a8bdc3-3e3c-0b9b-b213-64b53e38fce5",
+      "name": "v1/cecourse/licenses/",
+      "request": {
+        "method": "get",
+        "header": [],
+        "body": {},
+        "url": "http://localhost:3000/v1/cecourse/licenses/",
+        "description": null
+      },
+      "response": []
+    },
+    {
+      "_postman_id": "391be64d-d6e4-b899-7703-5aff4f59a418",
+      "name": "v1/ceregulatoryrpt/list/",
+      "request": {
+        "method": "get",
+        "header": [],
+        "body": {},
+        "url": "http://localhost:3000/v1/ceregulatoryrpt/list/",
+        "description": null
+      },
+      "response": []
+    },
+    {
+      "_postman_id": "a4c1d3d2-6306-9919-37bc-2e0f7b48e4ea",
+      "name": "v1/cetrackerdetails/exemptedList/",
+      "request": {
+        "method": "get",
+        "header": [],
+        "body": {},
+        "url": "http://localhost:3000/v1/cetrackerdetails/exemptedList/",
+        "description": null
+      },
+      "response": []
+    },
+    {
+      "_postman_id": "ca286fdd-e3f9-e04e-d87b-634853baf46e",
+      "name": "v1/client/list/",
+      "request": {
+        "method": "get",
+        "header": [],
+        "body": {},
+        "url": "http://localhost:3000/v1/client/list/",
+        "description": null
+      },
+      "response": []
+    },
+    {
+      "_postman_id": "aaabbeb6-1972-0dd4-8428-dbf53a5a611f",
+      "name": "v1/course/list/",
+      "request": {
+        "method": "get",
+        "header": [],
+        "body": {},
+        "url": "http://localhost:3000/v1/course/list/",
+        "description": null
+      },
+      "response": []
+    },
+    {
+      "_postman_id": "731d5480-df34-fea5-490b-5f3362847310",
+      "name": "v1/default/info/",
+      "request": {
+        "method": "get",
+        "header": [],
+        "body": {},
+        "url": "http://localhost:3000/v1/default/info/",
+        "description": null
+      },
+      "response": []
+    },
+    {
+      "_postman_id": "744efe0e-b479-3875-dc08-fb3b5fdc0106",
+      "name": "v1/get/sequenceno/",
+      "request": {
+        "method": "get",
+        "header": [],
+        "body": {},
+        "url": "http://localhost:3000/v1/get/sequenceno/",
+        "description": null
+      },
+      "response": []
+    },
+    {
+      "_postman_id": "5bdcbf2c-422c-6dd1-6cf0-503b52456e70",
+      "name": "v1/incidentcomplaint/details/",
+      "request": {
+        "method": "get",
+        "header": [],
+        "body": {},
+        "url": "http://localhost:3000/v1/incidentcomplaint/details/",
+        "description": null
+      },
+      "response": []
+    },
+    {
+      "_postman_id": "d531b18e-2df3-a429-4ee2-097986f1ca25",
+      "name": "v1/incidentcomplaint/list/",
+      "request": {
+        "method": "get",
+        "header": [],
+        "body": {},
+        "url": "http://localhost:3000/v1/incidentcomplaint/list/",
+        "description": null
+      },
+      "response": []
+    },
+    {
+      "_postman_id": "7ae2a43a-5839-773d-8f58-0074734aee1b",
+      "name": "v1/license/policies/",
+      "request": {
+        "method": "get",
+        "header": [],
+        "body": {},
+        "url": "http://localhost:3000/v1/license/policies/",
+        "description": null
+      },
+      "response": []
+    },
+    {
+      "_postman_id": "d2199714-4846-3e44-e221-ce600482ea9a",
+      "name": "v1/licensedsecurities/list/",
+      "request": {
+        "method": "get",
+        "header": [],
+        "body": {},
+        "url": "http://localhost:3000/v1/licensedsecurities/list/",
+        "description": null
+      },
+      "response": []
+    },
+    {
+      "_postman_id": "6c6e92e2-fd17-2cb1-2f76-98ce37ca210b",
+      "name": "v1/licensedtradings/list/",
+      "request": {
+        "method": "get",
+        "header": [],
+        "body": {},
+        "url": "http://localhost:3000/v1/licensedtradings/list/",
+        "description": null
+      },
+      "response": []
+    },
+    {
+      "_postman_id": "4407017b-3fdd-577b-35ab-8b3f7e56561f",
+      "name": "v1/masterdata/list/",
+      "request": {
+        "method": "get",
+        "header": [],
+        "body": {},
+        "url": "http://localhost:3000/v1/masterdata/list/",
+        "description": null
+      },
+      "response": []
+    },
+    {
+      "_postman_id": "0c0105ee-0579-26d3-4d98-c5a67fc513c8",
+      "name": "v1/mastersecurities/list/",
+      "request": {
+        "method": "get",
+        "header": [],
+        "body": {},
+        "url": "http://localhost:3000/v1/mastersecurities/list/",
+        "description": null
+      },
+      "response": []
+    },
+    {
+      "_postman_id": "103cdc5f-325d-9cf1-fe41-ab335ce3ac88",
+      "name": "v1/mastertradings/list/",
+      "request": {
+        "method": "get",
+        "header": [],
+        "body": {},
+        "url": "http://localhost:3000/v1/mastertradings/list/",
+        "description": null
+      },
+      "response": []
+    },
+    {
+      "_postman_id": "380d6efc-503f-a802-69f3-54ebcc40aeec",
+      "name": "v1/media/uploads/{partyTradingAccountId?}",
+      "request": {
+        "method": "get",
+        "header": [],
+        "body": {},
+        "url": {
+          "raw": "http://localhost:3000/v1/media/uploads/{partyTradingAccountId?}",
+          "protocol": "http",
+          "host": [
+            "localhost"
+          ],
+          "port": "3000",
+          "path": [
+            "v1",
+            "media",
+            "uploads",
+            "{partyTradingAccountId"
+          ],
+          "query": [
+            {
+              "key": "}",
+              "value": null
+            }
+          ]
+        },
+        "description": null
+      },
+      "response": []
+    },
+    {
+      "_postman_id": "ddb9c445-4644-15ba-d59e-8292f905ac31",
+      "name": "v1/party/cetracker/",
+      "request": {
+        "method": "get",
+        "header": [],
+        "body": {},
+        "url": "http://localhost:3000/v1/party/cetracker/",
+        "description": null
+      },
+      "response": []
+    },
+    {
+      "_postman_id": "37c5cdf2-220e-347a-94d0-0f8e97effc96",
+      "name": "v1/party/details/",
+      "request": {
+        "method": "get",
+        "header": [],
+        "body": {},
+        "url": "http://localhost:3000/v1/party/details/",
+        "description": null
+      },
+      "response": []
+    },
+    {
+      "_postman_id": "1f4833cd-f353-5682-dc84-10d8d582a800",
+      "name": "v1/party/list/",
+      "request": {
+        "method": "get",
+        "header": [],
+        "body": {},
+        "url": "http://localhost:3000/v1/party/list/",
+        "description": null
+      },
+      "response": []
+    },
+    {
+      "_postman_id": "28fcc8c2-ea8e-60d3-4fce-302756b3302f",
+      "name": "v1/password/indicators/",
+      "request": {
+        "method": "get",
+        "header": [],
+        "body": {},
+        "url": "http://localhost:3000/v1/password/indicators/",
+        "description": null
+      },
+      "response": []
+    },
+    {
+      "_postman_id": "8eb88c52-9c27-6a12-86c7-b18273ceaeb3",
+      "name": "v1/provider/list/",
+      "request": {
+        "method": "get",
+        "header": [],
+        "body": {},
+        "url": "http://localhost:3000/v1/provider/list/",
+        "description": null
+      },
+      "response": []
+    },
+    {
+      "_postman_id": "c00568c8-2bcf-b708-94d1-952064d4f357",
+      "name": "v1/qualifiedcourse/license/",
+      "request": {
+        "method": "get",
+        "header": [],
+        "body": {},
+        "url": "http://localhost:3000/v1/qualifiedcourse/license/",
+        "description": null
+      },
+      "response": []
+    },
+    {
+      "_postman_id": "3b619773-a856-0bc6-57ae-bf2b11989a8d",
+      "name": "v1/qualifiedcourse/list/",
+      "request": {
+        "method": "get",
+        "header": [],
+        "body": {},
+        "url": "http://localhost:3000/v1/qualifiedcourse/list/",
+        "description": null
+      },
+      "response": []
+    },
+    {
+      "_postman_id": "bd0181e6-42dd-f174-e998-bdc689a25225",
+      "name": "v1/reference-data/corporatesetup/",
+      "request": {
+        "method": "get",
+        "header": [],
+        "body": {},
+        "url": "http://localhost:3000/v1/reference-data/corporatesetup/",
+        "description": null
+      },
+      "response": []
+    },
+    {
+      "_postman_id": "912354a0-68ee-8706-3d9c-58b857fbefee",
+      "name": "v1/reference-data/staffsetup/",
+      "request": {
+        "method": "get",
+        "header": [],
+        "body": {},
+        "url": "http://localhost:3000/v1/reference-data/staffsetup/",
+        "description": null
+      },
+      "response": []
+    },
+    {
+      "_postman_id": "7d7885ec-c467-6448-610c-3574a6ed4428",
+      "name": "v1/restrictedsecurities/list/",
+      "request": {
+        "method": "get",
+        "header": [],
+        "body": {},
+        "url": "http://localhost:3000/v1/restrictedsecurities/list/",
+        "description": null
+      },
+      "response": []
+    },
+    {
+      "_postman_id": "b415e2ad-9eaa-c4fc-a826-805bc3bd87a9",
+      "name": "v1/restrictedsecurities/recent/",
+      "request": {
+        "method": "get",
+        "header": [],
+        "body": {},
+        "url": "http://localhost:3000/v1/restrictedsecurities/recent/",
+        "description": null
+      },
+      "response": []
+    },
+    {
+      "_postman_id": "4e1f4dbe-f3cf-2d2c-8a4c-1788ee57c084",
+      "name": "v1/roles/list/",
+      "request": {
+        "method": "get",
+        "header": [],
+        "body": {},
+        "url": "http://localhost:3000/v1/roles/list/",
+        "description": null
+      },
+      "response": []
+    },
+    {
+      "_postman_id": "d764ebdc-e61e-3a6a-95b2-b71eabdebe29",
+      "name": "v1/securities/list/",
+      "request": {
+        "method": "get",
+        "header": [],
+        "body": {},
+        "url": "http://localhost:3000/v1/securities/list/",
+        "description": null
+      },
+      "response": []
+    },
+    {
+      "_postman_id": "14a002e8-87eb-54fb-0a79-0170d5638bf6",
+      "name": "v1/staff/list/",
+      "request": {
+        "method": "get",
+        "header": [],
+        "body": {},
+        "url": "http://localhost:3000/v1/staff/list/",
+        "description": null
+      },
+      "response": []
+    },
+    {
+      "_postman_id": "dda0b944-a6d0-cdc7-c7a2-5f4d7e0be0be",
+      "name": "v1/staff/profile/",
+      "request": {
+        "method": "get",
+        "header": [],
+        "body": {},
+        "url": "http://localhost:3000/v1/staff/profile/",
+        "description": null
+      },
+      "response": []
+    },
+    {
+      "_postman_id": "562adf0c-5dc4-ba0d-ef15-8d060191c351",
+      "name": "v1/staff/record/",
+      "request": {
+        "method": "get",
+        "header": [],
+        "body": {},
+        "url": "http://localhost:3000/v1/staff/record/",
+        "description": null
+      },
+      "response": []
+    },
+    {
+      "_postman_id": "c6cc4830-4fa3-f27d-fe9a-58992603e97e",
+      "name": "v1/staffaudit/list/",
+      "request": {
+        "method": "get",
+        "header": [],
+        "body": {},
+        "url": "http://localhost:3000/v1/staffaudit/list/",
+        "description": null
+      },
+      "response": []
+    },
+    {
+      "_postman_id": "85c7b831-160d-247c-a4b3-fc973b821368",
+      "name": "v1/traderequest/list/",
+      "request": {
+        "method": "get",
+        "header": [],
+        "body": {},
+        "url": "http://localhost:3000/v1/traderequest/list/",
+        "description": null
+      },
+      "response": []
+    },
+    {
+      "_postman_id": "06b9c075-46c1-0075-4469-d00423b1b07f",
+      "name": "v1/tradingaccount/list/",
+      "request": {
+        "method": "get",
+        "header": [],
+        "body": {},
+        "url": "http://localhost:3000/v1/tradingaccount/list/",
+        "description": null
+      },
+      "response": []
+    },
+    {
+      "_postman_id": "d32178b7-bf2a-d997-82f3-14670080df4d",
+      "name": "v1/tradings/list/",
+      "request": {
+        "method": "get",
+        "header": [],
+        "body": {},
+        "url": "http://localhost:3000/v1/tradings/list/",
+        "description": null
+      },
+      "response": []
+    },
+    {
+      "_postman_id": "20357e14-5caf-6790-d2fb-92e2a71e1ca4",
+      "name": "v1/view/document/",
+      "request": {
+        "method": "get",
+        "header": [],
+        "body": {},
+        "url": "http://localhost:3000/v1/view/document/",
+        "description": null
+      },
+      "response": []
+    },
+    {
+      "_postman_id": "c1256c39-1cb2-a9fd-ecaf-3b1bf18ea9c8",
+      "name": "v1/party/list/partyalias/",
+      "request": {
+        "method": "get",
+        "header": [],
+        "body": {},
+        "url": "http://localhost:3000/v1/party/list/partyalias/",
+        "description": null
+      },
+      "response": []
+    },
+    {
+      "_postman_id": "56d3858a-0010-732f-ad03-d934973cdfb6",
+      "name": "v1/staff/member/details/",
+      "request": {
+        "method": "get",
+        "header": [],
+        "body": {},
+        "url": "http://localhost:3000/v1/staff/member/details/",
+        "description": null
+      },
+      "response": []
+    },
+    {
+      "_postman_id": "50c18dbf-051d-2f08-120b-9538bf4a2ce5",
+      "name": "v1/staff/party/details/",
+      "request": {
+        "method": "get",
+        "header": [],
+        "body": {},
+        "url": "http://localhost:3000/v1/staff/party/details/",
+        "description": null
+      },
+      "response": []
+    },
+    {
+      "_postman_id": "b7ea6f49-0986-b0bd-9ac6-b54c49e2713e",
+      "name": "v1/staff/profile/view/",
+      "request": {
+        "method": "get",
+        "header": [],
+        "body": {},
+        "url": "http://localhost:3000/v1/staff/profile/view/",
+        "description": null
+      },
+      "response": []
+    },
+    {
+      "_postman_id": "3855b376-3678-4134-4960-3f6886c50e44",
+      "name": "v1/{parentModel}/{parentId}/{childAttribute}/{childId?}",
+      "request": {
+        "method": "get",
+        "header": [],
+        "body": {},
+        "url": {
+          "raw": "http://localhost:3000/v1/{parentModel}/{parentId}/{childAttribute}/{childId?}",
+          "protocol": "http",
+          "host": [
+            "localhost"
+          ],
+          "port": "3000",
+          "path": [
+            "v1",
+            "{parentModel}",
+            "{parentId}",
+            "{childAttribute}",
+            "{childId"
+          ],
+          "query": [
+            {
+              "key": "}",
+              "value": null
+            }
+          ]
+        },
+        "description": null
+      },
+      "response": []
+    },
+    {
+      "_postman_id": "31b6b4ae-eae3-7a03-9872-5c26b0ce63a0",
+      "name": "v1/staff/member/updates/list/",
+      "request": {
+        "method": "get",
+        "header": [],
+        "body": {},
+        "url": "http://localhost:3000/v1/staff/member/updates/list/",
+        "description": null
+      },
+      "response": []
+    },
+    {
+      "_postman_id": "443ba70e-c539-115f-5c46-d38888a7d515",
+      "name": "v1/bulkupload/addUsers",
+      "request": {
+        "method": "*",
+        "header": [],
+        "body": {},
+        "url": "http://localhost:3000/v1/bulkupload/addUsers",
+        "description": null
+      },
+      "response": []
+    },
+    {
+      "_postman_id": "ad32078d-9a5e-e5b6-9877-c7c4c1b4e1ef",
+      "name": "v1/bulkupload/checkEmailUser",
+      "request": {
+        "method": "*",
+        "header": [],
+        "body": {},
+        "url": "http://localhost:3000/v1/bulkupload/checkEmailUser",
+        "description": null
+      },
+      "response": []
+    },
+    {
+      "_postman_id": "0da01e5a-0379-997a-574a-30da104d1867",
+      "name": "v1/bulkupload/uploadBulkStaff",
+      "request": {
+        "method": "*",
+        "header": [],
+        "body": {},
+        "url": "http://localhost:3000/v1/bulkupload/uploadBulkStaff",
+        "description": null
+      },
+      "response": []
+    },
+    {
+      "_postman_id": "d5989ad3-9551-f2c2-0008-f046c261a9ee",
+      "name": "v1/course/adminCETracker",
+      "request": {
+        "method": "*",
+        "header": [],
+        "body": {},
+        "url": "http://localhost:3000/v1/course/adminCETracker",
+        "description": null
+      },
+      "response": []
+    },
+    {
+      "_postman_id": "eb2281e8-8d52-2a7d-416f-523a7bf52c3d",
+      "name": "v1/course/createBulkCECourses",
+      "request": {
+        "method": "*",
+        "header": [],
+        "body": {},
+        "url": "http://localhost:3000/v1/course/createBulkCECourses",
+        "description": null
+      },
+      "response": []
+    },
+    {
+      "_postman_id": "ac0b74d9-8d56-8e07-b6bd-8deb19c9c12d",
+      "name": "v1/course/createCECycle",
+      "request": {
+        "method": "*",
+        "header": [],
+        "body": {},
+        "url": "http://localhost:3000/v1/course/createCECycle",
+        "description": null
+      },
+      "response": []
+    },
+    {
+      "_postman_id": "52578957-e2d1-fa07-0b81-034eeecd1166",
+      "name": "v1/course/createCEProvider",
+      "request": {
+        "method": "*",
+        "header": [],
+        "body": {},
+        "url": "http://localhost:3000/v1/course/createCEProvider",
+        "description": null
+      },
+      "response": []
+    },
+    {
+      "_postman_id": "6cb8598b-1794-6858-2164-ca6a58fec90e",
+      "name": "v1/course/deleteCourse",
+      "request": {
+        "method": "*",
+        "header": [],
+        "body": {},
+        "url": "http://localhost:3000/v1/course/deleteCourse",
+        "description": null
+      },
+      "response": []
+    },
+    {
+      "_postman_id": "8cc53ab1-4e71-54ee-7e05-84c296ac39f7",
+      "name": "v1/course/deleteProvider",
+      "request": {
+        "method": "*",
+        "header": [],
+        "body": {},
+        "url": "http://localhost:3000/v1/course/deleteProvider",
+        "description": null
+      },
+      "response": []
+    },
+    {
+      "_postman_id": "a4a28948-8d06-62f5-8009-dfac82b6ead7",
+      "name": "v1/course/exemptDocument",
+      "request": {
+        "method": "*",
+        "header": [],
+        "body": {},
+        "url": "http://localhost:3000/v1/course/exemptDocument",
+        "description": null
+      },
+      "response": []
+    },
+    {
+      "_postman_id": "8907cb3f-f4ad-a621-015f-417e7bccd0fa",
+      "name": "v1/course/findPartyDetails",
+      "request": {
+        "method": "*",
+        "header": [],
+        "body": {},
+        "url": "http://localhost:3000/v1/course/findPartyDetails",
+        "description": null
+      },
+      "response": []
+    },
+    {
+      "_postman_id": "495d5b15-d497-98e5-e798-905f0f4d8b72",
+      "name": "v1/course/getCECourses",
+      "request": {
+        "method": "*",
+        "header": [],
+        "body": {},
+        "url": "http://localhost:3000/v1/course/getCECourses",
+        "description": null
+      },
+      "response": []
+    },
+    {
+      "_postman_id": "d81739a1-c140-0720-9281-6791abfe4b90",
+      "name": "v1/course/getCECycles",
+      "request": {
+        "method": "*",
+        "header": [],
+        "body": {},
+        "url": "http://localhost:3000/v1/course/getCECycles",
+        "description": null
+      },
+      "response": []
+    },
+    {
+      "_postman_id": "8ed9a81c-11a8-4cbf-db40-812cbf4ac78d",
+      "name": "v1/course/getCEtrackerExemptedList",
+      "request": {
+        "method": "*",
+        "header": [],
+        "body": {},
+        "url": "http://localhost:3000/v1/course/getCEtrackerExemptedList",
+        "description": null
+      },
+      "response": []
+    },
+    {
+      "_postman_id": "f76d2d79-d360-82de-474f-cbe7906ca0f9",
+      "name": "v1/course/getCeRegulatoryRpt",
+      "request": {
+        "method": "*",
+        "header": [],
+        "body": {},
+        "url": "http://localhost:3000/v1/course/getCeRegulatoryRpt",
+        "description": null
+      },
+      "response": []
+    },
+    {
+      "_postman_id": "3857965c-d628-5616-b1a6-2a410afdc7a3",
+      "name": "v1/course/getCourses",
+      "request": {
+        "method": "*",
+        "header": [],
+        "body": {},
+        "url": "http://localhost:3000/v1/course/getCourses",
+        "description": null
+      },
+      "response": []
+    },
+    {
+      "_postman_id": "fc9c5b0b-debe-e158-fbdd-ed02e626bdfa",
+      "name": "v1/course/getProviderList",
+      "request": {
+        "method": "*",
+        "header": [],
+        "body": {},
+        "url": "http://localhost:3000/v1/course/getProviderList",
+        "description": null
+      },
+      "response": []
+    },
+    {
+      "_postman_id": "9d74a5a5-47db-d031-03fe-9c5b9f3e0201",
+      "name": "v1/course/getStaffAuditList",
+      "request": {
+        "method": "*",
+        "header": [],
+        "body": {},
+        "url": "http://localhost:3000/v1/course/getStaffAuditList",
+        "description": null
+      },
+      "response": []
+    },
+    {
+      "_postman_id": "8a3738e5-0757-8bff-60f8-49a2aa372b33",
+      "name": "v1/course/staffAudit",
+      "request": {
+        "method": "*",
+        "header": [],
+        "body": {},
+        "url": "http://localhost:3000/v1/course/staffAudit",
+        "description": null
+      },
+      "response": []
+    },
+    {
+      "_postman_id": "94cdec08-766c-96f2-bc9c-31ea4440fd1b",
+      "name": "v1/course/updateCECourse",
+      "request": {
+        "method": "*",
+        "header": [],
+        "body": {},
+        "url": "http://localhost:3000/v1/course/updateCECourse",
+        "description": null
+      },
+      "response": []
+    },
+    {
+      "_postman_id": "a0cadcaf-4985-099d-8c1a-2fce0a59aeb0",
+      "name": "v1/course/updateCEProvider",
+      "request": {
+        "method": "*",
+        "header": [],
+        "body": {},
+        "url": "http://localhost:3000/v1/course/updateCEProvider",
+        "description": null
+      },
+      "response": []
+    },
+    {
+      "_postman_id": "d1c36286-72a7-e7bc-e367-1407adb4ac9f",
+      "name": "v1/course/updateCeCycle",
+      "request": {
+        "method": "*",
+        "header": [],
+        "body": {},
+        "url": "http://localhost:3000/v1/course/updateCeCycle",
+        "description": null
+      },
+      "response": []
+    },
+    {
+      "_postman_id": "12ed2fc2-2bca-f9bf-b44d-51081e28965e",
+      "name": "v1/createentries/CreateEntriesForAccBody",
+      "request": {
+        "method": "*",
+        "header": [],
+        "body": {},
+        "url": "http://localhost:3000/v1/createentries/CreateEntriesForAccBody",
+        "description": null
+      },
+      "response": []
+    },
+    {
+      "_postman_id": "3bdd5a0d-6c02-306a-e0c9-7794413206dc",
+      "name": "v1/createentries/CreateEntriesForJurisdictionMap",
+      "request": {
+        "method": "*",
+        "header": [],
+        "body": {},
+        "url": "http://localhost:3000/v1/createentries/CreateEntriesForJurisdictionMap",
+        "description": null
+      },
+      "response": []
+    },
+    {
+      "_postman_id": "55a46025-72ff-e27d-bc34-5cddccfba0ef",
+      "name": "v1/createentries/CreateEntriesForMasterTradingInstitution",
+      "request": {
+        "method": "*",
+        "header": [],
+        "body": {},
+        "url": "http://localhost:3000/v1/createentries/CreateEntriesForMasterTradingInstitution",
+        "description": null
+      },
+      "response": []
+    },
+    {
+      "_postman_id": "e928c282-4135-9c5f-7847-6e72f5d5223e",
+      "name": "v1/createentries/CreateEntriesForRoleAccessAction",
+      "request": {
+        "method": "*",
+        "header": [],
+        "body": {},
+        "url": "http://localhost:3000/v1/createentries/CreateEntriesForRoleAccessAction",
+        "description": null
+      },
+      "response": []
+    },
+    {
+      "_postman_id": "2d33de7c-0415-09d9-1984-58250ac34691",
+      "name": "v1/createentries/CreateEntriesForRoleAccessMenu",
+      "request": {
+        "method": "*",
+        "header": [],
+        "body": {},
+        "url": "http://localhost:3000/v1/createentries/CreateEntriesForRoleAccessMenu",
+        "description": null
+      },
+      "response": []
+    },
+    {
+      "_postman_id": "865a8688-1626-0376-f423-d35130e59622",
+      "name": "v1/createentries/addupdateMasterData",
+      "request": {
+        "method": "*",
+        "header": [],
+        "body": {},
+        "url": "http://localhost:3000/v1/createentries/addupdateMasterData",
+        "description": null
+      },
+      "response": []
+    },
+    {
+      "_postman_id": "0775275c-2146-d677-d193-246a189c2659",
+      "name": "v1/createentries/createAccrBody",
+      "request": {
+        "method": "*",
+        "header": [],
+        "body": {},
+        "url": "http://localhost:3000/v1/createentries/createAccrBody",
+        "description": null
+      },
+      "response": []
+    },
+    {
+      "_postman_id": "b8126351-dfc3-8539-e6e8-c89ecc567d39",
+      "name": "v1/createentries/createAccrBodyParticipant",
+      "request": {
+        "method": "*",
+        "header": [],
+        "body": {},
+        "url": "http://localhost:3000/v1/createentries/createAccrBodyParticipant",
+        "description": null
+      },
+      "response": []
+    },
+    {
+      "_postman_id": "a486c7ec-b68e-0979-e142-59d1a06c8cb4",
+      "name": "v1/createentries/createAccrBodyParticipantChild",
+      "request": {
+        "method": "*",
+        "header": [],
+        "body": {},
+        "url": "http://localhost:3000/v1/createentries/createAccrBodyParticipantChild",
+        "description": null
+      },
+      "response": []
+    },
+    {
+      "_postman_id": "976b6749-5d1b-506e-4440-8eab57ef4793",
+      "name": "v1/createentries/createAllpartyCeActivity",
+      "request": {
+        "method": "*",
+        "header": [],
+        "body": {},
+        "url": "http://localhost:3000/v1/createentries/createAllpartyCeActivity",
+        "description": null
+      },
+      "response": []
+    },
+    {
+      "_postman_id": "16b2116d-4505-fe98-a75a-7ba9cad0c0c7",
+      "name": "v1/createentries/createCERequirement",
+      "request": {
+        "method": "*",
+        "header": [],
+        "body": {},
+        "url": "http://localhost:3000/v1/createentries/createCERequirement",
+        "description": null
+      },
+      "response": []
+    },
+    {
+      "_postman_id": "d88aebb3-2a1b-b510-9c14-2d6a991a3aa1",
+      "name": "v1/createentries/createEntriesForAccrBodyFirm",
+      "request": {
+        "method": "*",
+        "header": [],
+        "body": {},
+        "url": "http://localhost:3000/v1/createentries/createEntriesForAccrBodyFirm",
+        "description": null
+      },
+      "response": []
+    },
+    {
+      "_postman_id": "59ce1600-eeef-a5b8-8e29-5a5b43a8ada2",
+      "name": "v1/createentries/createRole",
+      "request": {
+        "method": "*",
+        "header": [],
+        "body": {},
+        "url": "http://localhost:3000/v1/createentries/createRole",
+        "description": null
+      },
+      "response": []
+    },
+    {
+      "_postman_id": "112c86b3-b75b-1181-1252-1550b707e30b",
+      "name": "v1/createentries/deleteAccrbody",
+      "request": {
+        "method": "*",
+        "header": [],
+        "body": {},
+        "url": "http://localhost:3000/v1/createentries/deleteAccrbody",
+        "description": null
+      },
+      "response": []
+    },
+    {
+      "_postman_id": "3491114e-a6e4-691b-86a9-f3de1179667e",
+      "name": "v1/createentries/deleteParticipant",
+      "request": {
+        "method": "*",
+        "header": [],
+        "body": {},
+        "url": "http://localhost:3000/v1/createentries/deleteParticipant",
+        "description": null
+      },
+      "response": []
+    },
+    {
+      "_postman_id": "1a4cb7ad-0654-5b77-76b5-721b36c87fe8",
+      "name": "v1/createentries/fetchAccrBody",
+      "request": {
+        "method": "*",
+        "header": [],
+        "body": {},
+        "url": "http://localhost:3000/v1/createentries/fetchAccrBody",
+        "description": null
+      },
+      "response": []
+    },
+    {
+      "_postman_id": "0ff87be5-1c79-bda1-839c-c895d2c6bcca",
+      "name": "v1/createentries/fetchAccrBodyParticipants",
+      "request": {
+        "method": "*",
+        "header": [],
+        "body": {},
+        "url": "http://localhost:3000/v1/createentries/fetchAccrBodyParticipants",
+        "description": null
+      },
+      "response": []
+    },
+    {
+      "_postman_id": "5b7b2ee9-47d0-eef2-f326-c5d8f4c09ec6",
+      "name": "v1/createentries/getCountryState",
+      "request": {
+        "method": "*",
+        "header": [],
+        "body": {},
+        "url": "http://localhost:3000/v1/createentries/getCountryState",
+        "description": null
+      },
+      "response": []
+    },
+    {
+      "_postman_id": "0c18467d-473c-bbe8-89b2-b7071e4eb44c",
+      "name": "v1/createentries/sendCourseReminder",
+      "request": {
+        "method": "*",
+        "header": [],
+        "body": {},
+        "url": "http://localhost:3000/v1/createentries/sendCourseReminder",
+        "description": null
+      },
+      "response": []
+    },
+    {
+      "_postman_id": "eb0fa3fb-d0ab-da52-c5c8-6d47895c077b",
+      "name": "v1/createentries/updateAccrBody",
+      "request": {
+        "method": "*",
+        "header": [],
+        "body": {},
+        "url": "http://localhost:3000/v1/createentries/updateAccrBody",
+        "description": null
+      },
+      "response": []
+    },
+    {
+      "_postman_id": "bd354909-a371-e036-7eb8-e6d78faf5811",
+      "name": "v1/createentries/updateAccrBodyPart",
+      "request": {
+        "method": "*",
+        "header": [],
+        "body": {},
+        "url": "http://localhost:3000/v1/createentries/updateAccrBodyPart",
+        "description": null
+      },
+      "response": []
+    },
+    {
+      "_postman_id": "b579ff67-1dd4-940c-882f-9865fbc2f478",
+      "name": "v1/createentries/updateAddress",
+      "request": {
+        "method": "*",
+        "header": [],
+        "body": {},
+        "url": "http://localhost:3000/v1/createentries/updateAddress",
+        "description": null
+      },
+      "response": []
+    },
+    {
+      "_postman_id": "fbcf24cc-c5b7-87a1-763e-d07f62680c37",
+      "name": "v1/createentries/updateCERequirement",
+      "request": {
+        "method": "*",
+        "header": [],
+        "body": {},
+        "url": "http://localhost:3000/v1/createentries/updateCERequirement",
+        "description": null
+      },
+      "response": []
+    },
+    {
+      "_postman_id": "99e28600-7e5f-f0c4-efb3-1ad388abb8c0",
+      "name": "v1/createentries/updateCorRegCat",
+      "request": {
+        "method": "*",
+        "header": [],
+        "body": {},
+        "url": "http://localhost:3000/v1/createentries/updateCorRegCat",
+        "description": null
+      },
+      "response": []
+    },
+    {
+      "_postman_id": "d0cf3d9d-a98f-31d3-dca2-f0a96b52ba65",
+      "name": "v1/createentries/updatePartyReg",
+      "request": {
+        "method": "*",
+        "header": [],
+        "body": {},
+        "url": "http://localhost:3000/v1/createentries/updatePartyReg",
+        "description": null
+      },
+      "response": []
+    },
+    {
+      "_postman_id": "d7d121ca-ef31-931f-8f5a-573ccf290b76",
+      "name": "v1/createentries/updateRegisterStaffRegCat",
+      "request": {
+        "method": "*",
+        "header": [],
+        "body": {},
+        "url": "http://localhost:3000/v1/createentries/updateRegisterStaffRegCat",
+        "description": null
+      },
+      "response": []
+    },
+    {
+      "_postman_id": "bbcdb1c1-6e39-c4a7-2e38-af6e4e14501c",
+      "name": "v1/createentries/validateData",
+      "request": {
+        "method": "*",
+        "header": [],
+        "body": {},
+        "url": "http://localhost:3000/v1/createentries/validateData",
+        "description": null
+      },
+      "response": []
+    },
+    {
+      "_postman_id": "20cfa0a3-dd0b-43fb-c83b-1df2ffa438c2",
+      "name": "v1/default/getDocuments",
+      "request": {
+        "method": "*",
+        "header": [],
+        "body": {},
+        "url": "http://localhost:3000/v1/default/getDocuments",
+        "description": null
+      },
+      "response": []
+    },
+    {
+      "_postman_id": "b90e7fc7-f72a-886e-5997-fee25bbb1b27",
+      "name": "v1/default/getPasswordIndicators",
+      "request": {
+        "method": "*",
+        "header": [],
+        "body": {},
+        "url": "http://localhost:3000/v1/default/getPasswordIndicators",
+        "description": null
+      },
+      "response": []
+    },
+    {
+      "_postman_id": "fc8fa2a0-7584-7991-f5bc-36a1d542e2d2",
+      "name": "v1/default/info",
+      "request": {
+        "method": "*",
+        "header": [],
+        "body": {},
+        "url": "http://localhost:3000/v1/default/info",
+        "description": null
+      },
+      "response": []
+    },
+    {
+      "_postman_id": "a7b8e622-996a-eae3-0937-e86a365fb239",
+      "name": "v1/default/login",
+      "request": {
+        "method": "*",
+        "header": [],
+        "body": {},
+        "url": "http://localhost:3000/v1/default/login",
+        "description": null
+      },
+      "response": []
+    },
+    {
+      "_postman_id": "eb834740-d7e6-738f-0264-c3e76acf3abd",
+      "name": "v1/default/logout",
+      "request": {
+        "method": "*",
+        "header": [],
+        "body": {},
+        "url": "http://localhost:3000/v1/default/logout",
+        "description": null
+      },
+      "response": []
+    },
+    {
+      "_postman_id": "d255f9ab-bb87-9c8b-3a00-4056708b463f",
+      "name": "v1/default/migrateuser",
+      "request": {
+        "method": "*",
+        "header": [],
+        "body": {},
+        "url": "http://localhost:3000/v1/default/migrateuser",
+        "description": null
+      },
+      "response": []
+    },
+    {
+      "_postman_id": "6ebfd7b2-77e9-22e6-3e5c-8071d55f08a3",
+      "name": "v1/default/renewAuthToken",
+      "request": {
+        "method": "*",
+        "header": [],
+        "body": {},
+        "url": "http://localhost:3000/v1/default/renewAuthToken",
+        "description": null
+      },
+      "response": []
+    },
+    {
+      "_postman_id": "db6cc343-67ee-eb68-e3cc-adc796c0471d",
+      "name": "v1/default/setUpBulkPassword",
+      "request": {
+        "method": "*",
+        "header": [],
+        "body": {},
+        "url": "http://localhost:3000/v1/default/setUpBulkPassword",
+        "description": null
+      },
+      "response": []
+    },
+    {
+      "_postman_id": "5652821d-bf22-6ba9-8293-f5e57a0f0739",
+      "name": "v1/default/setupPassword",
+      "request": {
+        "method": "*",
+        "header": [],
+        "body": {},
+        "url": "http://localhost:3000/v1/default/setupPassword",
+        "description": null
+      },
+      "response": []
+    },
+    {
+      "_postman_id": "d43d5477-3b9a-6f83-a07d-f71db6ea3d1a",
+      "name": "v1/default/updateUser",
+      "request": {
+        "method": "*",
+        "header": [],
+        "body": {},
+        "url": "http://localhost:3000/v1/default/updateUser",
+        "description": null
+      },
+      "response": []
+    },
+    {
+      "_postman_id": "ea8d422c-135e-671f-7c75-163ef6c19ec3",
+      "name": "v1/license/addUser",
+      "request": {
+        "method": "*",
+        "header": [],
+        "body": {},
+        "url": "http://localhost:3000/v1/license/addUser",
+        "description": null
+      },
+      "response": []
+    },
+    {
+      "_postman_id": "d66ec578-a42e-8ab0-7f82-dda91d18847f",
+      "name": "v1/license/createLicense",
+      "request": {
+        "method": "*",
+        "header": [],
+        "body": {},
+        "url": "http://localhost:3000/v1/license/createLicense",
+        "description": null
+      },
+      "response": []
+    },
+    {
+      "_postman_id": "eb6441a5-d43e-3937-f364-f3fd5c74a2bf",
+      "name": "v1/license/deleteUser",
+      "request": {
+        "method": "*",
+        "header": [],
+        "body": {},
+        "url": "http://localhost:3000/v1/license/deleteUser",
+        "description": null
+      },
+      "response": []
+    },
+    {
+      "_postman_id": "2b463b1d-6495-0126-33bc-c4b5fcbf75d0",
+      "name": "v1/license/getClients",
+      "request": {
+        "method": "*",
+        "header": [],
+        "body": {},
+        "url": "http://localhost:3000/v1/license/getClients",
+        "description": null
+      },
+      "response": []
+    },
+    {
+      "_postman_id": "f9355e7d-ffd2-cd6e-4d8d-a5e9674c9323",
+      "name": "v1/license/getPolicies",
+      "request": {
+        "method": "*",
+        "header": [],
+        "body": {},
+        "url": "http://localhost:3000/v1/license/getPolicies",
+        "description": null
+      },
+      "response": []
+    },
+    {
+      "_postman_id": "86b5aeca-9efc-8dc8-c560-c9b6a38bd675",
+      "name": "v1/license/savePolicies",
+      "request": {
+        "method": "*",
+        "header": [],
+        "body": {},
+        "url": "http://localhost:3000/v1/license/savePolicies",
+        "description": null
+      },
+      "response": []
+    },
+    {
+      "_postman_id": "9098532b-7132-e285-7603-57e971e120f2",
+      "name": "v1/license/updateLicense",
+      "request": {
+        "method": "*",
+        "header": [],
+        "body": {},
+        "url": "http://localhost:3000/v1/license/updateLicense",
+        "description": null
+      },
+      "response": []
+    },
+    {
+      "_postman_id": "a28d203f-ebf5-2f3c-e696-0dfcd04dff8c",
+      "name": "v1/license/updateUser",
+      "request": {
+        "method": "*",
+        "header": [],
+        "body": {},
+        "url": "http://localhost:3000/v1/license/updateUser",
+        "description": null
+      },
+      "response": []
+    },
+    {
+      "_postman_id": "4e928ab3-90f3-85e5-89a7-9c7e563a67f6",
+      "name": "v1/party/createCorporate",
+      "request": {
+        "method": "*",
+        "header": [],
+        "body": {},
+        "url": "http://localhost:3000/v1/party/createCorporate",
+        "description": null
+      },
+      "response": []
+    },
+    {
+      "_postman_id": "47ab1651-580a-ee6a-21e5-f951b5c2008d",
+      "name": "v1/party/createICDocuments",
+      "request": {
+        "method": "*",
+        "header": [],
+        "body": {},
+        "url": "http://localhost:3000/v1/party/createICDocuments",
+        "description": null
+      },
+      "response": []
+    },
+    {
+      "_postman_id": "00d0cd33-bcd9-7446-c5f0-e769f362e3b9",
+      "name": "v1/party/createICStaff",
+      "request": {
+        "method": "*",
+        "header": [],
+        "body": {},
+        "url": "http://localhost:3000/v1/party/createICStaff",
+        "description": null
+      },
+      "response": []
+    },
+    {
+      "_postman_id": "2fa3ad21-f936-5b03-95c8-97adcef305b1",
+      "name": "v1/party/createIncidentsOrComplaints",
+      "request": {
+        "method": "*",
+        "header": [],
+        "body": {},
+        "url": "http://localhost:3000/v1/party/createIncidentsOrComplaints",
+        "description": null
+      },
+      "response": []
+    },
+    {
+      "_postman_id": "0d507039-5c3a-7008-a8cc-83358ee9b5d1",
+      "name": "v1/party/createPartyMessage",
+      "request": {
+        "method": "*",
+        "header": [],
+        "body": {},
+        "url": "http://localhost:3000/v1/party/createPartyMessage",
+        "description": null
+      },
+      "response": []
+    },
+    {
+      "_postman_id": "a183ebef-96df-2265-104e-f0bad3d3c0aa",
+      "name": "v1/party/createStaffTradeRelation",
+      "request": {
+        "method": "*",
+        "header": [],
+        "body": {},
+        "url": "http://localhost:3000/v1/party/createStaffTradeRelation",
+        "description": null
+      },
+      "response": []
+    },
+    {
+      "_postman_id": "dcb4fe3b-8279-3c78-f7a4-e1d63a1d19ba",
+      "name": "v1/party/deleteICDocument",
+      "request": {
+        "method": "*",
+        "header": [],
+        "body": {},
+        "url": "http://localhost:3000/v1/party/deleteICDocument",
+        "description": null
+      },
+      "response": []
+    },
+    {
+      "_postman_id": "a4fa6058-79e5-8423-ef61-bd3962360668",
+      "name": "v1/party/deleteICStaff",
+      "request": {
+        "method": "*",
+        "header": [],
+        "body": {},
+        "url": "http://localhost:3000/v1/party/deleteICStaff",
+        "description": null
+      },
+      "response": []
+    },
+    {
+      "_postman_id": "19751480-2513-956a-3661-4d78065c615a",
+      "name": "v1/party/deleteParty",
+      "request": {
+        "method": "*",
+        "header": [],
+        "body": {},
+        "url": "http://localhost:3000/v1/party/deleteParty",
+        "description": null
+      },
+      "response": []
+    },
+    {
+      "_postman_id": "037e0569-65fa-a8a2-955e-fb5a3a3b34c4",
+      "name": "v1/party/getAllRegulatorySources",
+      "request": {
+        "method": "*",
+        "header": [],
+        "body": {},
+        "url": "http://localhost:3000/v1/party/getAllRegulatorySources",
+        "description": null
+      },
+      "response": []
+    },
+    {
+      "_postman_id": "b30f9ee1-e1df-ffb2-4430-6c31cbf82d59",
+      "name": "v1/party/getComplaintsIncidentsDetails",
+      "request": {
+        "method": "*",
+        "header": [],
+        "body": {},
+        "url": "http://localhost:3000/v1/party/getComplaintsIncidentsDetails",
+        "description": null
+      },
+      "response": []
+    },
+    {
+      "_postman_id": "45bcbd71-da0b-cafc-66ed-35e9107033bc",
+      "name": "v1/party/getComplaintsIncidentsList",
+      "request": {
+        "method": "*",
+        "header": [],
+        "body": {},
+        "url": "http://localhost:3000/v1/party/getComplaintsIncidentsList",
+        "description": null
+      },
+      "response": []
+    },
+    {
+      "_postman_id": "3c73dfba-e88d-81f5-b483-d259d568d751",
+      "name": "v1/party/getDashboardDetails",
+      "request": {
+        "method": "*",
+        "header": [],
+        "body": {},
+        "url": "http://localhost:3000/v1/party/getDashboardDetails",
+        "description": null
+      },
+      "response": []
+    },
+    {
+      "_postman_id": "901c2c73-c5c9-c228-f269-3b63b793dc31",
+      "name": "v1/party/getPartyConfig",
+      "request": {
+        "method": "*",
+        "header": [],
+        "body": {},
+        "url": "http://localhost:3000/v1/party/getPartyConfig",
+        "description": null
+      },
+      "response": []
+    },
+    {
+      "_postman_id": "7352c1e8-c86c-1cf7-8a11-037406a57629",
+      "name": "v1/party/getPartyDetails",
+      "request": {
+        "method": "*",
+        "header": [],
+        "body": {},
+        "url": "http://localhost:3000/v1/party/getPartyDetails",
+        "description": null
+      },
+      "response": []
+    },
+    {
+      "_postman_id": "2bc8d291-0a11-a9c8-2366-03993fbafc0d",
+      "name": "v1/party/getPartyList",
+      "request": {
+        "method": "*",
+        "header": [],
+        "body": {},
+        "url": "http://localhost:3000/v1/party/getPartyList",
+        "description": null
+      },
+      "response": []
+    },
+    {
+      "_postman_id": "66e8f50d-15b3-0c7a-974b-70f85bd7ac4d",
+      "name": "v1/party/getPartyListWithPartyAlias",
+      "request": {
+        "method": "*",
+        "header": [],
+        "body": {},
+        "url": "http://localhost:3000/v1/party/getPartyListWithPartyAlias",
+        "description": null
+      },
+      "response": []
+    },
+    {
+      "_postman_id": "1b9bef37-0963-e580-b08d-b9b94d2485eb",
+      "name": "v1/party/getRegistrations",
+      "request": {
+        "method": "*",
+        "header": [],
+        "body": {},
+        "url": "http://localhost:3000/v1/party/getRegistrations",
+        "description": null
+      },
+      "response": []
+    },
+    {
+      "_postman_id": "ae6515e4-92ec-6acb-1a43-827b1ceeaf0a",
+      "name": "v1/party/updateCorporate",
+      "request": {
+        "method": "*",
+        "header": [],
+        "body": {},
+        "url": "http://localhost:3000/v1/party/updateCorporate",
+        "description": null
+      },
+      "response": []
+    },
+    {
+      "_postman_id": "b5fae724-7123-e651-ec3b-1afa9c3fa822",
+      "name": "v1/party/updateIC",
+      "request": {
+        "method": "*",
+        "header": [],
+        "body": {},
+        "url": "http://localhost:3000/v1/party/updateIC",
+        "description": null
+      },
+      "response": []
+    },
+    {
+      "_postman_id": "ffe8e267-2003-7b39-074a-61f0438242d6",
+      "name": "v1/party/updateICDisciplinaryAction",
+      "request": {
+        "method": "*",
+        "header": [],
+        "body": {},
+        "url": "http://localhost:3000/v1/party/updateICDisciplinaryAction",
+        "description": null
+      },
+      "response": []
+    },
+    {
+      "_postman_id": "02dd0e54-ec38-cef4-cbc0-e4349d678110",
+      "name": "v1/party/updateICStaff",
+      "request": {
+        "method": "*",
+        "header": [],
+        "body": {},
+        "url": "http://localhost:3000/v1/party/updateICStaff",
+        "description": null
+      },
+      "response": []
+    },
+    {
+      "_postman_id": "2e0ed8b5-55dd-43c1-726d-f73e733605e0",
+      "name": "v1/party/validateRegulatorySourceAndRegistration",
+      "request": {
+        "method": "*",
+        "header": [],
+        "body": {},
+        "url": "http://localhost:3000/v1/party/validateRegulatorySourceAndRegistration",
+        "description": null
+      },
+      "response": []
+    },
+    {
+      "_postman_id": "54860464-32bd-7837-a4a6-e856ad930f40",
+      "name": "v1/partycourses/add",
+      "request": {
+        "method": "*",
+        "header": [],
+        "body": {},
+        "url": "http://localhost:3000/v1/partycourses/add",
+        "description": null
+      },
+      "response": []
+    },
+    {
+      "_postman_id": "e2daafbf-fb33-382e-4a1b-8e24f257100f",
+      "name": "v1/partycourses/assignCourse",
+      "request": {
+        "method": "*",
+        "header": [],
+        "body": {},
+        "url": "http://localhost:3000/v1/partycourses/assignCourse",
+        "description": null
+      },
+      "response": []
+    },
+    {
+      "_postman_id": "44cd30c4-23ac-b108-1e7a-33fb9f4a619a",
+      "name": "v1/partycourses/deleteAssignCourse",
+      "request": {
+        "method": "*",
+        "header": [],
+        "body": {},
+        "url": "http://localhost:3000/v1/partycourses/deleteAssignCourse",
+        "description": null
+      },
+      "response": []
+    },
+    {
+      "_postman_id": "a539aa6c-39c4-fa33-7d14-dc37a96a9378",
+      "name": "v1/partycourses/deleteQualifyCourse",
+      "request": {
+        "method": "*",
+        "header": [],
+        "body": {},
+        "url": "http://localhost:3000/v1/partycourses/deleteQualifyCourse",
+        "description": null
+      },
+      "response": []
+    },
+    {
+      "_postman_id": "90166e73-078c-d38e-0bf0-50bf583ebfa6",
+      "name": "v1/partycourses/fetchCEStaffs",
+      "request": {
+        "method": "*",
+        "header": [],
+        "body": {},
+        "url": "http://localhost:3000/v1/partycourses/fetchCEStaffs",
+        "description": null
+      },
+      "response": []
+    },
+    {
+      "_postman_id": "b0b1289d-6226-1644-3d96-3d6f3955e1df",
+      "name": "v1/partycourses/findCredit",
+      "request": {
+        "method": "*",
+        "header": [],
+        "body": {},
+        "url": "http://localhost:3000/v1/partycourses/findCredit",
+        "description": null
+      },
+      "response": []
+    },
+    {
+      "_postman_id": "597b95af-74be-7aca-992e-5391124836ad",
+      "name": "v1/partycourses/getCECoursesLicenses",
+      "request": {
+        "method": "*",
+        "header": [],
+        "body": {},
+        "url": "http://localhost:3000/v1/partycourses/getCECoursesLicenses",
+        "description": null
+      },
+      "response": []
+    },
+    {
+      "_postman_id": "3522b2b9-683f-6671-b1b2-f7c7e504b84d",
+      "name": "v1/partycourses/getCEProgress",
+      "request": {
+        "method": "*",
+        "header": [],
+        "body": {},
+        "url": "http://localhost:3000/v1/partycourses/getCEProgress",
+        "description": null
+      },
+      "response": []
+    },
+    {
+      "_postman_id": "1a9bfee9-35a5-c3d1-b219-639fdee84abd",
+      "name": "v1/partycourses/getCourse",
+      "request": {
+        "method": "*",
+        "header": [],
+        "body": {},
+        "url": "http://localhost:3000/v1/partycourses/getCourse",
+        "description": null
+      },
+      "response": []
+    },
+    {
+      "_postman_id": "659ba529-b213-43b3-1d92-0577f7a2e61e",
+      "name": "v1/partycourses/getLicensedQualifiedCourse",
+      "request": {
+        "method": "*",
+        "header": [],
+        "body": {},
+        "url": "http://localhost:3000/v1/partycourses/getLicensedQualifiedCourse",
+        "description": null
+      },
+      "response": []
+    },
+    {
+      "_postman_id": "ef41d90a-6b10-5784-6dfb-3c4a05af4540",
+      "name": "v1/partycourses/getPartyRegisterCourse",
+      "request": {
+        "method": "*",
+        "header": [],
+        "body": {},
+        "url": "http://localhost:3000/v1/partycourses/getPartyRegisterCourse",
+        "description": null
+      },
+      "response": []
+    },
+    {
+      "_postman_id": "27ae5083-5c5e-3702-d482-2f26e396335b",
+      "name": "v1/partycourses/getQualifiedCourseList",
+      "request": {
+        "method": "*",
+        "header": [],
+        "body": {},
+        "url": "http://localhost:3000/v1/partycourses/getQualifiedCourseList",
+        "description": null
+      },
+      "response": []
+    },
+    {
+      "_postman_id": "edf63424-6b91-9d18-7903-7dc716fd52bb",
+      "name": "v1/partycourses/getQualifiedCoursesList",
+      "request": {
+        "method": "*",
+        "header": [],
+        "body": {},
+        "url": "http://localhost:3000/v1/partycourses/getQualifiedCoursesList",
+        "description": null
+      },
+      "response": []
+    },
+    {
+      "_postman_id": "06f7e9ad-2beb-2cbc-82f2-1177740dafe2",
+      "name": "v1/partycourses/setQualifyCourse",
+      "request": {
+        "method": "*",
+        "header": [],
+        "body": {},
+        "url": "http://localhost:3000/v1/partycourses/setQualifyCourse",
+        "description": null
+      },
+      "response": []
+    },
+    {
+      "_postman_id": "f322e205-c8f1-46c8-8149-8c8729f7a11c",
+      "name": "v1/partycourses/suggest",
+      "request": {
+        "method": "*",
+        "header": [],
+        "body": {},
+        "url": "http://localhost:3000/v1/partycourses/suggest",
+        "description": null
+      },
+      "response": []
+    },
+    {
+      "_postman_id": "6b60025b-fe91-5553-8d9c-9f6106d15629",
+      "name": "v1/partycourses/update",
+      "request": {
+        "method": "*",
+        "header": [],
+        "body": {},
+        "url": "http://localhost:3000/v1/partycourses/update",
+        "description": null
+      },
+      "response": []
+    },
+    {
+      "_postman_id": "724273c3-f6c5-ba22-d438-40f758cd7181",
+      "name": "v1/partycourses/updateCourse",
+      "request": {
+        "method": "*",
+        "header": [],
+        "body": {},
+        "url": "http://localhost:3000/v1/partycourses/updateCourse",
+        "description": null
+      },
+      "response": []
+    },
+    {
+      "_postman_id": "51c1ec9d-49f3-d104-a05c-6d2619f3c85c",
+      "name": "v1/restrictedsecurity/addToLicensedSecurityList",
+      "request": {
+        "method": "*",
+        "header": [],
+        "body": {},
+        "url": "http://localhost:3000/v1/restrictedsecurity/addToLicensedSecurityList",
+        "description": null
+      },
+      "response": []
+    },
+    {
+      "_postman_id": "01f4d16f-e244-09ca-ab86-91a485950843",
+      "name": "v1/restrictedsecurity/createOrAddRestrictedList",
+      "request": {
+        "method": "*",
+        "header": [],
+        "body": {},
+        "url": "http://localhost:3000/v1/restrictedsecurity/createOrAddRestrictedList",
+        "description": null
+      },
+      "response": []
+    },
+    {
+      "_postman_id": "074dfd7d-71fb-28bc-4327-22f4c3fcd8f6",
+      "name": "v1/restrictedsecurity/getActiveSecurities",
+      "request": {
+        "method": "*",
+        "header": [],
+        "body": {},
+        "url": "http://localhost:3000/v1/restrictedsecurity/getActiveSecurities",
+        "description": null
+      },
+      "response": []
+    },
+    {
+      "_postman_id": "9e1cbaa4-a997-9199-83a0-13d2c7432943",
+      "name": "v1/restrictedsecurity/getLicensedSecurityList",
+      "request": {
+        "method": "*",
+        "header": [],
+        "body": {},
+        "url": "http://localhost:3000/v1/restrictedsecurity/getLicensedSecurityList",
+        "description": null
+      },
+      "response": []
+    },
+    {
+      "_postman_id": "0066a908-bddc-cc48-f0fc-ae50b26a6170",
+      "name": "v1/restrictedsecurity/listMasterSecurities",
+      "request": {
+        "method": "*",
+        "header": [],
+        "body": {},
+        "url": "http://localhost:3000/v1/restrictedsecurity/listMasterSecurities",
+        "description": null
+      },
+      "response": []
+    },
+    {
+      "_postman_id": "918ffc69-20de-f929-b43c-117b361cf4df",
+      "name": "v1/restrictedsecurity/listRestrictedSecurities",
+      "request": {
+        "method": "*",
+        "header": [],
+        "body": {},
+        "url": "http://localhost:3000/v1/restrictedsecurity/listRestrictedSecurities",
+        "description": null
+      },
+      "response": []
+    },
+    {
+      "_postman_id": "a21adc8e-ceb7-6c76-31c2-3c11545d6227",
+      "name": "v1/restrictedsecurity/loadLastRestrictedSecurities",
+      "request": {
+        "method": "*",
+        "header": [],
+        "body": {},
+        "url": "http://localhost:3000/v1/restrictedsecurity/loadLastRestrictedSecurities",
+        "description": null
+      },
+      "response": []
+    },
+    {
+      "_postman_id": "f373fcb6-b3b2-5e3e-e5d6-76b7daec12a0",
+      "name": "v1/restrictedsecurity/resetRestrictedSecurity",
+      "request": {
+        "method": "*",
+        "header": [],
+        "body": {},
+        "url": "http://localhost:3000/v1/restrictedsecurity/resetRestrictedSecurity",
+        "description": null
+      },
+      "response": []
+    },
+    {
+      "_postman_id": "584efeb7-3431-b01c-48bb-10bd64a7de4a",
+      "name": "v1/restrictedsecurity/reviewRestrictedSecurity",
+      "request": {
+        "method": "*",
+        "header": [],
+        "body": {},
+        "url": "http://localhost:3000/v1/restrictedsecurity/reviewRestrictedSecurity",
+        "description": null
+      },
+      "response": []
+    },
+    {
+      "_postman_id": "c60f5518-46cf-6b7a-ce0b-ee7b33633f36",
+      "name": "v1/role/assignRole",
+      "request": {
+        "method": "*",
+        "header": [],
+        "body": {},
+        "url": "http://localhost:3000/v1/role/assignRole",
+        "description": null
+      },
+      "response": []
+    },
+    {
+      "_postman_id": "40eb8bd0-5d67-ce40-979e-9020638aba66",
+      "name": "v1/role/getRoles",
+      "request": {
+        "method": "*",
+        "header": [],
+        "body": {},
+        "url": "http://localhost:3000/v1/role/getRoles",
+        "description": null
+      },
+      "response": []
+    },
+    {
+      "_postman_id": "4ae1cc53-1383-e7e8-41b5-11700e5b9839",
+      "name": "v1/staff/addStaffDesignation",
+      "request": {
+        "method": "*",
+        "header": [],
+        "body": {},
+        "url": "http://localhost:3000/v1/staff/addStaffDesignation",
+        "description": null
+      },
+      "response": []
+    },
+    {
+      "_postman_id": "0ad592e6-e8f5-9a3c-3d90-1ebd6c1296e1",
+      "name": "v1/staff/attestStaff",
+      "request": {
+        "method": "*",
+        "header": [],
+        "body": {},
+        "url": "http://localhost:3000/v1/staff/attestStaff",
+        "description": null
+      },
+      "response": []
+    },
+    {
+      "_postman_id": "bf4d1e31-6315-8b5c-8a5c-0f00158680a4",
+      "name": "v1/staff/createAddress",
+      "request": {
+        "method": "*",
+        "header": [],
+        "body": {},
+        "url": "http://localhost:3000/v1/staff/createAddress",
+        "description": null
+      },
+      "response": []
+    },
+    {
+      "_postman_id": "b2a41e03-3dcf-5509-4f8d-77c6462f86c2",
+      "name": "v1/staff/createPartyAlias",
+      "request": {
+        "method": "*",
+        "header": [],
+        "body": {},
+        "url": "http://localhost:3000/v1/staff/createPartyAlias",
+        "description": null
+      },
+      "response": []
+    },
+    {
+      "_postman_id": "656d793b-f75a-1567-1c92-ca3b5604a6df",
+      "name": "v1/staff/createPartyDisclosureDocument",
+      "request": {
+        "method": "*",
+        "header": [],
+        "body": {},
+        "url": "http://localhost:3000/v1/staff/createPartyDisclosureDocument",
+        "description": null
+      },
+      "response": []
+    },
+    {
+      "_postman_id": "8382e835-c56c-47c4-2710-b02679fa4489",
+      "name": "v1/staff/createSocialMediaRecord",
+      "request": {
+        "method": "*",
+        "header": [],
+        "body": {},
+        "url": "http://localhost:3000/v1/staff/createSocialMediaRecord",
+        "description": null
+      },
+      "response": []
+    },
+    {
+      "_postman_id": "cb65c444-a25a-0eae-e22e-fe12eea2e400",
+      "name": "v1/staff/createStaff",
+      "request": {
+        "method": "*",
+        "header": [],
+        "body": {},
+        "url": "http://localhost:3000/v1/staff/createStaff",
+        "description": null
+      },
+      "response": []
+    },
+    {
+      "_postman_id": "c283cfb6-1dfb-0192-6adc-6bbe1d6d2676",
+      "name": "v1/staff/deleteDesignation",
+      "request": {
+        "method": "*",
+        "header": [],
+        "body": {},
+        "url": "http://localhost:3000/v1/staff/deleteDesignation",
+        "description": null
+      },
+      "response": []
+    },
+    {
+      "_postman_id": "8f6f435e-80c2-99bd-7fa4-25f383c62bfa",
+      "name": "v1/staff/deletePartyAlias",
+      "request": {
+        "method": "*",
+        "header": [],
+        "body": {},
+        "url": "http://localhost:3000/v1/staff/deletePartyAlias",
+        "description": null
+      },
+      "response": []
+    },
+    {
+      "_postman_id": "e78b7410-edce-d112-c5a9-23f8b70ef80a",
+      "name": "v1/staff/deletePartyDisclosureDocument",
+      "request": {
+        "method": "*",
+        "header": [],
+        "body": {},
+        "url": "http://localhost:3000/v1/staff/deletePartyDisclosureDocument",
+        "description": null
+      },
+      "response": []
+    },
+    {
+      "_postman_id": "e6715acc-b0d0-2fbc-6d4b-eca9d0deade6",
+      "name": "v1/staff/deletePartyTradingAccount",
+      "request": {
+        "method": "*",
+        "header": [],
+        "body": {},
+        "url": "http://localhost:3000/v1/staff/deletePartyTradingAccount",
+        "description": null
+      },
+      "response": []
+    },
+    {
+      "_postman_id": "8201246c-968a-07fe-0d79-301f1c74c37f",
+      "name": "v1/staff/deleteSocialMediaRecord",
+      "request": {
+        "method": "*",
+        "header": [],
+        "body": {},
+        "url": "http://localhost:3000/v1/staff/deleteSocialMediaRecord",
+        "description": null
+      },
+      "response": []
+    },
+    {
+      "_postman_id": "6454748e-c874-9e1f-7b51-2b4c42a73b15",
+      "name": "v1/staff/deleteStaff",
+      "request": {
+        "method": "*",
+        "header": [],
+        "body": {},
+        "url": "http://localhost:3000/v1/staff/deleteStaff",
+        "description": null
+      },
+      "response": []
+    },
+    {
+      "_postman_id": "ac1a9eec-ff3b-a6a3-fca4-dd2453de416e",
+      "name": "v1/staff/deleteStaffRegistrationDocs",
+      "request": {
+        "method": "*",
+        "header": [],
+        "body": {},
+        "url": "http://localhost:3000/v1/staff/deleteStaffRegistrationDocs",
+        "description": null
+      },
+      "response": []
+    },
+    {
+      "_postman_id": "7372f188-ef73-6ab6-a81d-6fba723317da",
+      "name": "v1/staff/deleteTradeRelation",
+      "request": {
+        "method": "*",
+        "header": [],
+        "body": {},
+        "url": "http://localhost:3000/v1/staff/deleteTradeRelation",
+        "description": null
+      },
+      "response": []
+    },
+    {
+      "_postman_id": "626cdee3-0b1b-ce21-d5dd-c19bf490a65b",
+      "name": "v1/staff/getDropDownData",
+      "request": {
+        "method": "*",
+        "header": [],
+        "body": {},
+        "url": "http://localhost:3000/v1/staff/getDropDownData",
+        "description": null
+      },
+      "response": []
+    },
+    {
+      "_postman_id": "588e979d-2d57-a53b-3907-e011edc2dea2",
+      "name": "v1/staff/getReferenceDataParty",
+      "request": {
+        "method": "*",
+        "header": [],
+        "body": {},
+        "url": "http://localhost:3000/v1/staff/getReferenceDataParty",
+        "description": null
+      },
+      "response": []
+    },
+    {
+      "_postman_id": "808a1043-76f3-8d95-c41d-06eb2872b2f3",
+      "name": "v1/staff/getStaffDetails",
+      "request": {
+        "method": "*",
+        "header": [],
+        "body": {},
+        "url": "http://localhost:3000/v1/staff/getStaffDetails",
+        "description": null
+      },
+      "response": []
+    },
+    {
+      "_postman_id": "d4d2e2b5-a189-504f-0438-994c5ffc3f79",
+      "name": "v1/staff/getStaffList",
+      "request": {
+        "method": "*",
+        "header": [],
+        "body": {},
+        "url": "http://localhost:3000/v1/staff/getStaffList",
+        "description": null
+      },
+      "response": []
+    },
+    {
+      "_postman_id": "4efc565b-d3e3-525c-0d99-e4f6de996ca2",
+      "name": "v1/staff/getStaffMemberData",
+      "request": {
+        "method": "*",
+        "header": [],
+        "body": {},
+        "url": "http://localhost:3000/v1/staff/getStaffMemberData",
+        "description": null
+      },
+      "response": []
+    },
+    {
+      "_postman_id": "e002d61b-f3e4-7b72-8a5e-c25cd5786799",
+      "name": "v1/staff/getStaffPartyDetails",
+      "request": {
+        "method": "*",
+        "header": [],
+        "body": {},
+        "url": "http://localhost:3000/v1/staff/getStaffPartyDetails",
+        "description": null
+      },
+      "response": []
+    },
+    {
+      "_postman_id": "cd59aa9c-1e3c-4709-c59a-04d054bea7b4",
+      "name": "v1/staff/getStaffPartyDisclosure",
+      "request": {
+        "method": "*",
+        "header": [],
+        "body": {},
+        "url": "http://localhost:3000/v1/staff/getStaffPartyDisclosure",
+        "description": null
+      },
+      "response": []
+    },
+    {
+      "_postman_id": "f54a0135-71ee-1d82-c88e-f0b1254bb954",
+      "name": "v1/staff/getStaffProfile",
+      "request": {
+        "method": "*",
+        "header": [],
+        "body": {},
+        "url": "http://localhost:3000/v1/staff/getStaffProfile",
+        "description": null
+      },
+      "response": []
+    },
+    {
+      "_postman_id": "d474fce1-92ce-fed1-d566-fb95722e7bd3",
+      "name": "v1/staff/registeredStaffGeneratePromisesList",
+      "request": {
+        "method": "*",
+        "header": [],
+        "body": {},
+        "url": "http://localhost:3000/v1/staff/registeredStaffGeneratePromisesList",
+        "description": null
+      },
+      "response": []
+    },
+    {
+      "_postman_id": "5b0b98c6-a0cb-028f-2343-f69fa3239428",
+      "name": "v1/staff/savePartyTradingAccount",
+      "request": {
+        "method": "*",
+        "header": [],
+        "body": {},
+        "url": "http://localhost:3000/v1/staff/savePartyTradingAccount",
+        "description": null
+      },
+      "response": []
+    },
+    {
+      "_postman_id": "05f29056-737c-f295-08e5-b1db5c4b3317",
+      "name": "v1/staff/updateAddress",
+      "request": {
+        "method": "*",
+        "header": [],
+        "body": {},
+        "url": "http://localhost:3000/v1/staff/updateAddress",
+        "description": null
+      },
+      "response": []
+    },
+    {
+      "_postman_id": "99b6a22f-1133-249d-dca8-1642bdd65c1e",
+      "name": "v1/staff/updatePartyAlias",
+      "request": {
+        "method": "*",
+        "header": [],
+        "body": {},
+        "url": "http://localhost:3000/v1/staff/updatePartyAlias",
+        "description": null
+      },
+      "response": []
+    },
+    {
+      "_postman_id": "cd0563c1-42e4-4317-91c5-b9ea3adeed19",
+      "name": "v1/staff/updatePartyCondition",
+      "request": {
+        "method": "*",
+        "header": [],
+        "body": {},
+        "url": "http://localhost:3000/v1/staff/updatePartyCondition",
+        "description": null
+      },
+      "response": []
+    },
+    {
+      "_postman_id": "f62e8c1d-6357-fdac-f3e3-0d0bf6c23745",
+      "name": "v1/staff/updatePartyDisclosure",
+      "request": {
+        "method": "*",
+        "header": [],
+        "body": {},
+        "url": "http://localhost:3000/v1/staff/updatePartyDisclosure",
+        "description": null
+      },
+      "response": []
+    },
+    {
+      "_postman_id": "5ed255fc-a0a6-0352-5d9f-aefb8e7d9e02",
+      "name": "v1/staff/updatePartyLanguage",
+      "request": {
+        "method": "*",
+        "header": [],
+        "body": {},
+        "url": "http://localhost:3000/v1/staff/updatePartyLanguage",
+        "description": null
+      },
+      "response": []
+    },
+    {
+      "_postman_id": "1899f10a-9b98-697c-e1a4-9858dc6ce67e",
+      "name": "v1/staff/updatePartyTradingAccount",
+      "request": {
+        "method": "*",
+        "header": [],
+        "body": {},
+        "url": "http://localhost:3000/v1/staff/updatePartyTradingAccount",
+        "description": null
+      },
+      "response": []
+    },
+    {
+      "_postman_id": "3e9892e5-3e73-a7d3-e827-f10b9bcd35a6",
+      "name": "v1/staff/updateRegisteredStaffCorporateDetail",
+      "request": {
+        "method": "*",
+        "header": [],
+        "body": {},
+        "url": "http://localhost:3000/v1/staff/updateRegisteredStaffCorporateDetail",
+        "description": null
+      },
+      "response": []
+    },
+    {
+      "_postman_id": "243b3a6d-6481-f721-12af-4bc915f61ddd",
+      "name": "v1/staff/updateSocialMediaStatus",
+      "request": {
+        "method": "*",
+        "header": [],
+        "body": {},
+        "url": "http://localhost:3000/v1/staff/updateSocialMediaStatus",
+        "description": null
+      },
+      "response": []
+    },
+    {
+      "_postman_id": "4f24c8bf-50d7-4a7e-b27f-3eae403291cb",
+      "name": "v1/staff/updateStaff",
+      "request": {
+        "method": "*",
+        "header": [],
+        "body": {},
+        "url": "http://localhost:3000/v1/staff/updateStaff",
+        "description": null
+      },
+      "response": []
+    },
+    {
+      "_postman_id": "9a069544-b3d1-537d-00b0-b40328150594",
+      "name": "v1/staff/updateStaffDesignation",
+      "request": {
+        "method": "*",
+        "header": [],
+        "body": {},
+        "url": "http://localhost:3000/v1/staff/updateStaffDesignation",
+        "description": null
+      },
+      "response": []
+    },
+    {
+      "_postman_id": "33a3f974-1d19-39be-33b9-2339d05badf8",
+      "name": "v1/staffmember/configureStaffMemberUpdates",
+      "request": {
+        "method": "*",
+        "header": [],
+        "body": {},
+        "url": "http://localhost:3000/v1/staffmember/configureStaffMemberUpdates",
+        "description": null
+      },
+      "response": []
+    },
+    {
+      "_postman_id": "e8a993b9-6e89-d9ca-f934-d7ee6b2c4e62",
+      "name": "v1/staffmember/findAssociationsToInclude",
+      "request": {
+        "method": "*",
+        "header": [],
+        "body": {},
+        "url": "http://localhost:3000/v1/staffmember/findAssociationsToInclude",
+        "description": null
+      },
+      "response": []
+    },
+    {
+      "_postman_id": "483e80b0-73bc-c268-e9e1-64b29e260602",
+      "name": "v1/staffmember/findChangedFields",
+      "request": {
+        "method": "*",
+        "header": [],
+        "body": {},
+        "url": "http://localhost:3000/v1/staffmember/findChangedFields",
+        "description": null
+      },
+      "response": []
+    },
+    {
+      "_postman_id": "ef665a65-a4c6-d6cb-96ee-b8fc1c59776b",
+      "name": "v1/staffmember/getPersonalTradingAccountList",
+      "request": {
+        "method": "*",
+        "header": [],
+        "body": {},
+        "url": "http://localhost:3000/v1/staffmember/getPersonalTradingAccountList",
+        "description": null
+      },
+      "response": []
+    },
+    {
+      "_postman_id": "5348b913-e6be-f150-947b-46c5f79bf5e6",
+      "name": "v1/staffmember/getStaffMemberDetails",
+      "request": {
+        "method": "*",
+        "header": [],
+        "body": {},
+        "url": "http://localhost:3000/v1/staffmember/getStaffMemberDetails",
+        "description": null
+      },
+      "response": []
+    },
+    {
+      "_postman_id": "f4955c93-4261-77f1-71b6-66a1df775e37",
+      "name": "v1/staffmember/getStaffMemberUpdatesList",
+      "request": {
+        "method": "*",
+        "header": [],
+        "body": {},
+        "url": "http://localhost:3000/v1/staffmember/getStaffMemberUpdatesList",
+        "description": null
+      },
+      "response": []
+    },
+    {
+      "_postman_id": "58c04532-cb0a-6688-30a3-aef034440093",
+      "name": "v1/staffmember/prepareUpdateStoreForAddress",
+      "request": {
+        "method": "*",
+        "header": [],
+        "body": {},
+        "url": "http://localhost:3000/v1/staffmember/prepareUpdateStoreForAddress",
+        "description": null
+      },
+      "response": []
+    },
+    {
+      "_postman_id": "539b1c0e-72dd-474b-f86f-58f356fc46cd",
+      "name": "v1/staffmember/prepareUpdateStoreForAlias",
+      "request": {
+        "method": "*",
+        "header": [],
+        "body": {},
+        "url": "http://localhost:3000/v1/staffmember/prepareUpdateStoreForAlias",
+        "description": null
+      },
+      "response": []
+    },
+    {
+      "_postman_id": "a94b4555-46db-af56-c40c-ec303925bae6",
+      "name": "v1/staffmember/prepareUpdateStoreForDesignation",
+      "request": {
+        "method": "*",
+        "header": [],
+        "body": {},
+        "url": "http://localhost:3000/v1/staffmember/prepareUpdateStoreForDesignation",
+        "description": null
+      },
+      "response": []
+    },
+    {
+      "_postman_id": "2867223c-76d3-6e9a-50a5-c53de7212ffc",
+      "name": "v1/staffmember/prepareUpdateStoreForDisclosure",
+      "request": {
+        "method": "*",
+        "header": [],
+        "body": {},
+        "url": "http://localhost:3000/v1/staffmember/prepareUpdateStoreForDisclosure",
+        "description": null
+      },
+      "response": []
+    },
+    {
+      "_postman_id": "1bd202dd-0a72-d470-999c-067cd7dfdce2",
+      "name": "v1/staffmember/prepareUpdateStoreForPersonalTradingAccount",
+      "request": {
+        "method": "*",
+        "header": [],
+        "body": {},
+        "url": "http://localhost:3000/v1/staffmember/prepareUpdateStoreForPersonalTradingAccount",
+        "description": null
+      },
+      "response": []
+    },
+    {
+      "_postman_id": "c42a9271-516a-1b2c-5fee-c3c124e178ba",
+      "name": "v1/staffmember/prepareUpdateStoreForRegisteredStaff",
+      "request": {
+        "method": "*",
+        "header": [],
+        "body": {},
+        "url": "http://localhost:3000/v1/staffmember/prepareUpdateStoreForRegisteredStaff",
+        "description": null
+      },
+      "response": []
+    },
+    {
+      "_postman_id": "39eb6c45-89ee-135e-c00f-c4bf73b79674",
+      "name": "v1/staffmember/prepareUpdateStoreForSocialMedia",
+      "request": {
+        "method": "*",
+        "header": [],
+        "body": {},
+        "url": "http://localhost:3000/v1/staffmember/prepareUpdateStoreForSocialMedia",
+        "description": null
+      },
+      "response": []
+    },
+    {
+      "_postman_id": "3e594f6e-35a1-d4e4-947d-ef0351ba70bd",
+      "name": "v1/staffmember/prepareUpdateStoreForStaffRegistration",
+      "request": {
+        "method": "*",
+        "header": [],
+        "body": {},
+        "url": "http://localhost:3000/v1/staffmember/prepareUpdateStoreForStaffRegistration",
+        "description": null
+      },
+      "response": []
+    },
+    {
+      "_postman_id": "51c85ee4-4455-4531-cf0f-afa240c92a61",
+      "name": "v1/staffmember/prepareUpdateStoreForSuspiciousTransaction",
+      "request": {
+        "method": "*",
+        "header": [],
+        "body": {},
+        "url": "http://localhost:3000/v1/staffmember/prepareUpdateStoreForSuspiciousTransaction",
+        "description": null
+      },
+      "response": []
+    },
+    {
+      "_postman_id": "15c77b23-b5cb-7428-436c-b9b549a5edb5",
+      "name": "v1/staffmember/saveUpdateRequest",
+      "request": {
+        "method": "*",
+        "header": [],
+        "body": {},
+        "url": "http://localhost:3000/v1/staffmember/saveUpdateRequest",
+        "description": null
+      },
+      "response": []
+    },
+    {
+      "_postman_id": "a9afdf61-9369-c22e-62f9-fa73d8e34c5d",
+      "name": "v1/staffmember/uploadPartyDisclosuresDocuments",
+      "request": {
+        "method": "*",
+        "header": [],
+        "body": {},
+        "url": "http://localhost:3000/v1/staffmember/uploadPartyDisclosuresDocuments",
+        "description": null
+      },
+      "response": []
+    },
+    {
+      "_postman_id": "d5e51be7-0a58-0b93-f0fb-6292101a5206",
+      "name": "v1/staffmember/uploadPartyTradingDocuments",
+      "request": {
+        "method": "*",
+        "header": [],
+        "body": {},
+        "url": "http://localhost:3000/v1/staffmember/uploadPartyTradingDocuments",
+        "description": null
+      },
+      "response": []
+    },
+    {
+      "_postman_id": "d8b7c5fb-1e4a-f900-c31a-0adf085f234c",
+      "name": "v1/staffmember/uploadStaffDesignationDocuments",
+      "request": {
+        "method": "*",
+        "header": [],
+        "body": {},
+        "url": "http://localhost:3000/v1/staffmember/uploadStaffDesignationDocuments",
+        "description": null
+      },
+      "response": []
+    },
+    {
+      "_postman_id": "cced4f84-4f02-5888-d7b9-90821fe523f0",
+      "name": "v1/staffmember/uploadStaffRegistrationDocuments",
+      "request": {
+        "method": "*",
+        "header": [],
+        "body": {},
+        "url": "http://localhost:3000/v1/staffmember/uploadStaffRegistrationDocuments",
+        "description": null
+      },
+      "response": []
+    },
+    {
+      "_postman_id": "c616d01f-2046-f60b-1362-9cc4bd63f06d",
+      "name": "v1/traderequest/configureTradeRequests",
+      "request": {
+        "method": "*",
+        "header": [],
+        "body": {},
+        "url": "http://localhost:3000/v1/traderequest/configureTradeRequests",
+        "description": null
+      },
+      "response": []
+    },
+    {
+      "_postman_id": "a97093d4-ece1-59ed-afae-562d59e0d2e4",
+      "name": "v1/traderequest/createTradeRequest",
+      "request": {
+        "method": "*",
+        "header": [],
+        "body": {},
+        "url": "http://localhost:3000/v1/traderequest/createTradeRequest",
+        "description": null
+      },
+      "response": []
+    },
+    {
+      "_postman_id": "12165c44-f830-cbe7-1621-f6e2ebd9eec9",
+      "name": "v1/traderequest/listTradeRequests",
+      "request": {
+        "method": "*",
+        "header": [],
+        "body": {},
+        "url": "http://localhost:3000/v1/traderequest/listTradeRequests",
+        "description": null
+      },
+      "response": []
+    },
+    {
+      "_postman_id": "3a0caf5d-1b38-9403-37ef-fd5d9a780182",
+      "name": "v1/tradinginstitution/addToLicensedTradingInstitutionList",
+      "request": {
+        "method": "*",
+        "header": [],
+        "body": {},
+        "url": "http://localhost:3000/v1/tradinginstitution/addToLicensedTradingInstitutionList",
+        "description": null
+      },
+      "response": []
+    },
+    {
+      "_postman_id": "44e1dbc6-010b-a4c8-65f8-60ec19c6e882",
+      "name": "v1/tradinginstitution/getActiveTradingInstitutions",
+      "request": {
+        "method": "*",
+        "header": [],
+        "body": {},
+        "url": "http://localhost:3000/v1/tradinginstitution/getActiveTradingInstitutions",
+        "description": null
+      },
+      "response": []
+    },
+    {
+      "_postman_id": "de2f3e06-e46d-fe34-2aca-d92b59020be4",
+      "name": "v1/tradinginstitution/getLicensedTradingList",
+      "request": {
+        "method": "*",
+        "header": [],
+        "body": {},
+        "url": "http://localhost:3000/v1/tradinginstitution/getLicensedTradingList",
+        "description": null
+      },
+      "response": []
+    },
+    {
+      "_postman_id": "af79515e-744d-ec91-6424-1f41f8dd0b51",
+      "name": "v1/tradinginstitution/getMasterTradingInstitutionList",
+      "request": {
+        "method": "*",
+        "header": [],
+        "body": {},
+        "url": "http://localhost:3000/v1/tradinginstitution/getMasterTradingInstitutionList",
+        "description": null
+      },
+      "response": []
+    },
+    {
+      "_postman_id": "c6d7842e-4321-744c-13b6-ebec313dfaea",
+      "name": "v1/view/apiExplorer",
+      "request": {
+        "method": "*",
+        "header": [],
+        "body": {},
+        "url": "http://localhost:3000/v1/view/apiExplorer",
+        "description": null
+      },
+      "response": []
+    },
+    {
+      "_postman_id": "bad39cc5-0cce-7973-8008-d32b145ba38c",
+      "name": "v1/view/changePassword",
+      "request": {
+        "method": "*",
+        "header": [],
+        "body": {},
+        "url": "http://localhost:3000/v1/view/changePassword",
+        "description": null
+      },
+      "response": []
+    },
+    {
+      "_postman_id": "51e2c9be-c29a-9365-13b0-65123cf8ac0f",
+      "name": "v1/view/getDocuments",
+      "request": {
+        "method": "*",
+        "header": [],
+        "body": {},
+        "url": "http://localhost:3000/v1/view/getDocuments",
+        "description": null
+      },
+      "response": []
+    },
+    {
+      "_postman_id": "f75976ee-e6a0-7976-bb5d-2ae5eadca8d9",
+      "name": "v1/view/getMedia",
+      "request": {
+        "method": "*",
+        "header": [],
+        "body": {},
+        "url": "http://localhost:3000/v1/view/getMedia",
+        "description": null
+      },
+      "response": []
+    },
+    {
+      "_postman_id": "afaf15e8-9377-e0f8-6330-8d58fab75664",
+      "name": "v1/view/getSequenceNumber",
+      "request": {
+        "method": "*",
+        "header": [],
+        "body": {},
+        "url": "http://localhost:3000/v1/view/getSequenceNumber",
+        "description": null
+      },
+      "response": []
+    },
+    {
+      "_postman_id": "8ccb2492-2dba-f5f0-b6a7-715203b20c9a",
+      "name": "v1/view/helloWorld",
+      "request": {
+        "method": "*",
+        "header": [],
+        "body": {},
+        "url": "http://localhost:3000/v1/view/helloWorld",
+        "description": null
+      },
+      "response": []
+    },
+    {
+      "_postman_id": "1ff88828-247c-b83c-71f5-5d92272b7b58",
+      "name": "v1/view/manageTr",
+      "request": {
+        "method": "*",
+        "header": [],
+        "body": {},
+        "url": "http://localhost:3000/v1/view/manageTr",
+        "description": null
+      },
+      "response": []
+    },
+    {
+      "_postman_id": "c6d5dce7-b2cb-0dac-e858-ef53ab73b5c8",
+      "name": "v1/view/serveApiJsonFile",
+      "request": {
+        "method": "*",
+        "header": [],
+        "body": {},
+        "url": "http://localhost:3000/v1/view/serveApiJsonFile",
+        "description": null
+      },
+      "response": []
+    },
+    {
+      "_postman_id": "627043ad-e712-ed70-b4ed-e53cf4578ab3",
+      "name": "v1/view/unmanageTr",
+      "request": {
+        "method": "*",
+        "header": [],
+        "body": {},
+        "url": "http://localhost:3000/v1/view/unmanageTr",
+        "description": null
+      },
+      "response": []
+    },
+    {
+      "_postman_id": "3941c47a-daae-dc60-ea17-ca36d41e22bc",
+      "name": "v1/{model}",
+      "request": {
+        "method": "post",
+        "header": [],
+        "body": {},
+        "url": "http://localhost:3000/v1/{model}",
+        "description": null
+      },
+      "response": []
+    },
+    {
+      "_postman_id": "dda74f3a-55a3-d397-5465-ebae7b31abf7",
+      "name": "v1/accrbodies/",
+      "request": {
+        "method": "post",
+        "header": [],
+        "body": {},
+        "url": "http://localhost:3000/v1/accrbodies/",
+        "description": null
+      },
+      "response": []
+    },
+    {
+      "_postman_id": "06e3a4ef-fe73-7904-b523-2dc8d888469e",
+      "name": "v1/staffaudit/",
+      "request": {
+        "method": "post",
+        "header": [],
+        "body": {},
+        "url": "http://localhost:3000/v1/staffaudit/",
+        "description": null
+      },
+      "response": []
+    },
+    {
+      "_postman_id": "e3e6bbc7-d077-d2c6-ed91-fe1e3b8974a6",
+      "name": "v1/accrbody/create/",
+      "request": {
+        "method": "post",
+        "header": [],
+        "body": {},
+        "url": "http://localhost:3000/v1/accrbody/create/",
+        "description": null
+      },
+      "response": []
+    },
+    {
+      "_postman_id": "5a800fd3-3bfd-0952-7513-7efc0fee7085",
+      "name": "v1/accrbodypart/create/",
+      "request": {
+        "method": "post",
+        "header": [],
+        "body": {},
+        "url": "http://localhost:3000/v1/accrbodypart/create/",
+        "description": null
+      },
+      "response": []
+    },
+    {
+      "_postman_id": "afe0ad9a-365b-9b29-84d8-ac96b7205caf",
+      "name": "v1/address/create/",
+      "request": {
+        "method": "post",
+        "header": [],
+        "body": {},
+        "url": "http://localhost:3000/v1/address/create/",
+        "description": null
+      },
+      "response": []
+    },
+    {
+      "_postman_id": "f3b36b99-c07c-82c1-768c-3295cbd6791f",
+      "name": "v1/cecourse/add/",
+      "request": {
+        "method": "post",
+        "header": [],
+        "body": {},
+        "url": "http://localhost:3000/v1/cecourse/add/",
+        "description": null
+      },
+      "response": []
+    },
+    {
+      "_postman_id": "783c01eb-17b6-9efd-456c-e3347f59da3b",
+      "name": "v1/cecourses/create/",
+      "request": {
+        "method": "post",
+        "header": [],
+        "body": {},
+        "url": "http://localhost:3000/v1/cecourses/create/",
+        "description": null
+      },
+      "response": []
+    },
+    {
+      "_postman_id": "56453880-e5b6-7282-b1d2-9f16dd8964dd",
+      "name": "v1/cecycle/create/",
+      "request": {
+        "method": "post",
+        "header": [],
+        "body": {},
+        "url": "http://localhost:3000/v1/cecycle/create/",
+        "description": null
+      },
+      "response": []
+    },
+    {
+      "_postman_id": "380691c5-1684-512b-9bb0-568647adb16c",
+      "name": "v1/ceprovider/create/",
+      "request": {
+        "method": "post",
+        "header": [],
+        "body": {},
+        "url": "http://localhost:3000/v1/ceprovider/create/",
+        "description": null
+      },
+      "response": []
+    },
+    {
+      "_postman_id": "bcabb326-d3e1-d698-7bd6-ec7fb34e1212",
+      "name": "v1/cerequirement/create/",
+      "request": {
+        "method": "post",
+        "header": [],
+        "body": {},
+        "url": "http://localhost:3000/v1/cerequirement/create/",
+        "description": null
+      },
+      "response": []
+    },
+    {
+      "_postman_id": "dc9abd93-5f2c-674d-2cca-36486e8bd035",
+      "name": "v1/change/password/",
+      "request": {
+        "method": "post",
+        "header": [],
+        "body": {},
+        "url": "http://localhost:3000/v1/change/password/",
+        "description": null
+      },
+      "response": []
+    },
+    {
+      "_postman_id": "1a236087-20d6-9fb9-3002-f3349b6feba2",
+      "name": "v1/course/add/",
+      "request": {
+        "method": "post",
+        "header": [],
+        "body": {},
+        "url": "http://localhost:3000/v1/course/add/",
+        "description": null
+      },
+      "response": []
+    },
+    {
+      "_postman_id": "c197bebd-9d9e-0f4f-05c3-7ba97debe095",
+      "name": "v1/course/reminder/",
+      "request": {
+        "method": "post",
+        "header": [],
+        "body": {},
+        "url": "http://localhost:3000/v1/course/reminder/",
+        "description": null
+      },
+      "response": []
+    },
+    {
+      "_postman_id": "5a27d974-7c9a-b5f5-df0f-4f6902b368b3",
+      "name": "v1/course/suggest/",
+      "request": {
+        "method": "post",
+        "header": [],
+        "body": {},
+        "url": "http://localhost:3000/v1/course/suggest/",
+        "description": null
+      },
+      "response": []
+    },
+    {
+      "_postman_id": "86002278-a486-49e3-198a-51c849b7c4d1",
+      "name": "v1/incidentcomplaint/create/",
+      "request": {
+        "method": "post",
+        "header": [],
+        "body": {},
+        "url": "http://localhost:3000/v1/incidentcomplaint/create/",
+        "description": null
+      },
+      "response": []
+    },
+    {
+      "_postman_id": "342cb1d1-8d6c-672a-343d-b895321c66c6",
+      "name": "v1/incidentcomplaintdocs/create/",
+      "request": {
+        "method": "post",
+        "header": [],
+        "body": {},
+        "url": "http://localhost:3000/v1/incidentcomplaintdocs/create/",
+        "description": null
+      },
+      "response": []
+    },
+    {
+      "_postman_id": "7c3149f3-720e-10e5-99ea-6b22b64e429c",
+      "name": "v1/incidentcomplaintstaff/create/",
+      "request": {
+        "method": "post",
+        "header": [],
+        "body": {},
+        "url": "http://localhost:3000/v1/incidentcomplaintstaff/create/",
+        "description": null
+      },
+      "response": []
+    },
+    {
+      "_postman_id": "9d74fbce-cab0-5889-9cb8-f863938db075",
+      "name": "v1/incidentcomplaintstaff/update/",
+      "request": {
+        "method": "post",
+        "header": [],
+        "body": {},
+        "url": "http://localhost:3000/v1/incidentcomplaintstaff/update/",
+        "description": null
+      },
+      "response": []
+    },
+    {
+      "_postman_id": "bdc71da3-d961-0aee-87ff-6bf403e4e935",
+      "name": "v1/license/create/",
+      "request": {
+        "method": "post",
+        "header": [],
+        "body": {},
+        "url": "http://localhost:3000/v1/license/create/",
+        "description": null
+      },
+      "response": []
+    },
+    {
+      "_postman_id": "9bffa6a9-fe74-e5e9-476a-126622ede398",
+      "name": "v1/license/update/",
+      "request": {
+        "method": "post",
+        "header": [],
+        "body": {},
+        "url": "http://localhost:3000/v1/license/update/",
+        "description": null
+      },
+      "response": []
+    },
+    {
+      "_postman_id": "1c373abd-65e7-6931-5fb3-d37d928a93d8",
+      "name": "v1/licensedsecurities/create/",
+      "request": {
+        "method": "post",
+        "header": [],
+        "body": {},
+        "url": "http://localhost:3000/v1/licensedsecurities/create/",
+        "description": null
+      },
+      "response": []
+    },
+    {
+      "_postman_id": "da0c5f01-1653-c66d-f08a-453d0c5ccf03",
+      "name": "v1/licensedtradings/create/",
+      "request": {
+        "method": "post",
+        "header": [],
+        "body": {},
+        "url": "http://localhost:3000/v1/licensedtradings/create/",
+        "description": null
+      },
+      "response": []
+    },
+    {
+      "_postman_id": "91653b79-9044-fe9f-3392-de4513b76eb2",
+      "name": "v1/party/create/",
+      "request": {
+        "method": "post",
+        "header": [],
+        "body": {},
+        "url": "http://localhost:3000/v1/party/create/",
+        "description": null
+      },
+      "response": []
+    },
+    {
+      "_postman_id": "faf644aa-762c-7d89-f61c-652f666a70d6",
+      "name": "v1/partymessage/create/",
+      "request": {
+        "method": "post",
+        "header": [],
+        "body": {},
+        "url": "http://localhost:3000/v1/partymessage/create/",
+        "description": null
+      },
+      "response": []
+    },
+    {
+      "_postman_id": "588dec5d-5f7a-9418-05e3-21b05c7b2fe3",
+      "name": "v1/qualifycourse/add/",
+      "request": {
+        "method": "post",
+        "header": [],
+        "body": {},
+        "url": "http://localhost:3000/v1/qualifycourse/add/",
+        "description": null
+      },
+      "response": []
+    },
+    {
+      "_postman_id": "f8e007cf-dd7c-43f6-4f86-17b5df90282c",
+      "name": "v1/restrictedsecurities/configure/",
+      "request": {
+        "method": "post",
+        "header": [],
+        "body": {},
+        "url": "http://localhost:3000/v1/restrictedsecurities/configure/",
+        "description": null
+      },
+      "response": []
+    },
+    {
+      "_postman_id": "44843caf-5ce3-b9dc-4e9d-94b1fc9e4a1e",
+      "name": "v1/role/assign/",
+      "request": {
+        "method": "post",
+        "header": [],
+        "body": {},
+        "url": "http://localhost:3000/v1/role/assign/",
+        "description": null
+      },
+      "response": []
+    },
+    {
+      "_postman_id": "07c4a333-f405-a298-161a-477e877f5b69",
+      "name": "v1/socialmedia/create/",
+      "request": {
+        "method": "post",
+        "header": [],
+        "body": {},
+        "url": "http://localhost:3000/v1/socialmedia/create/",
+        "description": null
+      },
+      "response": []
+    },
+    {
+      "_postman_id": "224339c8-441b-5157-5d55-6f9e2dea550d",
+      "name": "v1/staff/attest/",
+      "request": {
+        "method": "post",
+        "header": [],
+        "body": {},
+        "url": "http://localhost:3000/v1/staff/attest/",
+        "description": null
+      },
+      "response": []
+    },
+    {
+      "_postman_id": "1128f703-1a68-b1bc-dcfa-2cf7091a23f6",
+      "name": "v1/staff/bulkupload/",
+      "request": {
+        "method": "post",
+        "header": [],
+        "body": {},
+        "url": "http://localhost:3000/v1/staff/bulkupload/",
+        "description": null
+      },
+      "response": []
+    },
+    {
+      "_postman_id": "2ac2f236-be84-9cb2-768e-ec19979b51c6",
+      "name": "v1/staff/checkuser/",
+      "request": {
+        "method": "post",
+        "header": [],
+        "body": {},
+        "url": "http://localhost:3000/v1/staff/checkuser/",
+        "description": null
+      },
+      "response": []
+    },
+    {
+      "_postman_id": "86249d31-a40f-68fd-0a6f-3bd87715e695",
+      "name": "v1/staff/create/",
+      "request": {
+        "method": "post",
+        "header": [],
+        "body": {},
+        "url": "http://localhost:3000/v1/staff/create/",
+        "description": null
+      },
+      "response": []
+    },
+    {
+      "_postman_id": "e9566e9a-4cef-cbed-4b13-175130407f0c",
+      "name": "v1/staff/getpartydisclosure/",
+      "request": {
+        "method": "post",
+        "header": [],
+        "body": {},
+        "url": "http://localhost:3000/v1/staff/getpartydisclosure/",
+        "description": null
+      },
+      "response": []
+    },
+    {
+      "_postman_id": "078e2ce7-e367-20b3-c336-fb0364a23cb4",
+      "name": "v1/staffdesignation/add/",
+      "request": {
+        "method": "post",
+        "header": [],
+        "body": {},
+        "url": "http://localhost:3000/v1/staffdesignation/add/",
+        "description": null
+      },
+      "response": []
+    },
+    {
+      "_postman_id": "97ec432c-3de7-c6af-a70a-fc561e50e55b",
+      "name": "v1/staffdesignation/update/",
+      "request": {
+        "method": "post",
+        "header": [],
+        "body": {},
+        "url": "http://localhost:3000/v1/staffdesignation/update/",
+        "description": null
+      },
+      "response": []
+    },
+    {
+      "_postman_id": "5b509dba-34e0-7de5-ddb8-66f79bf56e5e",
+      "name": "v1/stafftrade/create/",
+      "request": {
+        "method": "post",
+        "header": [],
+        "body": {},
+        "url": "http://localhost:3000/v1/stafftrade/create/",
+        "description": null
+      },
+      "response": []
+    },
+    {
+      "_postman_id": "1f8a2839-f606-921e-224f-37987b66f0e8",
+      "name": "v1/traderequest/create/",
+      "request": {
+        "method": "post",
+        "header": [],
+        "body": {},
+        "url": "http://localhost:3000/v1/traderequest/create/",
+        "description": null
+      },
+      "response": []
+    },
+    {
+      "_postman_id": "7bc29106-5830-9c86-13e1-aa390c2dab0d",
+      "name": "v1/tradingaccount/create/",
+      "request": {
+        "method": "post",
+        "header": [],
+        "body": {},
+        "url": "http://localhost:3000/v1/tradingaccount/create/",
+        "description": null
+      },
+      "response": []
+    },
+    {
+      "_postman_id": "8474570d-024d-0d83-43f5-6d868fe7a34e",
+      "name": "v1/user/login/",
+      "request": {
+        "method": "post",
+        "header": [],
+        "body": {},
+        "url": "http://localhost:3000/v1/user/login/",
+        "description": null
+      },
+      "response": []
+    },
+    {
+      "_postman_id": "64c2b93e-2e3d-3efc-bec3-bde913db3f11",
+      "name": "v1/{type}/password/",
+      "request": {
+        "method": "post",
+        "header": [],
+        "body": {},
+        "url": "http://localhost:3000/v1/{type}/password/",
+        "description": null
+      },
+      "response": []
+    },
+    {
+      "_postman_id": "24352a5d-2f76-ea1b-fbcb-1e5dd6f8cba2",
+      "name": "v1/{parentModel}/{parentId}/{childAttribute}",
+      "request": {
+        "method": "post",
+        "header": [],
+        "body": {},
+        "url": "http://localhost:3000/v1/{parentModel}/{parentId}/{childAttribute}",
+        "description": null
+      },
+      "response": []
+    },
+    {
+      "_postman_id": "a955bc10-7833-0053-4327-bbedd543455c",
+      "name": "v1/disclosure/document/create/",
+      "request": {
+        "method": "post",
+        "header": [],
+        "body": {},
+        "url": "http://localhost:3000/v1/disclosure/document/create/",
+        "description": null
+      },
+      "response": []
+    },
+    {
+      "_postman_id": "a1a02426-106d-3132-e48f-bb5c58388493",
+      "name": "v1/license/policies/save/",
+      "request": {
+        "method": "post",
+        "header": [],
+        "body": {},
+        "url": "http://localhost:3000/v1/license/policies/save/",
+        "description": null
+      },
+      "response": []
+    },
+    {
+      "_postman_id": "0d7827dd-a629-b12a-8a18-c1d6051aae5b",
+      "name": "v1/license/user/create/",
+      "request": {
+        "method": "post",
+        "header": [],
+        "body": {},
+        "url": "http://localhost:3000/v1/license/user/create/",
+        "description": null
+      },
+      "response": []
+    },
+    {
+      "_postman_id": "99cc0bb0-8c78-4198-75a3-962f0bc47812",
+      "name": "v1/party/alias/create/",
+      "request": {
+        "method": "post",
+        "header": [],
+        "body": {},
+        "url": "http://localhost:3000/v1/party/alias/create/",
+        "description": null
+      },
+      "response": []
+    },
+    {
+      "_postman_id": "dfceb463-0690-f096-03b0-1de4201c9929",
+      "name": "v1/restrictedsecurities/review/{tradeRequestId}/",
+      "request": {
+        "method": "post",
+        "header": [],
+        "body": {},
+        "url": "http://localhost:3000/v1/restrictedsecurities/review/{tradeRequestId}/",
+        "description": null
+      },
+      "response": []
+    },
+    {
+      "_postman_id": "68b47b8f-7237-c9b4-7dd5-096b0fc1d5b6",
+      "name": "v1/staff/member/update/",
+      "request": {
+        "method": "post",
+        "header": [],
+        "body": {},
+        "url": "http://localhost:3000/v1/staff/member/update/",
+        "description": null
+      },
+      "response": []
+    },
+    {
+      "_postman_id": "fd6cb849-4cba-fff9-dee9-766e7999d4bf",
+      "name": "v1/{type}/password/bulk/",
+      "request": {
+        "method": "post",
+        "header": [],
+        "body": {},
+        "url": "http://localhost:3000/v1/{type}/password/bulk/",
+        "description": null
+      },
+      "response": []
+    },
+    {
+      "_postman_id": "9f40113f-f277-2e75-a9e9-5551b05552cb",
+      "name": "v1/staff/member/desigdocs/save/",
+      "request": {
+        "method": "post",
+        "header": [],
+        "body": {},
+        "url": "http://localhost:3000/v1/staff/member/desigdocs/save/",
+        "description": null
+      },
+      "response": []
+    },
+    {
+      "_postman_id": "c28167ab-058a-2361-54c5-5865f6efdc2e",
+      "name": "v1/staff/member/disclosures/save/",
+      "request": {
+        "method": "post",
+        "header": [],
+        "body": {},
+        "url": "http://localhost:3000/v1/staff/member/disclosures/save/",
+        "description": null
+      },
+      "response": []
+    },
+    {
+      "_postman_id": "6c215899-f5a9-0418-1f12-a7f796ed3361",
+      "name": "v1/staff/member/partytradingdocuments/save/",
+      "request": {
+        "method": "post",
+        "header": [],
+        "body": {},
+        "url": "http://localhost:3000/v1/staff/member/partytradingdocuments/save/",
+        "description": null
+      },
+      "response": []
+    },
+    {
+      "_postman_id": "77cf7438-032c-e551-cbb2-62583710f0ff",
+      "name": "v1/staff/member/staffdocs/save/",
+      "request": {
+        "method": "post",
+        "header": [],
+        "body": {},
+        "url": "http://localhost:3000/v1/staff/member/staffdocs/save/",
+        "description": null
+      },
+      "response": []
+    },
+    {
+      "_postman_id": "98e41178-8939-eff2-469e-c748088551a1",
+      "name": "v1/staff/member/updates/configure/",
+      "request": {
+        "method": "post",
+        "header": [],
+        "body": {},
+        "url": "http://localhost:3000/v1/staff/member/updates/configure/",
+        "description": null
+      },
+      "response": []
+    },
+    {
+      "_postman_id": "392e0380-d359-f3be-1a94-f8f6be191930",
+      "name": "v1/{model}/{id?}",
+      "request": {
+        "method": "put",
+        "header": [],
+        "body": {},
+        "url": {
+          "raw": "http://localhost:3000/v1/{model}/{id?}",
+          "protocol": "http",
+          "host": [
+            "localhost"
+          ],
+          "port": "3000",
+          "path": [
+            "v1",
+            "{model}",
+            "{id"
+          ],
+          "query": [
+            {
+              "key": "}",
+              "value": null
+            }
+          ]
+        },
+        "description": null
+      },
+      "response": []
+    },
+    {
+      "_postman_id": "59d9bbce-ef28-b667-86d3-9b15f41c13e3",
+      "name": "v1/accrbody/update/",
+      "request": {
+        "method": "put",
+        "header": [],
+        "body": {},
+        "url": "http://localhost:3000/v1/accrbody/update/",
+        "description": null
+      },
+      "response": []
+    },
+    {
+      "_postman_id": "0dd85d4f-5851-7d82-20a1-13b4d42bb214",
+      "name": "v1/accrbodypart/update/",
+      "request": {
+        "method": "put",
+        "header": [],
+        "body": {},
+        "url": "http://localhost:3000/v1/accrbodypart/update/",
+        "description": null
+      },
+      "response": []
+    },
+    {
+      "_postman_id": "26ad6f6f-0dbe-b110-efaf-4edcad943a2d",
+      "name": "v1/address/update/",
+      "request": {
+        "method": "put",
+        "header": [],
+        "body": {},
+        "url": "http://localhost:3000/v1/address/update/",
+        "description": null
+      },
+      "response": []
+    },
+    {
+      "_postman_id": "b205f459-aff8-a2be-4ce5-05d8c8104511",
+      "name": "v1/cecourse/edit/",
+      "request": {
+        "method": "put",
+        "header": [],
+        "body": {},
+        "url": "http://localhost:3000/v1/cecourse/edit/",
+        "description": null
+      },
+      "response": []
+    },
+    {
+      "_postman_id": "e5910173-cddc-c16b-3b0f-cc99f72e951c",
+      "name": "v1/cecourses/update/",
+      "request": {
+        "method": "put",
+        "header": [],
+        "body": {},
+        "url": "http://localhost:3000/v1/cecourses/update/",
+        "description": null
+      },
+      "response": []
+    },
+    {
+      "_postman_id": "7c30b6a7-2d08-870a-7c82-b05caf8ad09e",
+      "name": "v1/cecycle/update/",
+      "request": {
+        "method": "put",
+        "header": [],
+        "body": {},
+        "url": "http://localhost:3000/v1/cecycle/update/",
+        "description": null
+      },
+      "response": []
+    },
+    {
+      "_postman_id": "08d84b46-1700-646f-d21c-21dd837dd21b",
+      "name": "v1/ceprovider/update/",
+      "request": {
+        "method": "put",
+        "header": [],
+        "body": {},
+        "url": "http://localhost:3000/v1/ceprovider/update/",
+        "description": null
+      },
+      "response": []
+    },
+    {
+      "_postman_id": "0de80b29-a0cb-4d27-76bd-029bdefa261c",
+      "name": "v1/cerequirement/update/",
+      "request": {
+        "method": "put",
+        "header": [],
+        "body": {},
+        "url": "http://localhost:3000/v1/cerequirement/update/",
+        "description": null
+      },
+      "response": []
+    },
+    {
+      "_postman_id": "41f14cc2-77be-29c6-01b2-74f15b431042",
+      "name": "v1/cetrackerdetails/exempt/",
+      "request": {
+        "method": "put",
+        "header": [],
+        "body": {},
+        "url": "http://localhost:3000/v1/cetrackerdetails/exempt/",
+        "description": null
+      },
+      "response": []
+    },
+    {
+      "_postman_id": "15afa6cc-4bf4-b5b5-83af-1152b1404489",
+      "name": "v1/change/password/",
+      "request": {
+        "method": "put",
+        "header": [],
+        "body": {},
+        "url": "http://localhost:3000/v1/change/password/",
+        "description": null
+      },
+      "response": []
+    },
+    {
+      "_postman_id": "70d17d70-9a25-7371-99e3-9aaa31447943",
+      "name": "v1/conditions/update/",
+      "request": {
+        "method": "put",
+        "header": [],
+        "body": {},
+        "url": "http://localhost:3000/v1/conditions/update/",
+        "description": null
+      },
+      "response": []
+    },
+    {
+      "_postman_id": "c04859c8-ecc7-0908-20bc-cc4bb2c9c397",
+      "name": "v1/course/update/",
+      "request": {
+        "method": "put",
+        "header": [],
+        "body": {},
+        "url": "http://localhost:3000/v1/course/update/",
+        "description": null
+      },
+      "response": []
+    },
+    {
+      "_postman_id": "ce3d3e80-0d87-e0d3-7819-e10ab03fc952",
+      "name": "v1/disclosure/update/",
+      "request": {
+        "method": "put",
+        "header": [],
+        "body": {},
+        "url": "http://localhost:3000/v1/disclosure/update/",
+        "description": null
+      },
+      "response": []
+    },
+    {
+      "_postman_id": "d2a40e2d-fb2c-b336-af11-8949aac0fd89",
+      "name": "v1/incidentcomplaint/update/",
+      "request": {
+        "method": "put",
+        "header": [],
+        "body": {},
+        "url": "http://localhost:3000/v1/incidentcomplaint/update/",
+        "description": null
+      },
+      "response": []
+    },
+    {
+      "_postman_id": "343fc03f-3b9c-f6e0-6e1a-48b642b82136",
+      "name": "v1/incidentcomplaintdisciplinary/update/",
+      "request": {
+        "method": "put",
+        "header": [],
+        "body": {},
+        "url": "http://localhost:3000/v1/incidentcomplaintdisciplinary/update/",
+        "description": null
+      },
+      "response": []
+    },
+    {
+      "_postman_id": "7359179e-8c71-7166-a7e0-43f1278053b9",
+      "name": "v1/oauth/token/",
+      "request": {
+        "method": "put",
+        "header": [],
+        "body": {},
+        "url": "http://localhost:3000/v1/oauth/token/",
+        "description": null
+      },
+      "response": []
+    },
+    {
+      "_postman_id": "2c875bbb-555d-62e6-100f-c35fcebe8e0c",
+      "name": "v1/party/update/",
+      "request": {
+        "method": "put",
+        "header": [],
+        "body": {},
+        "url": "http://localhost:3000/v1/party/update/",
+        "description": null
+      },
+      "response": []
+    },
+    {
+      "_postman_id": "1309a667-bd70-99dc-0050-379867132047",
+      "name": "v1/registeredstaff/update/",
+      "request": {
+        "method": "put",
+        "header": [],
+        "body": {},
+        "url": "http://localhost:3000/v1/registeredstaff/update/",
+        "description": null
+      },
+      "response": []
+    },
+    {
+      "_postman_id": "92a04a02-136b-8f59-874a-ac1f564eebf8",
+      "name": "v1/socialmedia/update/",
+      "request": {
+        "method": "put",
+        "header": [],
+        "body": {},
+        "url": "http://localhost:3000/v1/socialmedia/update/",
+        "description": null
+      },
+      "response": []
+    },
+    {
+      "_postman_id": "2ca77282-a771-fd3f-f843-0dea264cac85",
+      "name": "v1/staff/update/",
+      "request": {
+        "method": "put",
+        "header": [],
+        "body": {},
+        "url": "http://localhost:3000/v1/staff/update/",
+        "description": null
+      },
+      "response": []
+    },
+    {
+      "_postman_id": "31c7085a-4c6a-369d-0d93-9e181ea2dacc",
+      "name": "v1/traderequest/authorize/",
+      "request": {
+        "method": "put",
+        "header": [],
+        "body": {},
+        "url": "http://localhost:3000/v1/traderequest/authorize/",
+        "description": null
+      },
+      "response": []
+    },
+    {
+      "_postman_id": "96f51cc8-03ce-9839-f9e6-243b844658b8",
+      "name": "v1/tradingaccount/update/",
+      "request": {
+        "method": "put",
+        "header": [],
+        "body": {},
+        "url": "http://localhost:3000/v1/tradingaccount/update/",
+        "description": null
+      },
+      "response": []
+    },
+    {
+      "_postman_id": "7eaa0c6b-e747-952c-691f-e9ada05b4cdd",
+      "name": "v1/update/language/",
+      "request": {
+        "method": "put",
+        "header": [],
+        "body": {},
+        "url": "http://localhost:3000/v1/update/language/",
+        "description": null
+      },
+      "response": []
+    },
+    {
+      "_postman_id": "2d72c618-2aec-eba8-6532-e7e99861132d",
+      "name": "v1/{type}/password/",
+      "request": {
+        "method": "put",
+        "header": [],
+        "body": {},
+        "url": "http://localhost:3000/v1/{type}/password/",
+        "description": null
+      },
+      "response": []
+    },
+    {
+      "_postman_id": "2eb59cd5-e211-ef4c-22fb-0fa7aefee856",
+      "name": "v1/license/user/update/",
+      "request": {
+        "method": "put",
+        "header": [],
+        "body": {},
+        "url": "http://localhost:3000/v1/license/user/update/",
+        "description": null
+      },
+      "response": []
+    },
+    {
+      "_postman_id": "dc1fb49d-7321-3def-a02d-d201796c5c7f",
+      "name": "v1/party/alias/update/",
+      "request": {
+        "method": "put",
+        "header": [],
+        "body": {},
+        "url": "http://localhost:3000/v1/party/alias/update/",
+        "description": null
+      },
+      "response": []
+    },
+    {
+      "_postman_id": "7cb6b5d0-89c7-b056-2f8c-0420ac5f997c",
+      "name": "v1/{parentModel}/{parentId}/{childAttribute}/{childId?}",
+      "request": {
+        "method": "put",
+        "header": [],
+        "body": {},
+        "url": {
+          "raw": "http://localhost:3000/v1/{parentModel}/{parentId}/{childAttribute}/{childId?}",
+          "protocol": "http",
+          "host": [
+            "localhost"
+          ],
+          "port": "3000",
+          "path": [
+            "v1",
+            "{parentModel}",
+            "{parentId}",
+            "{childAttribute}",
+            "{childId"
+          ],
+          "query": [
+            {
+              "key": "}",
+              "value": null
+            }
+          ]
+        },
+        "description": null
+      },
+      "response": []
+    },
+    {
+      "_postman_id": "7b0c55b5-31c0-48b4-40d0-36aba2c73cca",
+      "name": "v1/{type}/password/bulk/",
+      "request": {
+        "method": "put",
+        "header": [],
+        "body": {},
+        "url": "http://localhost:3000/v1/{type}/password/bulk/",
+        "description": null
+      },
+      "response": []
+    },
+    {
+      "_postman_id": "0ef47442-a0a8-4616-70d2-61eb0c3008ae",
+      "name": "v1/staff/member/partytradingdocuments/save/",
+      "request": {
+        "method": "put",
+        "header": [],
+        "body": {},
+        "url": "http://localhost:3000/v1/staff/member/partytradingdocuments/save/",
+        "description": null
+      },
+      "response": []
+    },
+    {
+      "_postman_id": "d0ade12d-a0e6-57a4-84c5-e17efb6e133c",
+      "name": "v1/{model}/{id?}",
+      "request": {
+        "method": "patch",
+        "header": [],
+        "body": {},
+        "url": {
+          "raw": "http://localhost:3000/v1/{model}/{id?}",
+          "protocol": "http",
+          "host": [
+            "localhost"
+          ],
+          "port": "3000",
+          "path": [
+            "v1",
+            "{model}",
+            "{id"
+          ],
+          "query": [
+            {
+              "key": "}",
+              "value": null
+            }
+          ]
+        },
+        "description": null
+      },
+      "response": []
+    },
+    {
+      "_postman_id": "73c54efa-f008-e584-8f1c-c5d5aa4db72f",
+      "name": "v1/logout/",
+      "request": {
+        "method": "delete",
+        "header": [],
+        "body": {},
+        "url": "http://localhost:3000/v1/logout/",
+        "description": null
+      },
+      "response": []
+    },
+    {
+      "_postman_id": "72122eae-5be4-c71d-699c-04dc50f275ef",
+      "name": "v1/{model}/{id?}",
+      "request": {
+        "method": "delete",
+        "header": [],
+        "body": {},
+        "url": {
+          "raw": "http://localhost:3000/v1/{model}/{id?}",
+          "protocol": "http",
+          "host": [
+            "localhost"
+          ],
+          "port": "3000",
+          "path": [
+            "v1",
+            "{model}",
+            "{id"
+          ],
+          "query": [
+            {
+              "key": "}",
+              "value": null
+            }
+          ]
+        },
+        "description": null
+      },
+      "response": []
+    },
+    {
+      "_postman_id": "7cbea3f6-345f-8a5e-60ae-5dd305722e78",
+      "name": "v1/accrbodies/delete/",
+      "request": {
+        "method": "delete",
+        "header": [],
+        "body": {},
+        "url": "http://localhost:3000/v1/accrbodies/delete/",
+        "description": null
+      },
+      "response": []
+    },
+    {
+      "_postman_id": "50e64da1-8117-94c9-7e81-129a29f0444e",
+      "name": "v1/accrbodypart/delete/",
+      "request": {
+        "method": "delete",
+        "header": [],
+        "body": {},
+        "url": "http://localhost:3000/v1/accrbodypart/delete/",
+        "description": null
+      },
+      "response": []
+    },
+    {
+      "_postman_id": "b925046b-e357-4f88-6f43-407cac2d294b",
+      "name": "v1/alias/delete/",
+      "request": {
+        "method": "delete",
+        "header": [],
+        "body": {},
+        "url": "http://localhost:3000/v1/alias/delete/",
+        "description": null
+      },
+      "response": []
+    },
+    {
+      "_postman_id": "f9e72c7b-a9bd-5172-ea54-318a50f53af4",
+      "name": "v1/assignstafftrade/delete/",
+      "request": {
+        "method": "delete",
+        "header": [],
+        "body": {},
+        "url": "http://localhost:3000/v1/assignstafftrade/delete/",
+        "description": null
+      },
+      "response": []
+    },
+    {
+      "_postman_id": "db1db50d-04a4-7322-03d5-7addc6a0fd16",
+      "name": "v1/cecoursecategory/delete/",
+      "request": {
+        "method": "delete",
+        "header": [],
+        "body": {},
+        "url": "http://localhost:3000/v1/cecoursecategory/delete/",
+        "description": null
+      },
+      "response": []
+    },
+    {
+      "_postman_id": "b07876b6-7012-b602-55bc-fadebbfde67d",
+      "name": "v1/cecourses/delete/",
+      "request": {
+        "method": "delete",
+        "header": [],
+        "body": {},
+        "url": "http://localhost:3000/v1/cecourses/delete/",
+        "description": null
+      },
+      "response": []
+    },
+    {
+      "_postman_id": "286b5190-6bd6-2b2e-d751-34838ae4e6fc",
+      "name": "v1/ceprovider/delete/",
+      "request": {
+        "method": "delete",
+        "header": [],
+        "body": {},
+        "url": "http://localhost:3000/v1/ceprovider/delete/",
+        "description": null
+      },
+      "response": []
+    },
+    {
+      "_postman_id": "04e064fd-803e-76e5-1a04-e9c6706413e7",
+      "name": "v1/incidentcomplaintdocs/delete/",
+      "request": {
+        "method": "delete",
+        "header": [],
+        "body": {},
+        "url": "http://localhost:3000/v1/incidentcomplaintdocs/delete/",
+        "description": null
+      },
+      "response": []
+    },
+    {
+      "_postman_id": "dc072abe-28d1-e7bb-9245-630eb7ebc6d5",
+      "name": "v1/incidentcomplaintstaff/delete/",
+      "request": {
+        "method": "delete",
+        "header": [],
+        "body": {},
+        "url": "http://localhost:3000/v1/incidentcomplaintstaff/delete/",
+        "description": null
+      },
+      "response": []
+    },
+    {
+      "_postman_id": "cfc5e2dd-4a1c-ba32-9b43-1e99f8bd1be6",
+      "name": "v1/party/delete/",
+      "request": {
+        "method": "delete",
+        "header": [],
+        "body": {},
+        "url": "http://localhost:3000/v1/party/delete/",
+        "description": null
+      },
+      "response": []
+    },
+    {
+      "_postman_id": "f48a270f-2d35-1c75-fed3-98f88596fdfd",
+      "name": "v1/qualifycourse/delete/",
+      "request": {
+        "method": "delete",
+        "header": [],
+        "body": {},
+        "url": "http://localhost:3000/v1/qualifycourse/delete/",
+        "description": null
+      },
+      "response": []
+    },
+    {
+      "_postman_id": "a2d0558a-ac3f-d609-3a29-bd63132b57cd",
+      "name": "v1/restrictedsecurities/reset/",
+      "request": {
+        "method": "delete",
+        "header": [],
+        "body": {},
+        "url": "http://localhost:3000/v1/restrictedsecurities/reset/",
+        "description": null
+      },
+      "response": []
+    },
+    {
+      "_postman_id": "305afee1-3110-6b20-10ad-b063bc00bff1",
+      "name": "v1/socialmedia/delete/",
+      "request": {
+        "method": "delete",
+        "header": [],
+        "body": {},
+        "url": "http://localhost:3000/v1/socialmedia/delete/",
+        "description": null
+      },
+      "response": []
+    },
+    {
+      "_postman_id": "46111253-a144-6ff6-35f7-54457008b68b",
+      "name": "v1/staff/delete/",
+      "request": {
+        "method": "delete",
+        "header": [],
+        "body": {},
+        "url": "http://localhost:3000/v1/staff/delete/",
+        "description": null
+      },
+      "response": []
+    },
+    {
+      "_postman_id": "3b081b8b-b009-1a6a-5f12-634eef3b9d43",
+      "name": "v1/staffdesignation/delete/",
+      "request": {
+        "method": "delete",
+        "header": [],
+        "body": {},
+        "url": "http://localhost:3000/v1/staffdesignation/delete/",
+        "description": null
+      },
+      "response": []
+    },
+    {
+      "_postman_id": "a0a9e58e-1e32-6851-46b4-95f4e0d0233d",
+      "name": "v1/staffregistrationdocs/delete/",
+      "request": {
+        "method": "delete",
+        "header": [],
+        "body": {},
+        "url": "http://localhost:3000/v1/staffregistrationdocs/delete/",
+        "description": null
+      },
+      "response": []
+    },
+    {
+      "_postman_id": "78300309-e998-3b9a-2162-f155b4832d15",
+      "name": "v1/tradingaccount/delete/",
+      "request": {
+        "method": "delete",
+        "header": [],
+        "body": {},
+        "url": "http://localhost:3000/v1/tradingaccount/delete/",
+        "description": null
+      },
+      "response": []
+    },
+    {
+      "_postman_id": "25fcea1d-e2f5-faa3-d26e-e34235626885",
+      "name": "v1/disclosure/document/delete/",
+      "request": {
+        "method": "delete",
+        "header": [],
+        "body": {},
+        "url": "http://localhost:3000/v1/disclosure/document/delete/",
+        "description": null
+      },
+      "response": []
+    },
+    {
+      "_postman_id": "ec4de2b0-2a51-d861-6a00-9a12d676371e",
+      "name": "v1/license/user/delete/",
+      "request": {
+        "method": "delete",
+        "header": [],
+        "body": {},
+        "url": "http://localhost:3000/v1/license/user/delete/",
+        "description": null
+      },
+      "response": []
+    },
+    {
+      "_postman_id": "c5cc8700-de3d-1c55-3d51-86e648dcf11d",
+      "name": "v1/{parentModel}/{parentId}/{childAttribute}/{childId?}",
+      "request": {
+        "method": "delete",
+        "header": [],
+        "body": {},
+        "url": {
+          "raw": "http://localhost:3000/v1/{parentModel}/{parentId}/{childAttribute}/{childId?}",
+          "protocol": "http",
+          "host": [
+            "localhost"
+          ],
+          "port": "3000",
+          "path": [
+            "v1",
+            "{parentModel}",
+            "{parentId}",
+            "{childAttribute}",
+            "{childId"
+          ],
+          "query": [
+            {
+              "key": "}",
+              "value": null
+            }
+          ]
+        },
+        "description": null
+      },
+      "response": []
+    }
+  ]
+}
