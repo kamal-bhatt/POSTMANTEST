@@ -1,8 +1,7 @@
 {
   "info": {
-    "name": "Awesome Collection",
     "_postman_id": "78a9c628-dc89-3b93-07b9-9bb89d906e2b",
-    "description": "",
+    "name": "Awesome Collection",
     "schema": "https://schema.getpostman.com/json/collection/v2.0.0/collection.json"
   },
   "item": [
@@ -22,11 +21,13 @@
       "_postman_id": "0a72c895-a99d-aaa2-ed5f-818163ba6624",
       "name": "http://localhost:3000/",
       "request": {
-        "method": "get",
+        "method": "POST",
         "header": [],
-        "body": {},
-        "url": "http://localhost:3000/",
-        "description": null
+        "body": {
+          "mode": "raw",
+          "raw": "{\n\"email\":\"holdco@vigilantcs.com\",\n\"password\":\"vujade@B7\"\n}"
+        },
+        "url": "http://localhost:3000/v1/user/login/"
       },
       "response": []
     },
@@ -37,8 +38,7 @@
         "method": "get",
         "header": [],
         "body": {},
-        "url": "http://localhost:3000/explorer/",
-        "description": null
+        "url": "http://localhost:3000/explorer/"
       },
       "response": []
     },
@@ -49,8 +49,7 @@
         "method": "get",
         "header": [],
         "body": {},
-        "url": "http://localhost:3000/v1/api-doc.json",
-        "description": null
+        "url": "http://localhost:3000/v1/api-doc.json"
       },
       "response": []
     },
@@ -61,8 +60,7 @@
         "method": "get",
         "header": [],
         "body": {},
-        "url": "http://localhost:3000/views/{filename*}",
-        "description": null
+        "url": "http://localhost:3000/views/{filename*}"
       },
       "response": []
     },
@@ -73,8 +71,7 @@
         "method": "get",
         "header": [],
         "body": {},
-        "url": "http://localhost:3000/v1/accrbodies/",
-        "description": null
+        "url": "http://localhost:3000/v1/accrbodies/"
       },
       "response": []
     },
@@ -85,8 +82,7 @@
         "method": "get",
         "header": [],
         "body": {},
-        "url": "http://localhost:3000/v1/accrbodyparticipants/",
-        "description": null
+        "url": "http://localhost:3000/v1/accrbodyparticipants/"
       },
       "response": []
     },
@@ -97,8 +93,7 @@
         "method": "get",
         "header": [],
         "body": {},
-        "url": "http://localhost:3000/v1/cecourses/",
-        "description": null
+        "url": "http://localhost:3000/v1/cecourses/"
       },
       "response": []
     },
@@ -109,8 +104,7 @@
         "method": "get",
         "header": [],
         "body": {},
-        "url": "http://localhost:3000/v1/cecycle/",
-        "description": null
+        "url": "http://localhost:3000/v1/cecycle/"
       },
       "response": []
     },
@@ -121,8 +115,7 @@
         "method": "get",
         "header": [],
         "body": {},
-        "url": "http://localhost:3000/v1/ceprogressreport/",
-        "description": null
+        "url": "http://localhost:3000/v1/ceprogressreport/"
       },
       "response": []
     },
@@ -133,8 +126,7 @@
         "method": "get",
         "header": [],
         "body": {},
-        "url": "http://localhost:3000/v1/cestaffs/",
-        "description": null
+        "url": "http://localhost:3000/v1/cestaffs/"
       },
       "response": []
     },
@@ -145,8 +137,7 @@
         "method": "get",
         "header": [],
         "body": {},
-        "url": "http://localhost:3000/v1/cetrackerdetails/",
-        "description": null
+        "url": "http://localhost:3000/v1/cetrackerdetails/"
       },
       "response": []
     },
@@ -157,8 +148,7 @@
         "method": "get",
         "header": [],
         "body": {},
-        "url": "http://localhost:3000/v1/course/",
-        "description": null
+        "url": "http://localhost:3000/v1/course/"
       },
       "response": []
     },
@@ -169,8 +159,7 @@
         "method": "get",
         "header": [],
         "body": {},
-        "url": "http://localhost:3000/v1/dashboard/",
-        "description": null
+        "url": "http://localhost:3000/v1/dashboard/"
       },
       "response": []
     },
@@ -181,8 +170,7 @@
         "method": "get",
         "header": [],
         "body": {},
-        "url": "http://localhost:3000/v1/qualifiedcourses/",
-        "description": null
+        "url": "http://localhost:3000/v1/qualifiedcourses/"
       },
       "response": []
     },
@@ -211,8 +199,7 @@
               "value": null
             }
           ]
-        },
-        "description": null
+        }
       },
       "response": []
     },
@@ -223,8 +210,7 @@
         "method": "get",
         "header": [],
         "body": {},
-        "url": "http://localhost:3000/v1/cecourse/licenses/",
-        "description": null
+        "url": "http://localhost:3000/v1/cecourse/licenses/"
       },
       "response": []
     },
@@ -235,8 +221,7 @@
         "method": "get",
         "header": [],
         "body": {},
-        "url": "http://localhost:3000/v1/ceregulatoryrpt/list/",
-        "description": null
+        "url": "http://localhost:3000/v1/ceregulatoryrpt/list/"
       },
       "response": []
     },
@@ -247,8 +232,7 @@
         "method": "get",
         "header": [],
         "body": {},
-        "url": "http://localhost:3000/v1/cetrackerdetails/exemptedList/",
-        "description": null
+        "url": "http://localhost:3000/v1/cetrackerdetails/exemptedList/"
       },
       "response": []
     },
@@ -259,8 +243,7 @@
         "method": "get",
         "header": [],
         "body": {},
-        "url": "http://localhost:3000/v1/client/list/",
-        "description": null
+        "url": "http://localhost:3000/v1/client/list/"
       },
       "response": []
     },
@@ -271,8 +254,7 @@
         "method": "get",
         "header": [],
         "body": {},
-        "url": "http://localhost:3000/v1/course/list/",
-        "description": null
+        "url": "http://localhost:3000/v1/course/list/"
       },
       "response": []
     },
@@ -283,8 +265,7 @@
         "method": "get",
         "header": [],
         "body": {},
-        "url": "http://localhost:3000/v1/default/info/",
-        "description": null
+        "url": "http://localhost:3000/v1/default/info/"
       },
       "response": []
     },
@@ -295,8 +276,7 @@
         "method": "get",
         "header": [],
         "body": {},
-        "url": "http://localhost:3000/v1/get/sequenceno/",
-        "description": null
+        "url": "http://localhost:3000/v1/get/sequenceno/"
       },
       "response": []
     },
@@ -307,8 +287,7 @@
         "method": "get",
         "header": [],
         "body": {},
-        "url": "http://localhost:3000/v1/incidentcomplaint/details/",
-        "description": null
+        "url": "http://localhost:3000/v1/incidentcomplaint/details/"
       },
       "response": []
     },
@@ -319,8 +298,7 @@
         "method": "get",
         "header": [],
         "body": {},
-        "url": "http://localhost:3000/v1/incidentcomplaint/list/",
-        "description": null
+        "url": "http://localhost:3000/v1/incidentcomplaint/list/"
       },
       "response": []
     },
@@ -331,8 +309,7 @@
         "method": "get",
         "header": [],
         "body": {},
-        "url": "http://localhost:3000/v1/license/policies/",
-        "description": null
+        "url": "http://localhost:3000/v1/license/policies/"
       },
       "response": []
     },
@@ -343,8 +320,7 @@
         "method": "get",
         "header": [],
         "body": {},
-        "url": "http://localhost:3000/v1/licensedsecurities/list/",
-        "description": null
+        "url": "http://localhost:3000/v1/licensedsecurities/list/"
       },
       "response": []
     },
@@ -355,8 +331,7 @@
         "method": "get",
         "header": [],
         "body": {},
-        "url": "http://localhost:3000/v1/licensedtradings/list/",
-        "description": null
+        "url": "http://localhost:3000/v1/licensedtradings/list/"
       },
       "response": []
     },
@@ -367,8 +342,7 @@
         "method": "get",
         "header": [],
         "body": {},
-        "url": "http://localhost:3000/v1/masterdata/list/",
-        "description": null
+        "url": "http://localhost:3000/v1/masterdata/list/"
       },
       "response": []
     },
@@ -379,8 +353,7 @@
         "method": "get",
         "header": [],
         "body": {},
-        "url": "http://localhost:3000/v1/mastersecurities/list/",
-        "description": null
+        "url": "http://localhost:3000/v1/mastersecurities/list/"
       },
       "response": []
     },
@@ -391,8 +364,7 @@
         "method": "get",
         "header": [],
         "body": {},
-        "url": "http://localhost:3000/v1/mastertradings/list/",
-        "description": null
+        "url": "http://localhost:3000/v1/mastertradings/list/"
       },
       "response": []
     },
@@ -422,8 +394,7 @@
               "value": null
             }
           ]
-        },
-        "description": null
+        }
       },
       "response": []
     },
@@ -434,8 +405,7 @@
         "method": "get",
         "header": [],
         "body": {},
-        "url": "http://localhost:3000/v1/party/cetracker/",
-        "description": null
+        "url": "http://localhost:3000/v1/party/cetracker/"
       },
       "response": []
     },
@@ -446,8 +416,7 @@
         "method": "get",
         "header": [],
         "body": {},
-        "url": "http://localhost:3000/v1/party/details/",
-        "description": null
+        "url": "http://localhost:3000/v1/party/details/"
       },
       "response": []
     },
@@ -458,8 +427,7 @@
         "method": "get",
         "header": [],
         "body": {},
-        "url": "http://localhost:3000/v1/party/list/",
-        "description": null
+        "url": "http://localhost:3000/v1/party/list/"
       },
       "response": []
     },
@@ -470,8 +438,7 @@
         "method": "get",
         "header": [],
         "body": {},
-        "url": "http://localhost:3000/v1/password/indicators/",
-        "description": null
+        "url": "http://localhost:3000/v1/password/indicators/"
       },
       "response": []
     },
@@ -482,8 +449,7 @@
         "method": "get",
         "header": [],
         "body": {},
-        "url": "http://localhost:3000/v1/provider/list/",
-        "description": null
+        "url": "http://localhost:3000/v1/provider/list/"
       },
       "response": []
     },
@@ -494,8 +460,7 @@
         "method": "get",
         "header": [],
         "body": {},
-        "url": "http://localhost:3000/v1/qualifiedcourse/license/",
-        "description": null
+        "url": "http://localhost:3000/v1/qualifiedcourse/license/"
       },
       "response": []
     },
@@ -506,8 +471,7 @@
         "method": "get",
         "header": [],
         "body": {},
-        "url": "http://localhost:3000/v1/qualifiedcourse/list/",
-        "description": null
+        "url": "http://localhost:3000/v1/qualifiedcourse/list/"
       },
       "response": []
     },
@@ -518,8 +482,7 @@
         "method": "get",
         "header": [],
         "body": {},
-        "url": "http://localhost:3000/v1/reference-data/corporatesetup/",
-        "description": null
+        "url": "http://localhost:3000/v1/reference-data/corporatesetup/"
       },
       "response": []
     },
@@ -530,8 +493,7 @@
         "method": "get",
         "header": [],
         "body": {},
-        "url": "http://localhost:3000/v1/reference-data/staffsetup/",
-        "description": null
+        "url": "http://localhost:3000/v1/reference-data/staffsetup/"
       },
       "response": []
     },
@@ -542,8 +504,7 @@
         "method": "get",
         "header": [],
         "body": {},
-        "url": "http://localhost:3000/v1/restrictedsecurities/list/",
-        "description": null
+        "url": "http://localhost:3000/v1/restrictedsecurities/list/"
       },
       "response": []
     },
@@ -554,8 +515,7 @@
         "method": "get",
         "header": [],
         "body": {},
-        "url": "http://localhost:3000/v1/restrictedsecurities/recent/",
-        "description": null
+        "url": "http://localhost:3000/v1/restrictedsecurities/recent/"
       },
       "response": []
     },
@@ -566,8 +526,7 @@
         "method": "get",
         "header": [],
         "body": {},
-        "url": "http://localhost:3000/v1/roles/list/",
-        "description": null
+        "url": "http://localhost:3000/v1/roles/list/"
       },
       "response": []
     },
@@ -578,8 +537,7 @@
         "method": "get",
         "header": [],
         "body": {},
-        "url": "http://localhost:3000/v1/securities/list/",
-        "description": null
+        "url": "http://localhost:3000/v1/securities/list/"
       },
       "response": []
     },
@@ -590,8 +548,7 @@
         "method": "get",
         "header": [],
         "body": {},
-        "url": "http://localhost:3000/v1/staff/list/",
-        "description": null
+        "url": "http://localhost:3000/v1/staff/list/"
       },
       "response": []
     },
@@ -602,8 +559,7 @@
         "method": "get",
         "header": [],
         "body": {},
-        "url": "http://localhost:3000/v1/staff/profile/",
-        "description": null
+        "url": "http://localhost:3000/v1/staff/profile/"
       },
       "response": []
     },
@@ -614,8 +570,7 @@
         "method": "get",
         "header": [],
         "body": {},
-        "url": "http://localhost:3000/v1/staff/record/",
-        "description": null
+        "url": "http://localhost:3000/v1/staff/record/"
       },
       "response": []
     },
@@ -626,8 +581,7 @@
         "method": "get",
         "header": [],
         "body": {},
-        "url": "http://localhost:3000/v1/staffaudit/list/",
-        "description": null
+        "url": "http://localhost:3000/v1/staffaudit/list/"
       },
       "response": []
     },
@@ -638,8 +592,7 @@
         "method": "get",
         "header": [],
         "body": {},
-        "url": "http://localhost:3000/v1/traderequest/list/",
-        "description": null
+        "url": "http://localhost:3000/v1/traderequest/list/"
       },
       "response": []
     },
@@ -650,8 +603,7 @@
         "method": "get",
         "header": [],
         "body": {},
-        "url": "http://localhost:3000/v1/tradingaccount/list/",
-        "description": null
+        "url": "http://localhost:3000/v1/tradingaccount/list/"
       },
       "response": []
     },
@@ -662,8 +614,7 @@
         "method": "get",
         "header": [],
         "body": {},
-        "url": "http://localhost:3000/v1/tradings/list/",
-        "description": null
+        "url": "http://localhost:3000/v1/tradings/list/"
       },
       "response": []
     },
@@ -674,8 +625,7 @@
         "method": "get",
         "header": [],
         "body": {},
-        "url": "http://localhost:3000/v1/view/document/",
-        "description": null
+        "url": "http://localhost:3000/v1/view/document/"
       },
       "response": []
     },
@@ -686,8 +636,7 @@
         "method": "get",
         "header": [],
         "body": {},
-        "url": "http://localhost:3000/v1/party/list/partyalias/",
-        "description": null
+        "url": "http://localhost:3000/v1/party/list/partyalias/"
       },
       "response": []
     },
@@ -698,8 +647,7 @@
         "method": "get",
         "header": [],
         "body": {},
-        "url": "http://localhost:3000/v1/staff/member/details/",
-        "description": null
+        "url": "http://localhost:3000/v1/staff/member/details/"
       },
       "response": []
     },
@@ -710,8 +658,7 @@
         "method": "get",
         "header": [],
         "body": {},
-        "url": "http://localhost:3000/v1/staff/party/details/",
-        "description": null
+        "url": "http://localhost:3000/v1/staff/party/details/"
       },
       "response": []
     },
@@ -722,8 +669,7 @@
         "method": "get",
         "header": [],
         "body": {},
-        "url": "http://localhost:3000/v1/staff/profile/view/",
-        "description": null
+        "url": "http://localhost:3000/v1/staff/profile/view/"
       },
       "response": []
     },
@@ -754,8 +700,7 @@
               "value": null
             }
           ]
-        },
-        "description": null
+        }
       },
       "response": []
     },
@@ -766,8 +711,7 @@
         "method": "get",
         "header": [],
         "body": {},
-        "url": "http://localhost:3000/v1/staff/member/updates/list/",
-        "description": null
+        "url": "http://localhost:3000/v1/staff/member/updates/list/"
       },
       "response": []
     },
@@ -778,8 +722,7 @@
         "method": "*",
         "header": [],
         "body": {},
-        "url": "http://localhost:3000/v1/bulkupload/addUsers",
-        "description": null
+        "url": "http://localhost:3000/v1/bulkupload/addUsers"
       },
       "response": []
     },
@@ -790,8 +733,7 @@
         "method": "*",
         "header": [],
         "body": {},
-        "url": "http://localhost:3000/v1/bulkupload/checkEmailUser",
-        "description": null
+        "url": "http://localhost:3000/v1/bulkupload/checkEmailUser"
       },
       "response": []
     },
@@ -802,8 +744,7 @@
         "method": "*",
         "header": [],
         "body": {},
-        "url": "http://localhost:3000/v1/bulkupload/uploadBulkStaff",
-        "description": null
+        "url": "http://localhost:3000/v1/bulkupload/uploadBulkStaff"
       },
       "response": []
     },
@@ -814,8 +755,7 @@
         "method": "*",
         "header": [],
         "body": {},
-        "url": "http://localhost:3000/v1/course/adminCETracker",
-        "description": null
+        "url": "http://localhost:3000/v1/course/adminCETracker"
       },
       "response": []
     },
@@ -826,8 +766,7 @@
         "method": "*",
         "header": [],
         "body": {},
-        "url": "http://localhost:3000/v1/course/createBulkCECourses",
-        "description": null
+        "url": "http://localhost:3000/v1/course/createBulkCECourses"
       },
       "response": []
     },
@@ -838,8 +777,7 @@
         "method": "*",
         "header": [],
         "body": {},
-        "url": "http://localhost:3000/v1/course/createCECycle",
-        "description": null
+        "url": "http://localhost:3000/v1/course/createCECycle"
       },
       "response": []
     },
@@ -850,8 +788,7 @@
         "method": "*",
         "header": [],
         "body": {},
-        "url": "http://localhost:3000/v1/course/createCEProvider",
-        "description": null
+        "url": "http://localhost:3000/v1/course/createCEProvider"
       },
       "response": []
     },
@@ -862,8 +799,7 @@
         "method": "*",
         "header": [],
         "body": {},
-        "url": "http://localhost:3000/v1/course/deleteCourse",
-        "description": null
+        "url": "http://localhost:3000/v1/course/deleteCourse"
       },
       "response": []
     },
@@ -874,8 +810,7 @@
         "method": "*",
         "header": [],
         "body": {},
-        "url": "http://localhost:3000/v1/course/deleteProvider",
-        "description": null
+        "url": "http://localhost:3000/v1/course/deleteProvider"
       },
       "response": []
     },
@@ -886,8 +821,7 @@
         "method": "*",
         "header": [],
         "body": {},
-        "url": "http://localhost:3000/v1/course/exemptDocument",
-        "description": null
+        "url": "http://localhost:3000/v1/course/exemptDocument"
       },
       "response": []
     },
@@ -898,8 +832,7 @@
         "method": "*",
         "header": [],
         "body": {},
-        "url": "http://localhost:3000/v1/course/findPartyDetails",
-        "description": null
+        "url": "http://localhost:3000/v1/course/findPartyDetails"
       },
       "response": []
     },
@@ -910,8 +843,7 @@
         "method": "*",
         "header": [],
         "body": {},
-        "url": "http://localhost:3000/v1/course/getCECourses",
-        "description": null
+        "url": "http://localhost:3000/v1/course/getCECourses"
       },
       "response": []
     },
@@ -922,8 +854,7 @@
         "method": "*",
         "header": [],
         "body": {},
-        "url": "http://localhost:3000/v1/course/getCECycles",
-        "description": null
+        "url": "http://localhost:3000/v1/course/getCECycles"
       },
       "response": []
     },
@@ -934,8 +865,7 @@
         "method": "*",
         "header": [],
         "body": {},
-        "url": "http://localhost:3000/v1/course/getCEtrackerExemptedList",
-        "description": null
+        "url": "http://localhost:3000/v1/course/getCEtrackerExemptedList"
       },
       "response": []
     },
@@ -946,8 +876,7 @@
         "method": "*",
         "header": [],
         "body": {},
-        "url": "http://localhost:3000/v1/course/getCeRegulatoryRpt",
-        "description": null
+        "url": "http://localhost:3000/v1/course/getCeRegulatoryRpt"
       },
       "response": []
     },
@@ -958,8 +887,7 @@
         "method": "*",
         "header": [],
         "body": {},
-        "url": "http://localhost:3000/v1/course/getCourses",
-        "description": null
+        "url": "http://localhost:3000/v1/course/getCourses"
       },
       "response": []
     },
@@ -970,8 +898,7 @@
         "method": "*",
         "header": [],
         "body": {},
-        "url": "http://localhost:3000/v1/course/getProviderList",
-        "description": null
+        "url": "http://localhost:3000/v1/course/getProviderList"
       },
       "response": []
     },
@@ -982,8 +909,7 @@
         "method": "*",
         "header": [],
         "body": {},
-        "url": "http://localhost:3000/v1/course/getStaffAuditList",
-        "description": null
+        "url": "http://localhost:3000/v1/course/getStaffAuditList"
       },
       "response": []
     },
@@ -994,8 +920,7 @@
         "method": "*",
         "header": [],
         "body": {},
-        "url": "http://localhost:3000/v1/course/staffAudit",
-        "description": null
+        "url": "http://localhost:3000/v1/course/staffAudit"
       },
       "response": []
     },
@@ -1006,8 +931,7 @@
         "method": "*",
         "header": [],
         "body": {},
-        "url": "http://localhost:3000/v1/course/updateCECourse",
-        "description": null
+        "url": "http://localhost:3000/v1/course/updateCECourse"
       },
       "response": []
     },
@@ -1018,8 +942,7 @@
         "method": "*",
         "header": [],
         "body": {},
-        "url": "http://localhost:3000/v1/course/updateCEProvider",
-        "description": null
+        "url": "http://localhost:3000/v1/course/updateCEProvider"
       },
       "response": []
     },
@@ -1030,8 +953,7 @@
         "method": "*",
         "header": [],
         "body": {},
-        "url": "http://localhost:3000/v1/course/updateCeCycle",
-        "description": null
+        "url": "http://localhost:3000/v1/course/updateCeCycle"
       },
       "response": []
     },
@@ -1042,8 +964,7 @@
         "method": "*",
         "header": [],
         "body": {},
-        "url": "http://localhost:3000/v1/createentries/CreateEntriesForAccBody",
-        "description": null
+        "url": "http://localhost:3000/v1/createentries/CreateEntriesForAccBody"
       },
       "response": []
     },
@@ -1054,8 +975,7 @@
         "method": "*",
         "header": [],
         "body": {},
-        "url": "http://localhost:3000/v1/createentries/CreateEntriesForJurisdictionMap",
-        "description": null
+        "url": "http://localhost:3000/v1/createentries/CreateEntriesForJurisdictionMap"
       },
       "response": []
     },
@@ -1066,8 +986,7 @@
         "method": "*",
         "header": [],
         "body": {},
-        "url": "http://localhost:3000/v1/createentries/CreateEntriesForMasterTradingInstitution",
-        "description": null
+        "url": "http://localhost:3000/v1/createentries/CreateEntriesForMasterTradingInstitution"
       },
       "response": []
     },
@@ -1078,8 +997,7 @@
         "method": "*",
         "header": [],
         "body": {},
-        "url": "http://localhost:3000/v1/createentries/CreateEntriesForRoleAccessAction",
-        "description": null
+        "url": "http://localhost:3000/v1/createentries/CreateEntriesForRoleAccessAction"
       },
       "response": []
     },
@@ -1090,8 +1008,7 @@
         "method": "*",
         "header": [],
         "body": {},
-        "url": "http://localhost:3000/v1/createentries/CreateEntriesForRoleAccessMenu",
-        "description": null
+        "url": "http://localhost:3000/v1/createentries/CreateEntriesForRoleAccessMenu"
       },
       "response": []
     },
@@ -1102,8 +1019,7 @@
         "method": "*",
         "header": [],
         "body": {},
-        "url": "http://localhost:3000/v1/createentries/addupdateMasterData",
-        "description": null
+        "url": "http://localhost:3000/v1/createentries/addupdateMasterData"
       },
       "response": []
     },
@@ -1114,8 +1030,7 @@
         "method": "*",
         "header": [],
         "body": {},
-        "url": "http://localhost:3000/v1/createentries/createAccrBody",
-        "description": null
+        "url": "http://localhost:3000/v1/createentries/createAccrBody"
       },
       "response": []
     },
@@ -1126,8 +1041,7 @@
         "method": "*",
         "header": [],
         "body": {},
-        "url": "http://localhost:3000/v1/createentries/createAccrBodyParticipant",
-        "description": null
+        "url": "http://localhost:3000/v1/createentries/createAccrBodyParticipant"
       },
       "response": []
     },
@@ -1138,8 +1052,7 @@
         "method": "*",
         "header": [],
         "body": {},
-        "url": "http://localhost:3000/v1/createentries/createAccrBodyParticipantChild",
-        "description": null
+        "url": "http://localhost:3000/v1/createentries/createAccrBodyParticipantChild"
       },
       "response": []
     },
@@ -1150,8 +1063,7 @@
         "method": "*",
         "header": [],
         "body": {},
-        "url": "http://localhost:3000/v1/createentries/createAllpartyCeActivity",
-        "description": null
+        "url": "http://localhost:3000/v1/createentries/createAllpartyCeActivity"
       },
       "response": []
     },
@@ -1162,8 +1074,7 @@
         "method": "*",
         "header": [],
         "body": {},
-        "url": "http://localhost:3000/v1/createentries/createCERequirement",
-        "description": null
+        "url": "http://localhost:3000/v1/createentries/createCERequirement"
       },
       "response": []
     },
@@ -1174,8 +1085,7 @@
         "method": "*",
         "header": [],
         "body": {},
-        "url": "http://localhost:3000/v1/createentries/createEntriesForAccrBodyFirm",
-        "description": null
+        "url": "http://localhost:3000/v1/createentries/createEntriesForAccrBodyFirm"
       },
       "response": []
     },
@@ -1186,8 +1096,7 @@
         "method": "*",
         "header": [],
         "body": {},
-        "url": "http://localhost:3000/v1/createentries/createRole",
-        "description": null
+        "url": "http://localhost:3000/v1/createentries/createRole"
       },
       "response": []
     },
@@ -1198,8 +1107,7 @@
         "method": "*",
         "header": [],
         "body": {},
-        "url": "http://localhost:3000/v1/createentries/deleteAccrbody",
-        "description": null
+        "url": "http://localhost:3000/v1/createentries/deleteAccrbody"
       },
       "response": []
     },
@@ -1210,8 +1118,7 @@
         "method": "*",
         "header": [],
         "body": {},
-        "url": "http://localhost:3000/v1/createentries/deleteParticipant",
-        "description": null
+        "url": "http://localhost:3000/v1/createentries/deleteParticipant"
       },
       "response": []
     },
@@ -1222,8 +1129,7 @@
         "method": "*",
         "header": [],
         "body": {},
-        "url": "http://localhost:3000/v1/createentries/fetchAccrBody",
-        "description": null
+        "url": "http://localhost:3000/v1/createentries/fetchAccrBody"
       },
       "response": []
     },
@@ -1234,8 +1140,7 @@
         "method": "*",
         "header": [],
         "body": {},
-        "url": "http://localhost:3000/v1/createentries/fetchAccrBodyParticipants",
-        "description": null
+        "url": "http://localhost:3000/v1/createentries/fetchAccrBodyParticipants"
       },
       "response": []
     },
@@ -1246,8 +1151,7 @@
         "method": "*",
         "header": [],
         "body": {},
-        "url": "http://localhost:3000/v1/createentries/getCountryState",
-        "description": null
+        "url": "http://localhost:3000/v1/createentries/getCountryState"
       },
       "response": []
     },
@@ -1258,8 +1162,7 @@
         "method": "*",
         "header": [],
         "body": {},
-        "url": "http://localhost:3000/v1/createentries/sendCourseReminder",
-        "description": null
+        "url": "http://localhost:3000/v1/createentries/sendCourseReminder"
       },
       "response": []
     },
@@ -1270,8 +1173,7 @@
         "method": "*",
         "header": [],
         "body": {},
-        "url": "http://localhost:3000/v1/createentries/updateAccrBody",
-        "description": null
+        "url": "http://localhost:3000/v1/createentries/updateAccrBody"
       },
       "response": []
     },
@@ -1282,8 +1184,7 @@
         "method": "*",
         "header": [],
         "body": {},
-        "url": "http://localhost:3000/v1/createentries/updateAccrBodyPart",
-        "description": null
+        "url": "http://localhost:3000/v1/createentries/updateAccrBodyPart"
       },
       "response": []
     },
@@ -1294,8 +1195,7 @@
         "method": "*",
         "header": [],
         "body": {},
-        "url": "http://localhost:3000/v1/createentries/updateAddress",
-        "description": null
+        "url": "http://localhost:3000/v1/createentries/updateAddress"
       },
       "response": []
     },
@@ -1306,8 +1206,7 @@
         "method": "*",
         "header": [],
         "body": {},
-        "url": "http://localhost:3000/v1/createentries/updateCERequirement",
-        "description": null
+        "url": "http://localhost:3000/v1/createentries/updateCERequirement"
       },
       "response": []
     },
@@ -1318,8 +1217,7 @@
         "method": "*",
         "header": [],
         "body": {},
-        "url": "http://localhost:3000/v1/createentries/updateCorRegCat",
-        "description": null
+        "url": "http://localhost:3000/v1/createentries/updateCorRegCat"
       },
       "response": []
     },
@@ -1330,8 +1228,7 @@
         "method": "*",
         "header": [],
         "body": {},
-        "url": "http://localhost:3000/v1/createentries/updatePartyReg",
-        "description": null
+        "url": "http://localhost:3000/v1/createentries/updatePartyReg"
       },
       "response": []
     },
@@ -1342,8 +1239,7 @@
         "method": "*",
         "header": [],
         "body": {},
-        "url": "http://localhost:3000/v1/createentries/updateRegisterStaffRegCat",
-        "description": null
+        "url": "http://localhost:3000/v1/createentries/updateRegisterStaffRegCat"
       },
       "response": []
     },
@@ -1354,8 +1250,7 @@
         "method": "*",
         "header": [],
         "body": {},
-        "url": "http://localhost:3000/v1/createentries/validateData",
-        "description": null
+        "url": "http://localhost:3000/v1/createentries/validateData"
       },
       "response": []
     },
@@ -1366,8 +1261,7 @@
         "method": "*",
         "header": [],
         "body": {},
-        "url": "http://localhost:3000/v1/default/getDocuments",
-        "description": null
+        "url": "http://localhost:3000/v1/default/getDocuments"
       },
       "response": []
     },
@@ -1378,8 +1272,7 @@
         "method": "*",
         "header": [],
         "body": {},
-        "url": "http://localhost:3000/v1/default/getPasswordIndicators",
-        "description": null
+        "url": "http://localhost:3000/v1/default/getPasswordIndicators"
       },
       "response": []
     },
@@ -1390,8 +1283,7 @@
         "method": "*",
         "header": [],
         "body": {},
-        "url": "http://localhost:3000/v1/default/info",
-        "description": null
+        "url": "http://localhost:3000/v1/default/info"
       },
       "response": []
     },
@@ -1402,8 +1294,7 @@
         "method": "*",
         "header": [],
         "body": {},
-        "url": "http://localhost:3000/v1/default/login",
-        "description": null
+        "url": "http://localhost:3000/v1/default/login"
       },
       "response": []
     },
@@ -1414,8 +1305,7 @@
         "method": "*",
         "header": [],
         "body": {},
-        "url": "http://localhost:3000/v1/default/logout",
-        "description": null
+        "url": "http://localhost:3000/v1/default/logout"
       },
       "response": []
     },
@@ -1426,8 +1316,7 @@
         "method": "*",
         "header": [],
         "body": {},
-        "url": "http://localhost:3000/v1/default/migrateuser",
-        "description": null
+        "url": "http://localhost:3000/v1/default/migrateuser"
       },
       "response": []
     },
@@ -1438,8 +1327,7 @@
         "method": "*",
         "header": [],
         "body": {},
-        "url": "http://localhost:3000/v1/default/renewAuthToken",
-        "description": null
+        "url": "http://localhost:3000/v1/default/renewAuthToken"
       },
       "response": []
     },
@@ -1450,8 +1338,7 @@
         "method": "*",
         "header": [],
         "body": {},
-        "url": "http://localhost:3000/v1/default/setUpBulkPassword",
-        "description": null
+        "url": "http://localhost:3000/v1/default/setUpBulkPassword"
       },
       "response": []
     },
@@ -1462,8 +1349,7 @@
         "method": "*",
         "header": [],
         "body": {},
-        "url": "http://localhost:3000/v1/default/setupPassword",
-        "description": null
+        "url": "http://localhost:3000/v1/default/setupPassword"
       },
       "response": []
     },
@@ -1474,8 +1360,7 @@
         "method": "*",
         "header": [],
         "body": {},
-        "url": "http://localhost:3000/v1/default/updateUser",
-        "description": null
+        "url": "http://localhost:3000/v1/default/updateUser"
       },
       "response": []
     },
@@ -1486,8 +1371,7 @@
         "method": "*",
         "header": [],
         "body": {},
-        "url": "http://localhost:3000/v1/license/addUser",
-        "description": null
+        "url": "http://localhost:3000/v1/license/addUser"
       },
       "response": []
     },
@@ -1498,8 +1382,7 @@
         "method": "*",
         "header": [],
         "body": {},
-        "url": "http://localhost:3000/v1/license/createLicense",
-        "description": null
+        "url": "http://localhost:3000/v1/license/createLicense"
       },
       "response": []
     },
@@ -1510,8 +1393,7 @@
         "method": "*",
         "header": [],
         "body": {},
-        "url": "http://localhost:3000/v1/license/deleteUser",
-        "description": null
+        "url": "http://localhost:3000/v1/license/deleteUser"
       },
       "response": []
     },
@@ -1522,8 +1404,7 @@
         "method": "*",
         "header": [],
         "body": {},
-        "url": "http://localhost:3000/v1/license/getClients",
-        "description": null
+        "url": "http://localhost:3000/v1/license/getClients"
       },
       "response": []
     },
@@ -1534,8 +1415,7 @@
         "method": "*",
         "header": [],
         "body": {},
-        "url": "http://localhost:3000/v1/license/getPolicies",
-        "description": null
+        "url": "http://localhost:3000/v1/license/getPolicies"
       },
       "response": []
     },
@@ -1546,8 +1426,7 @@
         "method": "*",
         "header": [],
         "body": {},
-        "url": "http://localhost:3000/v1/license/savePolicies",
-        "description": null
+        "url": "http://localhost:3000/v1/license/savePolicies"
       },
       "response": []
     },
@@ -1558,8 +1437,7 @@
         "method": "*",
         "header": [],
         "body": {},
-        "url": "http://localhost:3000/v1/license/updateLicense",
-        "description": null
+        "url": "http://localhost:3000/v1/license/updateLicense"
       },
       "response": []
     },
@@ -1570,8 +1448,7 @@
         "method": "*",
         "header": [],
         "body": {},
-        "url": "http://localhost:3000/v1/license/updateUser",
-        "description": null
+        "url": "http://localhost:3000/v1/license/updateUser"
       },
       "response": []
     },
@@ -1582,8 +1459,7 @@
         "method": "*",
         "header": [],
         "body": {},
-        "url": "http://localhost:3000/v1/party/createCorporate",
-        "description": null
+        "url": "http://localhost:3000/v1/party/createCorporate"
       },
       "response": []
     },
@@ -1594,8 +1470,7 @@
         "method": "*",
         "header": [],
         "body": {},
-        "url": "http://localhost:3000/v1/party/createICDocuments",
-        "description": null
+        "url": "http://localhost:3000/v1/party/createICDocuments"
       },
       "response": []
     },
@@ -1606,8 +1481,7 @@
         "method": "*",
         "header": [],
         "body": {},
-        "url": "http://localhost:3000/v1/party/createICStaff",
-        "description": null
+        "url": "http://localhost:3000/v1/party/createICStaff"
       },
       "response": []
     },
@@ -1618,8 +1492,7 @@
         "method": "*",
         "header": [],
         "body": {},
-        "url": "http://localhost:3000/v1/party/createIncidentsOrComplaints",
-        "description": null
+        "url": "http://localhost:3000/v1/party/createIncidentsOrComplaints"
       },
       "response": []
     },
@@ -1630,8 +1503,7 @@
         "method": "*",
         "header": [],
         "body": {},
-        "url": "http://localhost:3000/v1/party/createPartyMessage",
-        "description": null
+        "url": "http://localhost:3000/v1/party/createPartyMessage"
       },
       "response": []
     },
@@ -1642,8 +1514,7 @@
         "method": "*",
         "header": [],
         "body": {},
-        "url": "http://localhost:3000/v1/party/createStaffTradeRelation",
-        "description": null
+        "url": "http://localhost:3000/v1/party/createStaffTradeRelation"
       },
       "response": []
     },
@@ -1654,8 +1525,7 @@
         "method": "*",
         "header": [],
         "body": {},
-        "url": "http://localhost:3000/v1/party/deleteICDocument",
-        "description": null
+        "url": "http://localhost:3000/v1/party/deleteICDocument"
       },
       "response": []
     },
@@ -1666,8 +1536,7 @@
         "method": "*",
         "header": [],
         "body": {},
-        "url": "http://localhost:3000/v1/party/deleteICStaff",
-        "description": null
+        "url": "http://localhost:3000/v1/party/deleteICStaff"
       },
       "response": []
     },
@@ -1678,8 +1547,7 @@
         "method": "*",
         "header": [],
         "body": {},
-        "url": "http://localhost:3000/v1/party/deleteParty",
-        "description": null
+        "url": "http://localhost:3000/v1/party/deleteParty"
       },
       "response": []
     },
@@ -1690,8 +1558,7 @@
         "method": "*",
         "header": [],
         "body": {},
-        "url": "http://localhost:3000/v1/party/getAllRegulatorySources",
-        "description": null
+        "url": "http://localhost:3000/v1/party/getAllRegulatorySources"
       },
       "response": []
     },
@@ -1702,8 +1569,7 @@
         "method": "*",
         "header": [],
         "body": {},
-        "url": "http://localhost:3000/v1/party/getComplaintsIncidentsDetails",
-        "description": null
+        "url": "http://localhost:3000/v1/party/getComplaintsIncidentsDetails"
       },
       "response": []
     },
@@ -1714,8 +1580,7 @@
         "method": "*",
         "header": [],
         "body": {},
-        "url": "http://localhost:3000/v1/party/getComplaintsIncidentsList",
-        "description": null
+        "url": "http://localhost:3000/v1/party/getComplaintsIncidentsList"
       },
       "response": []
     },
@@ -1726,8 +1591,7 @@
         "method": "*",
         "header": [],
         "body": {},
-        "url": "http://localhost:3000/v1/party/getDashboardDetails",
-        "description": null
+        "url": "http://localhost:3000/v1/party/getDashboardDetails"
       },
       "response": []
     },
@@ -1738,8 +1602,7 @@
         "method": "*",
         "header": [],
         "body": {},
-        "url": "http://localhost:3000/v1/party/getPartyConfig",
-        "description": null
+        "url": "http://localhost:3000/v1/party/getPartyConfig"
       },
       "response": []
     },
@@ -1750,8 +1613,7 @@
         "method": "*",
         "header": [],
         "body": {},
-        "url": "http://localhost:3000/v1/party/getPartyDetails",
-        "description": null
+        "url": "http://localhost:3000/v1/party/getPartyDetails"
       },
       "response": []
     },
@@ -1762,8 +1624,7 @@
         "method": "*",
         "header": [],
         "body": {},
-        "url": "http://localhost:3000/v1/party/getPartyList",
-        "description": null
+        "url": "http://localhost:3000/v1/party/getPartyList"
       },
       "response": []
     },
@@ -1774,8 +1635,7 @@
         "method": "*",
         "header": [],
         "body": {},
-        "url": "http://localhost:3000/v1/party/getPartyListWithPartyAlias",
-        "description": null
+        "url": "http://localhost:3000/v1/party/getPartyListWithPartyAlias"
       },
       "response": []
     },
@@ -1786,8 +1646,7 @@
         "method": "*",
         "header": [],
         "body": {},
-        "url": "http://localhost:3000/v1/party/getRegistrations",
-        "description": null
+        "url": "http://localhost:3000/v1/party/getRegistrations"
       },
       "response": []
     },
@@ -1798,8 +1657,7 @@
         "method": "*",
         "header": [],
         "body": {},
-        "url": "http://localhost:3000/v1/party/updateCorporate",
-        "description": null
+        "url": "http://localhost:3000/v1/party/updateCorporate"
       },
       "response": []
     },
@@ -1810,8 +1668,7 @@
         "method": "*",
         "header": [],
         "body": {},
-        "url": "http://localhost:3000/v1/party/updateIC",
-        "description": null
+        "url": "http://localhost:3000/v1/party/updateIC"
       },
       "response": []
     },
@@ -1822,8 +1679,7 @@
         "method": "*",
         "header": [],
         "body": {},
-        "url": "http://localhost:3000/v1/party/updateICDisciplinaryAction",
-        "description": null
+        "url": "http://localhost:3000/v1/party/updateICDisciplinaryAction"
       },
       "response": []
     },
@@ -1834,8 +1690,7 @@
         "method": "*",
         "header": [],
         "body": {},
-        "url": "http://localhost:3000/v1/party/updateICStaff",
-        "description": null
+        "url": "http://localhost:3000/v1/party/updateICStaff"
       },
       "response": []
     },
@@ -1846,8 +1701,7 @@
         "method": "*",
         "header": [],
         "body": {},
-        "url": "http://localhost:3000/v1/party/validateRegulatorySourceAndRegistration",
-        "description": null
+        "url": "http://localhost:3000/v1/party/validateRegulatorySourceAndRegistration"
       },
       "response": []
     },
@@ -1858,8 +1712,7 @@
         "method": "*",
         "header": [],
         "body": {},
-        "url": "http://localhost:3000/v1/partycourses/add",
-        "description": null
+        "url": "http://localhost:3000/v1/partycourses/add"
       },
       "response": []
     },
@@ -1870,8 +1723,7 @@
         "method": "*",
         "header": [],
         "body": {},
-        "url": "http://localhost:3000/v1/partycourses/assignCourse",
-        "description": null
+        "url": "http://localhost:3000/v1/partycourses/assignCourse"
       },
       "response": []
     },
@@ -1882,8 +1734,7 @@
         "method": "*",
         "header": [],
         "body": {},
-        "url": "http://localhost:3000/v1/partycourses/deleteAssignCourse",
-        "description": null
+        "url": "http://localhost:3000/v1/partycourses/deleteAssignCourse"
       },
       "response": []
     },
@@ -1894,8 +1745,7 @@
         "method": "*",
         "header": [],
         "body": {},
-        "url": "http://localhost:3000/v1/partycourses/deleteQualifyCourse",
-        "description": null
+        "url": "http://localhost:3000/v1/partycourses/deleteQualifyCourse"
       },
       "response": []
     },
@@ -1906,8 +1756,7 @@
         "method": "*",
         "header": [],
         "body": {},
-        "url": "http://localhost:3000/v1/partycourses/fetchCEStaffs",
-        "description": null
+        "url": "http://localhost:3000/v1/partycourses/fetchCEStaffs"
       },
       "response": []
     },
@@ -1918,8 +1767,7 @@
         "method": "*",
         "header": [],
         "body": {},
-        "url": "http://localhost:3000/v1/partycourses/findCredit",
-        "description": null
+        "url": "http://localhost:3000/v1/partycourses/findCredit"
       },
       "response": []
     },
@@ -1930,8 +1778,7 @@
         "method": "*",
         "header": [],
         "body": {},
-        "url": "http://localhost:3000/v1/partycourses/getCECoursesLicenses",
-        "description": null
+        "url": "http://localhost:3000/v1/partycourses/getCECoursesLicenses"
       },
       "response": []
     },
@@ -1942,8 +1789,7 @@
         "method": "*",
         "header": [],
         "body": {},
-        "url": "http://localhost:3000/v1/partycourses/getCEProgress",
-        "description": null
+        "url": "http://localhost:3000/v1/partycourses/getCEProgress"
       },
       "response": []
     },
@@ -1954,8 +1800,7 @@
         "method": "*",
         "header": [],
         "body": {},
-        "url": "http://localhost:3000/v1/partycourses/getCourse",
-        "description": null
+        "url": "http://localhost:3000/v1/partycourses/getCourse"
       },
       "response": []
     },
@@ -1966,8 +1811,7 @@
         "method": "*",
         "header": [],
         "body": {},
-        "url": "http://localhost:3000/v1/partycourses/getLicensedQualifiedCourse",
-        "description": null
+        "url": "http://localhost:3000/v1/partycourses/getLicensedQualifiedCourse"
       },
       "response": []
     },
@@ -1978,8 +1822,7 @@
         "method": "*",
         "header": [],
         "body": {},
-        "url": "http://localhost:3000/v1/partycourses/getPartyRegisterCourse",
-        "description": null
+        "url": "http://localhost:3000/v1/partycourses/getPartyRegisterCourse"
       },
       "response": []
     },
@@ -1990,8 +1833,7 @@
         "method": "*",
         "header": [],
         "body": {},
-        "url": "http://localhost:3000/v1/partycourses/getQualifiedCourseList",
-        "description": null
+        "url": "http://localhost:3000/v1/partycourses/getQualifiedCourseList"
       },
       "response": []
     },
@@ -2002,8 +1844,7 @@
         "method": "*",
         "header": [],
         "body": {},
-        "url": "http://localhost:3000/v1/partycourses/getQualifiedCoursesList",
-        "description": null
+        "url": "http://localhost:3000/v1/partycourses/getQualifiedCoursesList"
       },
       "response": []
     },
@@ -2014,8 +1855,7 @@
         "method": "*",
         "header": [],
         "body": {},
-        "url": "http://localhost:3000/v1/partycourses/setQualifyCourse",
-        "description": null
+        "url": "http://localhost:3000/v1/partycourses/setQualifyCourse"
       },
       "response": []
     },
@@ -2026,8 +1866,7 @@
         "method": "*",
         "header": [],
         "body": {},
-        "url": "http://localhost:3000/v1/partycourses/suggest",
-        "description": null
+        "url": "http://localhost:3000/v1/partycourses/suggest"
       },
       "response": []
     },
@@ -2038,8 +1877,7 @@
         "method": "*",
         "header": [],
         "body": {},
-        "url": "http://localhost:3000/v1/partycourses/update",
-        "description": null
+        "url": "http://localhost:3000/v1/partycourses/update"
       },
       "response": []
     },
@@ -2050,8 +1888,7 @@
         "method": "*",
         "header": [],
         "body": {},
-        "url": "http://localhost:3000/v1/partycourses/updateCourse",
-        "description": null
+        "url": "http://localhost:3000/v1/partycourses/updateCourse"
       },
       "response": []
     },
@@ -2062,8 +1899,7 @@
         "method": "*",
         "header": [],
         "body": {},
-        "url": "http://localhost:3000/v1/restrictedsecurity/addToLicensedSecurityList",
-        "description": null
+        "url": "http://localhost:3000/v1/restrictedsecurity/addToLicensedSecurityList"
       },
       "response": []
     },
@@ -2074,8 +1910,7 @@
         "method": "*",
         "header": [],
         "body": {},
-        "url": "http://localhost:3000/v1/restrictedsecurity/createOrAddRestrictedList",
-        "description": null
+        "url": "http://localhost:3000/v1/restrictedsecurity/createOrAddRestrictedList"
       },
       "response": []
     },
@@ -2086,8 +1921,7 @@
         "method": "*",
         "header": [],
         "body": {},
-        "url": "http://localhost:3000/v1/restrictedsecurity/getActiveSecurities",
-        "description": null
+        "url": "http://localhost:3000/v1/restrictedsecurity/getActiveSecurities"
       },
       "response": []
     },
@@ -2098,8 +1932,7 @@
         "method": "*",
         "header": [],
         "body": {},
-        "url": "http://localhost:3000/v1/restrictedsecurity/getLicensedSecurityList",
-        "description": null
+        "url": "http://localhost:3000/v1/restrictedsecurity/getLicensedSecurityList"
       },
       "response": []
     },
@@ -2110,8 +1943,7 @@
         "method": "*",
         "header": [],
         "body": {},
-        "url": "http://localhost:3000/v1/restrictedsecurity/listMasterSecurities",
-        "description": null
+        "url": "http://localhost:3000/v1/restrictedsecurity/listMasterSecurities"
       },
       "response": []
     },
@@ -2122,8 +1954,7 @@
         "method": "*",
         "header": [],
         "body": {},
-        "url": "http://localhost:3000/v1/restrictedsecurity/listRestrictedSecurities",
-        "description": null
+        "url": "http://localhost:3000/v1/restrictedsecurity/listRestrictedSecurities"
       },
       "response": []
     },
@@ -2134,8 +1965,7 @@
         "method": "*",
         "header": [],
         "body": {},
-        "url": "http://localhost:3000/v1/restrictedsecurity/loadLastRestrictedSecurities",
-        "description": null
+        "url": "http://localhost:3000/v1/restrictedsecurity/loadLastRestrictedSecurities"
       },
       "response": []
     },
@@ -2146,8 +1976,7 @@
         "method": "*",
         "header": [],
         "body": {},
-        "url": "http://localhost:3000/v1/restrictedsecurity/resetRestrictedSecurity",
-        "description": null
+        "url": "http://localhost:3000/v1/restrictedsecurity/resetRestrictedSecurity"
       },
       "response": []
     },
@@ -2158,8 +1987,7 @@
         "method": "*",
         "header": [],
         "body": {},
-        "url": "http://localhost:3000/v1/restrictedsecurity/reviewRestrictedSecurity",
-        "description": null
+        "url": "http://localhost:3000/v1/restrictedsecurity/reviewRestrictedSecurity"
       },
       "response": []
     },
@@ -2170,8 +1998,7 @@
         "method": "*",
         "header": [],
         "body": {},
-        "url": "http://localhost:3000/v1/role/assignRole",
-        "description": null
+        "url": "http://localhost:3000/v1/role/assignRole"
       },
       "response": []
     },
@@ -2182,8 +2009,7 @@
         "method": "*",
         "header": [],
         "body": {},
-        "url": "http://localhost:3000/v1/role/getRoles",
-        "description": null
+        "url": "http://localhost:3000/v1/role/getRoles"
       },
       "response": []
     },
@@ -2194,8 +2020,7 @@
         "method": "*",
         "header": [],
         "body": {},
-        "url": "http://localhost:3000/v1/staff/addStaffDesignation",
-        "description": null
+        "url": "http://localhost:3000/v1/staff/addStaffDesignation"
       },
       "response": []
     },
@@ -2206,8 +2031,7 @@
         "method": "*",
         "header": [],
         "body": {},
-        "url": "http://localhost:3000/v1/staff/attestStaff",
-        "description": null
+        "url": "http://localhost:3000/v1/staff/attestStaff"
       },
       "response": []
     },
@@ -2218,8 +2042,7 @@
         "method": "*",
         "header": [],
         "body": {},
-        "url": "http://localhost:3000/v1/staff/createAddress",
-        "description": null
+        "url": "http://localhost:3000/v1/staff/createAddress"
       },
       "response": []
     },
@@ -2230,8 +2053,7 @@
         "method": "*",
         "header": [],
         "body": {},
-        "url": "http://localhost:3000/v1/staff/createPartyAlias",
-        "description": null
+        "url": "http://localhost:3000/v1/staff/createPartyAlias"
       },
       "response": []
     },
@@ -2242,8 +2064,7 @@
         "method": "*",
         "header": [],
         "body": {},
-        "url": "http://localhost:3000/v1/staff/createPartyDisclosureDocument",
-        "description": null
+        "url": "http://localhost:3000/v1/staff/createPartyDisclosureDocument"
       },
       "response": []
     },
@@ -2254,8 +2075,7 @@
         "method": "*",
         "header": [],
         "body": {},
-        "url": "http://localhost:3000/v1/staff/createSocialMediaRecord",
-        "description": null
+        "url": "http://localhost:3000/v1/staff/createSocialMediaRecord"
       },
       "response": []
     },
@@ -2266,8 +2086,7 @@
         "method": "*",
         "header": [],
         "body": {},
-        "url": "http://localhost:3000/v1/staff/createStaff",
-        "description": null
+        "url": "http://localhost:3000/v1/staff/createStaff"
       },
       "response": []
     },
@@ -2278,8 +2097,7 @@
         "method": "*",
         "header": [],
         "body": {},
-        "url": "http://localhost:3000/v1/staff/deleteDesignation",
-        "description": null
+        "url": "http://localhost:3000/v1/staff/deleteDesignation"
       },
       "response": []
     },
@@ -2290,8 +2108,7 @@
         "method": "*",
         "header": [],
         "body": {},
-        "url": "http://localhost:3000/v1/staff/deletePartyAlias",
-        "description": null
+        "url": "http://localhost:3000/v1/staff/deletePartyAlias"
       },
       "response": []
     },
@@ -2302,8 +2119,7 @@
         "method": "*",
         "header": [],
         "body": {},
-        "url": "http://localhost:3000/v1/staff/deletePartyDisclosureDocument",
-        "description": null
+        "url": "http://localhost:3000/v1/staff/deletePartyDisclosureDocument"
       },
       "response": []
     },
@@ -2314,8 +2130,7 @@
         "method": "*",
         "header": [],
         "body": {},
-        "url": "http://localhost:3000/v1/staff/deletePartyTradingAccount",
-        "description": null
+        "url": "http://localhost:3000/v1/staff/deletePartyTradingAccount"
       },
       "response": []
     },
@@ -2326,8 +2141,7 @@
         "method": "*",
         "header": [],
         "body": {},
-        "url": "http://localhost:3000/v1/staff/deleteSocialMediaRecord",
-        "description": null
+        "url": "http://localhost:3000/v1/staff/deleteSocialMediaRecord"
       },
       "response": []
     },
@@ -2338,8 +2152,7 @@
         "method": "*",
         "header": [],
         "body": {},
-        "url": "http://localhost:3000/v1/staff/deleteStaff",
-        "description": null
+        "url": "http://localhost:3000/v1/staff/deleteStaff"
       },
       "response": []
     },
@@ -2350,8 +2163,7 @@
         "method": "*",
         "header": [],
         "body": {},
-        "url": "http://localhost:3000/v1/staff/deleteStaffRegistrationDocs",
-        "description": null
+        "url": "http://localhost:3000/v1/staff/deleteStaffRegistrationDocs"
       },
       "response": []
     },
@@ -2362,8 +2174,7 @@
         "method": "*",
         "header": [],
         "body": {},
-        "url": "http://localhost:3000/v1/staff/deleteTradeRelation",
-        "description": null
+        "url": "http://localhost:3000/v1/staff/deleteTradeRelation"
       },
       "response": []
     },
@@ -2374,8 +2185,7 @@
         "method": "*",
         "header": [],
         "body": {},
-        "url": "http://localhost:3000/v1/staff/getDropDownData",
-        "description": null
+        "url": "http://localhost:3000/v1/staff/getDropDownData"
       },
       "response": []
     },
@@ -2386,8 +2196,7 @@
         "method": "*",
         "header": [],
         "body": {},
-        "url": "http://localhost:3000/v1/staff/getReferenceDataParty",
-        "description": null
+        "url": "http://localhost:3000/v1/staff/getReferenceDataParty"
       },
       "response": []
     },
@@ -2398,8 +2207,7 @@
         "method": "*",
         "header": [],
         "body": {},
-        "url": "http://localhost:3000/v1/staff/getStaffDetails",
-        "description": null
+        "url": "http://localhost:3000/v1/staff/getStaffDetails"
       },
       "response": []
     },
@@ -2410,8 +2218,7 @@
         "method": "*",
         "header": [],
         "body": {},
-        "url": "http://localhost:3000/v1/staff/getStaffList",
-        "description": null
+        "url": "http://localhost:3000/v1/staff/getStaffList"
       },
       "response": []
     },
@@ -2422,8 +2229,7 @@
         "method": "*",
         "header": [],
         "body": {},
-        "url": "http://localhost:3000/v1/staff/getStaffMemberData",
-        "description": null
+        "url": "http://localhost:3000/v1/staff/getStaffMemberData"
       },
       "response": []
     },
@@ -2434,8 +2240,7 @@
         "method": "*",
         "header": [],
         "body": {},
-        "url": "http://localhost:3000/v1/staff/getStaffPartyDetails",
-        "description": null
+        "url": "http://localhost:3000/v1/staff/getStaffPartyDetails"
       },
       "response": []
     },
@@ -2446,8 +2251,7 @@
         "method": "*",
         "header": [],
         "body": {},
-        "url": "http://localhost:3000/v1/staff/getStaffPartyDisclosure",
-        "description": null
+        "url": "http://localhost:3000/v1/staff/getStaffPartyDisclosure"
       },
       "response": []
     },
@@ -2458,8 +2262,7 @@
         "method": "*",
         "header": [],
         "body": {},
-        "url": "http://localhost:3000/v1/staff/getStaffProfile",
-        "description": null
+        "url": "http://localhost:3000/v1/staff/getStaffProfile"
       },
       "response": []
     },
@@ -2470,8 +2273,7 @@
         "method": "*",
         "header": [],
         "body": {},
-        "url": "http://localhost:3000/v1/staff/registeredStaffGeneratePromisesList",
-        "description": null
+        "url": "http://localhost:3000/v1/staff/registeredStaffGeneratePromisesList"
       },
       "response": []
     },
@@ -2482,8 +2284,7 @@
         "method": "*",
         "header": [],
         "body": {},
-        "url": "http://localhost:3000/v1/staff/savePartyTradingAccount",
-        "description": null
+        "url": "http://localhost:3000/v1/staff/savePartyTradingAccount"
       },
       "response": []
     },
@@ -2494,8 +2295,7 @@
         "method": "*",
         "header": [],
         "body": {},
-        "url": "http://localhost:3000/v1/staff/updateAddress",
-        "description": null
+        "url": "http://localhost:3000/v1/staff/updateAddress"
       },
       "response": []
     },
@@ -2506,8 +2306,7 @@
         "method": "*",
         "header": [],
         "body": {},
-        "url": "http://localhost:3000/v1/staff/updatePartyAlias",
-        "description": null
+        "url": "http://localhost:3000/v1/staff/updatePartyAlias"
       },
       "response": []
     },
@@ -2518,8 +2317,7 @@
         "method": "*",
         "header": [],
         "body": {},
-        "url": "http://localhost:3000/v1/staff/updatePartyCondition",
-        "description": null
+        "url": "http://localhost:3000/v1/staff/updatePartyCondition"
       },
       "response": []
     },
@@ -2530,8 +2328,7 @@
         "method": "*",
         "header": [],
         "body": {},
-        "url": "http://localhost:3000/v1/staff/updatePartyDisclosure",
-        "description": null
+        "url": "http://localhost:3000/v1/staff/updatePartyDisclosure"
       },
       "response": []
     },
@@ -2542,8 +2339,7 @@
         "method": "*",
         "header": [],
         "body": {},
-        "url": "http://localhost:3000/v1/staff/updatePartyLanguage",
-        "description": null
+        "url": "http://localhost:3000/v1/staff/updatePartyLanguage"
       },
       "response": []
     },
@@ -2554,8 +2350,7 @@
         "method": "*",
         "header": [],
         "body": {},
-        "url": "http://localhost:3000/v1/staff/updatePartyTradingAccount",
-        "description": null
+        "url": "http://localhost:3000/v1/staff/updatePartyTradingAccount"
       },
       "response": []
     },
@@ -2566,8 +2361,7 @@
         "method": "*",
         "header": [],
         "body": {},
-        "url": "http://localhost:3000/v1/staff/updateRegisteredStaffCorporateDetail",
-        "description": null
+        "url": "http://localhost:3000/v1/staff/updateRegisteredStaffCorporateDetail"
       },
       "response": []
     },
@@ -2578,8 +2372,7 @@
         "method": "*",
         "header": [],
         "body": {},
-        "url": "http://localhost:3000/v1/staff/updateSocialMediaStatus",
-        "description": null
+        "url": "http://localhost:3000/v1/staff/updateSocialMediaStatus"
       },
       "response": []
     },
@@ -2590,8 +2383,7 @@
         "method": "*",
         "header": [],
         "body": {},
-        "url": "http://localhost:3000/v1/staff/updateStaff",
-        "description": null
+        "url": "http://localhost:3000/v1/staff/updateStaff"
       },
       "response": []
     },
@@ -2602,8 +2394,7 @@
         "method": "*",
         "header": [],
         "body": {},
-        "url": "http://localhost:3000/v1/staff/updateStaffDesignation",
-        "description": null
+        "url": "http://localhost:3000/v1/staff/updateStaffDesignation"
       },
       "response": []
     },
@@ -2614,8 +2405,7 @@
         "method": "*",
         "header": [],
         "body": {},
-        "url": "http://localhost:3000/v1/staffmember/configureStaffMemberUpdates",
-        "description": null
+        "url": "http://localhost:3000/v1/staffmember/configureStaffMemberUpdates"
       },
       "response": []
     },
@@ -2626,8 +2416,7 @@
         "method": "*",
         "header": [],
         "body": {},
-        "url": "http://localhost:3000/v1/staffmember/findAssociationsToInclude",
-        "description": null
+        "url": "http://localhost:3000/v1/staffmember/findAssociationsToInclude"
       },
       "response": []
     },
@@ -2638,8 +2427,7 @@
         "method": "*",
         "header": [],
         "body": {},
-        "url": "http://localhost:3000/v1/staffmember/findChangedFields",
-        "description": null
+        "url": "http://localhost:3000/v1/staffmember/findChangedFields"
       },
       "response": []
     },
@@ -2650,8 +2438,7 @@
         "method": "*",
         "header": [],
         "body": {},
-        "url": "http://localhost:3000/v1/staffmember/getPersonalTradingAccountList",
-        "description": null
+        "url": "http://localhost:3000/v1/staffmember/getPersonalTradingAccountList"
       },
       "response": []
     },
@@ -2662,8 +2449,7 @@
         "method": "*",
         "header": [],
         "body": {},
-        "url": "http://localhost:3000/v1/staffmember/getStaffMemberDetails",
-        "description": null
+        "url": "http://localhost:3000/v1/staffmember/getStaffMemberDetails"
       },
       "response": []
     },
@@ -2674,8 +2460,7 @@
         "method": "*",
         "header": [],
         "body": {},
-        "url": "http://localhost:3000/v1/staffmember/getStaffMemberUpdatesList",
-        "description": null
+        "url": "http://localhost:3000/v1/staffmember/getStaffMemberUpdatesList"
       },
       "response": []
     },
@@ -2686,8 +2471,7 @@
         "method": "*",
         "header": [],
         "body": {},
-        "url": "http://localhost:3000/v1/staffmember/prepareUpdateStoreForAddress",
-        "description": null
+        "url": "http://localhost:3000/v1/staffmember/prepareUpdateStoreForAddress"
       },
       "response": []
     },
@@ -2698,8 +2482,7 @@
         "method": "*",
         "header": [],
         "body": {},
-        "url": "http://localhost:3000/v1/staffmember/prepareUpdateStoreForAlias",
-        "description": null
+        "url": "http://localhost:3000/v1/staffmember/prepareUpdateStoreForAlias"
       },
       "response": []
     },
@@ -2710,8 +2493,7 @@
         "method": "*",
         "header": [],
         "body": {},
-        "url": "http://localhost:3000/v1/staffmember/prepareUpdateStoreForDesignation",
-        "description": null
+        "url": "http://localhost:3000/v1/staffmember/prepareUpdateStoreForDesignation"
       },
       "response": []
     },
@@ -2722,8 +2504,7 @@
         "method": "*",
         "header": [],
         "body": {},
-        "url": "http://localhost:3000/v1/staffmember/prepareUpdateStoreForDisclosure",
-        "description": null
+        "url": "http://localhost:3000/v1/staffmember/prepareUpdateStoreForDisclosure"
       },
       "response": []
     },
@@ -2734,8 +2515,7 @@
         "method": "*",
         "header": [],
         "body": {},
-        "url": "http://localhost:3000/v1/staffmember/prepareUpdateStoreForPersonalTradingAccount",
-        "description": null
+        "url": "http://localhost:3000/v1/staffmember/prepareUpdateStoreForPersonalTradingAccount"
       },
       "response": []
     },
@@ -2746,8 +2526,7 @@
         "method": "*",
         "header": [],
         "body": {},
-        "url": "http://localhost:3000/v1/staffmember/prepareUpdateStoreForRegisteredStaff",
-        "description": null
+        "url": "http://localhost:3000/v1/staffmember/prepareUpdateStoreForRegisteredStaff"
       },
       "response": []
     },
@@ -2758,8 +2537,7 @@
         "method": "*",
         "header": [],
         "body": {},
-        "url": "http://localhost:3000/v1/staffmember/prepareUpdateStoreForSocialMedia",
-        "description": null
+        "url": "http://localhost:3000/v1/staffmember/prepareUpdateStoreForSocialMedia"
       },
       "response": []
     },
@@ -2770,8 +2548,7 @@
         "method": "*",
         "header": [],
         "body": {},
-        "url": "http://localhost:3000/v1/staffmember/prepareUpdateStoreForStaffRegistration",
-        "description": null
+        "url": "http://localhost:3000/v1/staffmember/prepareUpdateStoreForStaffRegistration"
       },
       "response": []
     },
@@ -2782,8 +2559,7 @@
         "method": "*",
         "header": [],
         "body": {},
-        "url": "http://localhost:3000/v1/staffmember/prepareUpdateStoreForSuspiciousTransaction",
-        "description": null
+        "url": "http://localhost:3000/v1/staffmember/prepareUpdateStoreForSuspiciousTransaction"
       },
       "response": []
     },
@@ -2794,8 +2570,7 @@
         "method": "*",
         "header": [],
         "body": {},
-        "url": "http://localhost:3000/v1/staffmember/saveUpdateRequest",
-        "description": null
+        "url": "http://localhost:3000/v1/staffmember/saveUpdateRequest"
       },
       "response": []
     },
@@ -2806,8 +2581,7 @@
         "method": "*",
         "header": [],
         "body": {},
-        "url": "http://localhost:3000/v1/staffmember/uploadPartyDisclosuresDocuments",
-        "description": null
+        "url": "http://localhost:3000/v1/staffmember/uploadPartyDisclosuresDocuments"
       },
       "response": []
     },
@@ -2818,8 +2592,7 @@
         "method": "*",
         "header": [],
         "body": {},
-        "url": "http://localhost:3000/v1/staffmember/uploadPartyTradingDocuments",
-        "description": null
+        "url": "http://localhost:3000/v1/staffmember/uploadPartyTradingDocuments"
       },
       "response": []
     },
@@ -2830,8 +2603,7 @@
         "method": "*",
         "header": [],
         "body": {},
-        "url": "http://localhost:3000/v1/staffmember/uploadStaffDesignationDocuments",
-        "description": null
+        "url": "http://localhost:3000/v1/staffmember/uploadStaffDesignationDocuments"
       },
       "response": []
     },
@@ -2842,8 +2614,7 @@
         "method": "*",
         "header": [],
         "body": {},
-        "url": "http://localhost:3000/v1/staffmember/uploadStaffRegistrationDocuments",
-        "description": null
+        "url": "http://localhost:3000/v1/staffmember/uploadStaffRegistrationDocuments"
       },
       "response": []
     },
@@ -2854,8 +2625,7 @@
         "method": "*",
         "header": [],
         "body": {},
-        "url": "http://localhost:3000/v1/traderequest/configureTradeRequests",
-        "description": null
+        "url": "http://localhost:3000/v1/traderequest/configureTradeRequests"
       },
       "response": []
     },
@@ -2866,8 +2636,7 @@
         "method": "*",
         "header": [],
         "body": {},
-        "url": "http://localhost:3000/v1/traderequest/createTradeRequest",
-        "description": null
+        "url": "http://localhost:3000/v1/traderequest/createTradeRequest"
       },
       "response": []
     },
@@ -2878,8 +2647,7 @@
         "method": "*",
         "header": [],
         "body": {},
-        "url": "http://localhost:3000/v1/traderequest/listTradeRequests",
-        "description": null
+        "url": "http://localhost:3000/v1/traderequest/listTradeRequests"
       },
       "response": []
     },
@@ -2890,8 +2658,7 @@
         "method": "*",
         "header": [],
         "body": {},
-        "url": "http://localhost:3000/v1/tradinginstitution/addToLicensedTradingInstitutionList",
-        "description": null
+        "url": "http://localhost:3000/v1/tradinginstitution/addToLicensedTradingInstitutionList"
       },
       "response": []
     },
@@ -2902,8 +2669,7 @@
         "method": "*",
         "header": [],
         "body": {},
-        "url": "http://localhost:3000/v1/tradinginstitution/getActiveTradingInstitutions",
-        "description": null
+        "url": "http://localhost:3000/v1/tradinginstitution/getActiveTradingInstitutions"
       },
       "response": []
     },
@@ -2914,8 +2680,7 @@
         "method": "*",
         "header": [],
         "body": {},
-        "url": "http://localhost:3000/v1/tradinginstitution/getLicensedTradingList",
-        "description": null
+        "url": "http://localhost:3000/v1/tradinginstitution/getLicensedTradingList"
       },
       "response": []
     },
@@ -2926,8 +2691,7 @@
         "method": "*",
         "header": [],
         "body": {},
-        "url": "http://localhost:3000/v1/tradinginstitution/getMasterTradingInstitutionList",
-        "description": null
+        "url": "http://localhost:3000/v1/tradinginstitution/getMasterTradingInstitutionList"
       },
       "response": []
     },
@@ -2938,8 +2702,7 @@
         "method": "*",
         "header": [],
         "body": {},
-        "url": "http://localhost:3000/v1/view/apiExplorer",
-        "description": null
+        "url": "http://localhost:3000/v1/view/apiExplorer"
       },
       "response": []
     },
@@ -2950,8 +2713,7 @@
         "method": "*",
         "header": [],
         "body": {},
-        "url": "http://localhost:3000/v1/view/changePassword",
-        "description": null
+        "url": "http://localhost:3000/v1/view/changePassword"
       },
       "response": []
     },
@@ -2962,8 +2724,7 @@
         "method": "*",
         "header": [],
         "body": {},
-        "url": "http://localhost:3000/v1/view/getDocuments",
-        "description": null
+        "url": "http://localhost:3000/v1/view/getDocuments"
       },
       "response": []
     },
@@ -2974,8 +2735,7 @@
         "method": "*",
         "header": [],
         "body": {},
-        "url": "http://localhost:3000/v1/view/getMedia",
-        "description": null
+        "url": "http://localhost:3000/v1/view/getMedia"
       },
       "response": []
     },
@@ -2986,8 +2746,7 @@
         "method": "*",
         "header": [],
         "body": {},
-        "url": "http://localhost:3000/v1/view/getSequenceNumber",
-        "description": null
+        "url": "http://localhost:3000/v1/view/getSequenceNumber"
       },
       "response": []
     },
@@ -2998,8 +2757,7 @@
         "method": "*",
         "header": [],
         "body": {},
-        "url": "http://localhost:3000/v1/view/helloWorld",
-        "description": null
+        "url": "http://localhost:3000/v1/view/helloWorld"
       },
       "response": []
     },
@@ -3010,8 +2768,7 @@
         "method": "*",
         "header": [],
         "body": {},
-        "url": "http://localhost:3000/v1/view/manageTr",
-        "description": null
+        "url": "http://localhost:3000/v1/view/manageTr"
       },
       "response": []
     },
@@ -3022,8 +2779,7 @@
         "method": "*",
         "header": [],
         "body": {},
-        "url": "http://localhost:3000/v1/view/serveApiJsonFile",
-        "description": null
+        "url": "http://localhost:3000/v1/view/serveApiJsonFile"
       },
       "response": []
     },
@@ -3034,8 +2790,7 @@
         "method": "*",
         "header": [],
         "body": {},
-        "url": "http://localhost:3000/v1/view/unmanageTr",
-        "description": null
+        "url": "http://localhost:3000/v1/view/unmanageTr"
       },
       "response": []
     },
@@ -3046,8 +2801,7 @@
         "method": "post",
         "header": [],
         "body": {},
-        "url": "http://localhost:3000/v1/{model}",
-        "description": null
+        "url": "http://localhost:3000/v1/{model}"
       },
       "response": []
     },
@@ -3058,8 +2812,7 @@
         "method": "post",
         "header": [],
         "body": {},
-        "url": "http://localhost:3000/v1/accrbodies/",
-        "description": null
+        "url": "http://localhost:3000/v1/accrbodies/"
       },
       "response": []
     },
@@ -3070,8 +2823,7 @@
         "method": "post",
         "header": [],
         "body": {},
-        "url": "http://localhost:3000/v1/staffaudit/",
-        "description": null
+        "url": "http://localhost:3000/v1/staffaudit/"
       },
       "response": []
     },
@@ -3082,8 +2834,7 @@
         "method": "post",
         "header": [],
         "body": {},
-        "url": "http://localhost:3000/v1/accrbody/create/",
-        "description": null
+        "url": "http://localhost:3000/v1/accrbody/create/"
       },
       "response": []
     },
@@ -3094,8 +2845,7 @@
         "method": "post",
         "header": [],
         "body": {},
-        "url": "http://localhost:3000/v1/accrbodypart/create/",
-        "description": null
+        "url": "http://localhost:3000/v1/accrbodypart/create/"
       },
       "response": []
     },
@@ -3106,8 +2856,7 @@
         "method": "post",
         "header": [],
         "body": {},
-        "url": "http://localhost:3000/v1/address/create/",
-        "description": null
+        "url": "http://localhost:3000/v1/address/create/"
       },
       "response": []
     },
@@ -3118,8 +2867,7 @@
         "method": "post",
         "header": [],
         "body": {},
-        "url": "http://localhost:3000/v1/cecourse/add/",
-        "description": null
+        "url": "http://localhost:3000/v1/cecourse/add/"
       },
       "response": []
     },
@@ -3130,8 +2878,7 @@
         "method": "post",
         "header": [],
         "body": {},
-        "url": "http://localhost:3000/v1/cecourses/create/",
-        "description": null
+        "url": "http://localhost:3000/v1/cecourses/create/"
       },
       "response": []
     },
@@ -3142,8 +2889,7 @@
         "method": "post",
         "header": [],
         "body": {},
-        "url": "http://localhost:3000/v1/cecycle/create/",
-        "description": null
+        "url": "http://localhost:3000/v1/cecycle/create/"
       },
       "response": []
     },
@@ -3154,8 +2900,7 @@
         "method": "post",
         "header": [],
         "body": {},
-        "url": "http://localhost:3000/v1/ceprovider/create/",
-        "description": null
+        "url": "http://localhost:3000/v1/ceprovider/create/"
       },
       "response": []
     },
@@ -3166,8 +2911,7 @@
         "method": "post",
         "header": [],
         "body": {},
-        "url": "http://localhost:3000/v1/cerequirement/create/",
-        "description": null
+        "url": "http://localhost:3000/v1/cerequirement/create/"
       },
       "response": []
     },
@@ -3178,8 +2922,7 @@
         "method": "post",
         "header": [],
         "body": {},
-        "url": "http://localhost:3000/v1/change/password/",
-        "description": null
+        "url": "http://localhost:3000/v1/change/password/"
       },
       "response": []
     },
@@ -3190,8 +2933,7 @@
         "method": "post",
         "header": [],
         "body": {},
-        "url": "http://localhost:3000/v1/course/add/",
-        "description": null
+        "url": "http://localhost:3000/v1/course/add/"
       },
       "response": []
     },
@@ -3202,8 +2944,7 @@
         "method": "post",
         "header": [],
         "body": {},
-        "url": "http://localhost:3000/v1/course/reminder/",
-        "description": null
+        "url": "http://localhost:3000/v1/course/reminder/"
       },
       "response": []
     },
@@ -3214,8 +2955,7 @@
         "method": "post",
         "header": [],
         "body": {},
-        "url": "http://localhost:3000/v1/course/suggest/",
-        "description": null
+        "url": "http://localhost:3000/v1/course/suggest/"
       },
       "response": []
     },
@@ -3226,8 +2966,7 @@
         "method": "post",
         "header": [],
         "body": {},
-        "url": "http://localhost:3000/v1/incidentcomplaint/create/",
-        "description": null
+        "url": "http://localhost:3000/v1/incidentcomplaint/create/"
       },
       "response": []
     },
@@ -3238,8 +2977,7 @@
         "method": "post",
         "header": [],
         "body": {},
-        "url": "http://localhost:3000/v1/incidentcomplaintdocs/create/",
-        "description": null
+        "url": "http://localhost:3000/v1/incidentcomplaintdocs/create/"
       },
       "response": []
     },
@@ -3250,8 +2988,7 @@
         "method": "post",
         "header": [],
         "body": {},
-        "url": "http://localhost:3000/v1/incidentcomplaintstaff/create/",
-        "description": null
+        "url": "http://localhost:3000/v1/incidentcomplaintstaff/create/"
       },
       "response": []
     },
@@ -3262,8 +2999,7 @@
         "method": "post",
         "header": [],
         "body": {},
-        "url": "http://localhost:3000/v1/incidentcomplaintstaff/update/",
-        "description": null
+        "url": "http://localhost:3000/v1/incidentcomplaintstaff/update/"
       },
       "response": []
     },
@@ -3274,8 +3010,7 @@
         "method": "post",
         "header": [],
         "body": {},
-        "url": "http://localhost:3000/v1/license/create/",
-        "description": null
+        "url": "http://localhost:3000/v1/license/create/"
       },
       "response": []
     },
@@ -3286,8 +3021,7 @@
         "method": "post",
         "header": [],
         "body": {},
-        "url": "http://localhost:3000/v1/license/update/",
-        "description": null
+        "url": "http://localhost:3000/v1/license/update/"
       },
       "response": []
     },
@@ -3298,8 +3032,7 @@
         "method": "post",
         "header": [],
         "body": {},
-        "url": "http://localhost:3000/v1/licensedsecurities/create/",
-        "description": null
+        "url": "http://localhost:3000/v1/licensedsecurities/create/"
       },
       "response": []
     },
@@ -3310,8 +3043,7 @@
         "method": "post",
         "header": [],
         "body": {},
-        "url": "http://localhost:3000/v1/licensedtradings/create/",
-        "description": null
+        "url": "http://localhost:3000/v1/licensedtradings/create/"
       },
       "response": []
     },
@@ -3322,8 +3054,7 @@
         "method": "post",
         "header": [],
         "body": {},
-        "url": "http://localhost:3000/v1/party/create/",
-        "description": null
+        "url": "http://localhost:3000/v1/party/create/"
       },
       "response": []
     },
@@ -3334,8 +3065,7 @@
         "method": "post",
         "header": [],
         "body": {},
-        "url": "http://localhost:3000/v1/partymessage/create/",
-        "description": null
+        "url": "http://localhost:3000/v1/partymessage/create/"
       },
       "response": []
     },
@@ -3346,8 +3076,7 @@
         "method": "post",
         "header": [],
         "body": {},
-        "url": "http://localhost:3000/v1/qualifycourse/add/",
-        "description": null
+        "url": "http://localhost:3000/v1/qualifycourse/add/"
       },
       "response": []
     },
@@ -3358,8 +3087,7 @@
         "method": "post",
         "header": [],
         "body": {},
-        "url": "http://localhost:3000/v1/restrictedsecurities/configure/",
-        "description": null
+        "url": "http://localhost:3000/v1/restrictedsecurities/configure/"
       },
       "response": []
     },
@@ -3370,8 +3098,7 @@
         "method": "post",
         "header": [],
         "body": {},
-        "url": "http://localhost:3000/v1/role/assign/",
-        "description": null
+        "url": "http://localhost:3000/v1/role/assign/"
       },
       "response": []
     },
@@ -3382,8 +3109,7 @@
         "method": "post",
         "header": [],
         "body": {},
-        "url": "http://localhost:3000/v1/socialmedia/create/",
-        "description": null
+        "url": "http://localhost:3000/v1/socialmedia/create/"
       },
       "response": []
     },
@@ -3394,8 +3120,7 @@
         "method": "post",
         "header": [],
         "body": {},
-        "url": "http://localhost:3000/v1/staff/attest/",
-        "description": null
+        "url": "http://localhost:3000/v1/staff/attest/"
       },
       "response": []
     },
@@ -3406,8 +3131,7 @@
         "method": "post",
         "header": [],
         "body": {},
-        "url": "http://localhost:3000/v1/staff/bulkupload/",
-        "description": null
+        "url": "http://localhost:3000/v1/staff/bulkupload/"
       },
       "response": []
     },
@@ -3418,8 +3142,7 @@
         "method": "post",
         "header": [],
         "body": {},
-        "url": "http://localhost:3000/v1/staff/checkuser/",
-        "description": null
+        "url": "http://localhost:3000/v1/staff/checkuser/"
       },
       "response": []
     },
@@ -3430,8 +3153,7 @@
         "method": "post",
         "header": [],
         "body": {},
-        "url": "http://localhost:3000/v1/staff/create/",
-        "description": null
+        "url": "http://localhost:3000/v1/staff/create/"
       },
       "response": []
     },
@@ -3442,8 +3164,7 @@
         "method": "post",
         "header": [],
         "body": {},
-        "url": "http://localhost:3000/v1/staff/getpartydisclosure/",
-        "description": null
+        "url": "http://localhost:3000/v1/staff/getpartydisclosure/"
       },
       "response": []
     },
@@ -3454,8 +3175,7 @@
         "method": "post",
         "header": [],
         "body": {},
-        "url": "http://localhost:3000/v1/staffdesignation/add/",
-        "description": null
+        "url": "http://localhost:3000/v1/staffdesignation/add/"
       },
       "response": []
     },
@@ -3466,8 +3186,7 @@
         "method": "post",
         "header": [],
         "body": {},
-        "url": "http://localhost:3000/v1/staffdesignation/update/",
-        "description": null
+        "url": "http://localhost:3000/v1/staffdesignation/update/"
       },
       "response": []
     },
@@ -3478,8 +3197,7 @@
         "method": "post",
         "header": [],
         "body": {},
-        "url": "http://localhost:3000/v1/stafftrade/create/",
-        "description": null
+        "url": "http://localhost:3000/v1/stafftrade/create/"
       },
       "response": []
     },
@@ -3490,8 +3208,7 @@
         "method": "post",
         "header": [],
         "body": {},
-        "url": "http://localhost:3000/v1/traderequest/create/",
-        "description": null
+        "url": "http://localhost:3000/v1/traderequest/create/"
       },
       "response": []
     },
@@ -3502,8 +3219,7 @@
         "method": "post",
         "header": [],
         "body": {},
-        "url": "http://localhost:3000/v1/tradingaccount/create/",
-        "description": null
+        "url": "http://localhost:3000/v1/tradingaccount/create/"
       },
       "response": []
     },
@@ -3514,8 +3230,7 @@
         "method": "post",
         "header": [],
         "body": {},
-        "url": "http://localhost:3000/v1/user/login/",
-        "description": null
+        "url": "http://localhost:3000/v1/user/login/"
       },
       "response": []
     },
@@ -3526,8 +3241,7 @@
         "method": "post",
         "header": [],
         "body": {},
-        "url": "http://localhost:3000/v1/{type}/password/",
-        "description": null
+        "url": "http://localhost:3000/v1/{type}/password/"
       },
       "response": []
     },
@@ -3538,8 +3252,7 @@
         "method": "post",
         "header": [],
         "body": {},
-        "url": "http://localhost:3000/v1/{parentModel}/{parentId}/{childAttribute}",
-        "description": null
+        "url": "http://localhost:3000/v1/{parentModel}/{parentId}/{childAttribute}"
       },
       "response": []
     },
@@ -3550,8 +3263,7 @@
         "method": "post",
         "header": [],
         "body": {},
-        "url": "http://localhost:3000/v1/disclosure/document/create/",
-        "description": null
+        "url": "http://localhost:3000/v1/disclosure/document/create/"
       },
       "response": []
     },
@@ -3562,8 +3274,7 @@
         "method": "post",
         "header": [],
         "body": {},
-        "url": "http://localhost:3000/v1/license/policies/save/",
-        "description": null
+        "url": "http://localhost:3000/v1/license/policies/save/"
       },
       "response": []
     },
@@ -3574,8 +3285,7 @@
         "method": "post",
         "header": [],
         "body": {},
-        "url": "http://localhost:3000/v1/license/user/create/",
-        "description": null
+        "url": "http://localhost:3000/v1/license/user/create/"
       },
       "response": []
     },
@@ -3586,8 +3296,7 @@
         "method": "post",
         "header": [],
         "body": {},
-        "url": "http://localhost:3000/v1/party/alias/create/",
-        "description": null
+        "url": "http://localhost:3000/v1/party/alias/create/"
       },
       "response": []
     },
@@ -3598,8 +3307,7 @@
         "method": "post",
         "header": [],
         "body": {},
-        "url": "http://localhost:3000/v1/restrictedsecurities/review/{tradeRequestId}/",
-        "description": null
+        "url": "http://localhost:3000/v1/restrictedsecurities/review/{tradeRequestId}/"
       },
       "response": []
     },
@@ -3610,8 +3318,7 @@
         "method": "post",
         "header": [],
         "body": {},
-        "url": "http://localhost:3000/v1/staff/member/update/",
-        "description": null
+        "url": "http://localhost:3000/v1/staff/member/update/"
       },
       "response": []
     },
@@ -3622,8 +3329,7 @@
         "method": "post",
         "header": [],
         "body": {},
-        "url": "http://localhost:3000/v1/{type}/password/bulk/",
-        "description": null
+        "url": "http://localhost:3000/v1/{type}/password/bulk/"
       },
       "response": []
     },
@@ -3634,8 +3340,7 @@
         "method": "post",
         "header": [],
         "body": {},
-        "url": "http://localhost:3000/v1/staff/member/desigdocs/save/",
-        "description": null
+        "url": "http://localhost:3000/v1/staff/member/desigdocs/save/"
       },
       "response": []
     },
@@ -3646,8 +3351,7 @@
         "method": "post",
         "header": [],
         "body": {},
-        "url": "http://localhost:3000/v1/staff/member/disclosures/save/",
-        "description": null
+        "url": "http://localhost:3000/v1/staff/member/disclosures/save/"
       },
       "response": []
     },
@@ -3658,8 +3362,7 @@
         "method": "post",
         "header": [],
         "body": {},
-        "url": "http://localhost:3000/v1/staff/member/partytradingdocuments/save/",
-        "description": null
+        "url": "http://localhost:3000/v1/staff/member/partytradingdocuments/save/"
       },
       "response": []
     },
@@ -3670,8 +3373,7 @@
         "method": "post",
         "header": [],
         "body": {},
-        "url": "http://localhost:3000/v1/staff/member/staffdocs/save/",
-        "description": null
+        "url": "http://localhost:3000/v1/staff/member/staffdocs/save/"
       },
       "response": []
     },
@@ -3682,8 +3384,7 @@
         "method": "post",
         "header": [],
         "body": {},
-        "url": "http://localhost:3000/v1/staff/member/updates/configure/",
-        "description": null
+        "url": "http://localhost:3000/v1/staff/member/updates/configure/"
       },
       "response": []
     },
@@ -3712,8 +3413,7 @@
               "value": null
             }
           ]
-        },
-        "description": null
+        }
       },
       "response": []
     },
@@ -3724,8 +3424,7 @@
         "method": "put",
         "header": [],
         "body": {},
-        "url": "http://localhost:3000/v1/accrbody/update/",
-        "description": null
+        "url": "http://localhost:3000/v1/accrbody/update/"
       },
       "response": []
     },
@@ -3736,8 +3435,7 @@
         "method": "put",
         "header": [],
         "body": {},
-        "url": "http://localhost:3000/v1/accrbodypart/update/",
-        "description": null
+        "url": "http://localhost:3000/v1/accrbodypart/update/"
       },
       "response": []
     },
@@ -3748,8 +3446,7 @@
         "method": "put",
         "header": [],
         "body": {},
-        "url": "http://localhost:3000/v1/address/update/",
-        "description": null
+        "url": "http://localhost:3000/v1/address/update/"
       },
       "response": []
     },
@@ -3760,8 +3457,7 @@
         "method": "put",
         "header": [],
         "body": {},
-        "url": "http://localhost:3000/v1/cecourse/edit/",
-        "description": null
+        "url": "http://localhost:3000/v1/cecourse/edit/"
       },
       "response": []
     },
@@ -3772,8 +3468,7 @@
         "method": "put",
         "header": [],
         "body": {},
-        "url": "http://localhost:3000/v1/cecourses/update/",
-        "description": null
+        "url": "http://localhost:3000/v1/cecourses/update/"
       },
       "response": []
     },
@@ -3784,8 +3479,7 @@
         "method": "put",
         "header": [],
         "body": {},
-        "url": "http://localhost:3000/v1/cecycle/update/",
-        "description": null
+        "url": "http://localhost:3000/v1/cecycle/update/"
       },
       "response": []
     },
@@ -3796,8 +3490,7 @@
         "method": "put",
         "header": [],
         "body": {},
-        "url": "http://localhost:3000/v1/ceprovider/update/",
-        "description": null
+        "url": "http://localhost:3000/v1/ceprovider/update/"
       },
       "response": []
     },
@@ -3808,8 +3501,7 @@
         "method": "put",
         "header": [],
         "body": {},
-        "url": "http://localhost:3000/v1/cerequirement/update/",
-        "description": null
+        "url": "http://localhost:3000/v1/cerequirement/update/"
       },
       "response": []
     },
@@ -3820,8 +3512,7 @@
         "method": "put",
         "header": [],
         "body": {},
-        "url": "http://localhost:3000/v1/cetrackerdetails/exempt/",
-        "description": null
+        "url": "http://localhost:3000/v1/cetrackerdetails/exempt/"
       },
       "response": []
     },
@@ -3832,8 +3523,7 @@
         "method": "put",
         "header": [],
         "body": {},
-        "url": "http://localhost:3000/v1/change/password/",
-        "description": null
+        "url": "http://localhost:3000/v1/change/password/"
       },
       "response": []
     },
@@ -3844,8 +3534,7 @@
         "method": "put",
         "header": [],
         "body": {},
-        "url": "http://localhost:3000/v1/conditions/update/",
-        "description": null
+        "url": "http://localhost:3000/v1/conditions/update/"
       },
       "response": []
     },
@@ -3856,8 +3545,7 @@
         "method": "put",
         "header": [],
         "body": {},
-        "url": "http://localhost:3000/v1/course/update/",
-        "description": null
+        "url": "http://localhost:3000/v1/course/update/"
       },
       "response": []
     },
@@ -3868,8 +3556,7 @@
         "method": "put",
         "header": [],
         "body": {},
-        "url": "http://localhost:3000/v1/disclosure/update/",
-        "description": null
+        "url": "http://localhost:3000/v1/disclosure/update/"
       },
       "response": []
     },
@@ -3880,8 +3567,7 @@
         "method": "put",
         "header": [],
         "body": {},
-        "url": "http://localhost:3000/v1/incidentcomplaint/update/",
-        "description": null
+        "url": "http://localhost:3000/v1/incidentcomplaint/update/"
       },
       "response": []
     },
@@ -3892,8 +3578,7 @@
         "method": "put",
         "header": [],
         "body": {},
-        "url": "http://localhost:3000/v1/incidentcomplaintdisciplinary/update/",
-        "description": null
+        "url": "http://localhost:3000/v1/incidentcomplaintdisciplinary/update/"
       },
       "response": []
     },
@@ -3904,8 +3589,7 @@
         "method": "put",
         "header": [],
         "body": {},
-        "url": "http://localhost:3000/v1/oauth/token/",
-        "description": null
+        "url": "http://localhost:3000/v1/oauth/token/"
       },
       "response": []
     },
@@ -3916,8 +3600,7 @@
         "method": "put",
         "header": [],
         "body": {},
-        "url": "http://localhost:3000/v1/party/update/",
-        "description": null
+        "url": "http://localhost:3000/v1/party/update/"
       },
       "response": []
     },
@@ -3928,8 +3611,7 @@
         "method": "put",
         "header": [],
         "body": {},
-        "url": "http://localhost:3000/v1/registeredstaff/update/",
-        "description": null
+        "url": "http://localhost:3000/v1/registeredstaff/update/"
       },
       "response": []
     },
@@ -3940,8 +3622,7 @@
         "method": "put",
         "header": [],
         "body": {},
-        "url": "http://localhost:3000/v1/socialmedia/update/",
-        "description": null
+        "url": "http://localhost:3000/v1/socialmedia/update/"
       },
       "response": []
     },
@@ -3952,8 +3633,7 @@
         "method": "put",
         "header": [],
         "body": {},
-        "url": "http://localhost:3000/v1/staff/update/",
-        "description": null
+        "url": "http://localhost:3000/v1/staff/update/"
       },
       "response": []
     },
@@ -3964,8 +3644,7 @@
         "method": "put",
         "header": [],
         "body": {},
-        "url": "http://localhost:3000/v1/traderequest/authorize/",
-        "description": null
+        "url": "http://localhost:3000/v1/traderequest/authorize/"
       },
       "response": []
     },
@@ -3976,8 +3655,7 @@
         "method": "put",
         "header": [],
         "body": {},
-        "url": "http://localhost:3000/v1/tradingaccount/update/",
-        "description": null
+        "url": "http://localhost:3000/v1/tradingaccount/update/"
       },
       "response": []
     },
@@ -3988,8 +3666,7 @@
         "method": "put",
         "header": [],
         "body": {},
-        "url": "http://localhost:3000/v1/update/language/",
-        "description": null
+        "url": "http://localhost:3000/v1/update/language/"
       },
       "response": []
     },
@@ -4000,8 +3677,7 @@
         "method": "put",
         "header": [],
         "body": {},
-        "url": "http://localhost:3000/v1/{type}/password/",
-        "description": null
+        "url": "http://localhost:3000/v1/{type}/password/"
       },
       "response": []
     },
@@ -4012,8 +3688,7 @@
         "method": "put",
         "header": [],
         "body": {},
-        "url": "http://localhost:3000/v1/license/user/update/",
-        "description": null
+        "url": "http://localhost:3000/v1/license/user/update/"
       },
       "response": []
     },
@@ -4024,8 +3699,7 @@
         "method": "put",
         "header": [],
         "body": {},
-        "url": "http://localhost:3000/v1/party/alias/update/",
-        "description": null
+        "url": "http://localhost:3000/v1/party/alias/update/"
       },
       "response": []
     },
@@ -4056,8 +3730,7 @@
               "value": null
             }
           ]
-        },
-        "description": null
+        }
       },
       "response": []
     },
@@ -4068,8 +3741,7 @@
         "method": "put",
         "header": [],
         "body": {},
-        "url": "http://localhost:3000/v1/{type}/password/bulk/",
-        "description": null
+        "url": "http://localhost:3000/v1/{type}/password/bulk/"
       },
       "response": []
     },
@@ -4080,8 +3752,7 @@
         "method": "put",
         "header": [],
         "body": {},
-        "url": "http://localhost:3000/v1/staff/member/partytradingdocuments/save/",
-        "description": null
+        "url": "http://localhost:3000/v1/staff/member/partytradingdocuments/save/"
       },
       "response": []
     },
@@ -4110,8 +3781,7 @@
               "value": null
             }
           ]
-        },
-        "description": null
+        }
       },
       "response": []
     },
@@ -4122,8 +3792,7 @@
         "method": "delete",
         "header": [],
         "body": {},
-        "url": "http://localhost:3000/v1/logout/",
-        "description": null
+        "url": "http://localhost:3000/v1/logout/"
       },
       "response": []
     },
@@ -4152,8 +3821,7 @@
               "value": null
             }
           ]
-        },
-        "description": null
+        }
       },
       "response": []
     },
@@ -4164,8 +3832,7 @@
         "method": "delete",
         "header": [],
         "body": {},
-        "url": "http://localhost:3000/v1/accrbodies/delete/",
-        "description": null
+        "url": "http://localhost:3000/v1/accrbodies/delete/"
       },
       "response": []
     },
@@ -4176,8 +3843,7 @@
         "method": "delete",
         "header": [],
         "body": {},
-        "url": "http://localhost:3000/v1/accrbodypart/delete/",
-        "description": null
+        "url": "http://localhost:3000/v1/accrbodypart/delete/"
       },
       "response": []
     },
@@ -4188,8 +3854,7 @@
         "method": "delete",
         "header": [],
         "body": {},
-        "url": "http://localhost:3000/v1/alias/delete/",
-        "description": null
+        "url": "http://localhost:3000/v1/alias/delete/"
       },
       "response": []
     },
@@ -4200,8 +3865,7 @@
         "method": "delete",
         "header": [],
         "body": {},
-        "url": "http://localhost:3000/v1/assignstafftrade/delete/",
-        "description": null
+        "url": "http://localhost:3000/v1/assignstafftrade/delete/"
       },
       "response": []
     },
@@ -4212,8 +3876,7 @@
         "method": "delete",
         "header": [],
         "body": {},
-        "url": "http://localhost:3000/v1/cecoursecategory/delete/",
-        "description": null
+        "url": "http://localhost:3000/v1/cecoursecategory/delete/"
       },
       "response": []
     },
@@ -4224,8 +3887,7 @@
         "method": "delete",
         "header": [],
         "body": {},
-        "url": "http://localhost:3000/v1/cecourses/delete/",
-        "description": null
+        "url": "http://localhost:3000/v1/cecourses/delete/"
       },
       "response": []
     },
@@ -4236,8 +3898,7 @@
         "method": "delete",
         "header": [],
         "body": {},
-        "url": "http://localhost:3000/v1/ceprovider/delete/",
-        "description": null
+        "url": "http://localhost:3000/v1/ceprovider/delete/"
       },
       "response": []
     },
@@ -4248,8 +3909,7 @@
         "method": "delete",
         "header": [],
         "body": {},
-        "url": "http://localhost:3000/v1/incidentcomplaintdocs/delete/",
-        "description": null
+        "url": "http://localhost:3000/v1/incidentcomplaintdocs/delete/"
       },
       "response": []
     },
@@ -4260,8 +3920,7 @@
         "method": "delete",
         "header": [],
         "body": {},
-        "url": "http://localhost:3000/v1/incidentcomplaintstaff/delete/",
-        "description": null
+        "url": "http://localhost:3000/v1/incidentcomplaintstaff/delete/"
       },
       "response": []
     },
@@ -4272,8 +3931,7 @@
         "method": "delete",
         "header": [],
         "body": {},
-        "url": "http://localhost:3000/v1/party/delete/",
-        "description": null
+        "url": "http://localhost:3000/v1/party/delete/"
       },
       "response": []
     },
@@ -4284,8 +3942,7 @@
         "method": "delete",
         "header": [],
         "body": {},
-        "url": "http://localhost:3000/v1/qualifycourse/delete/",
-        "description": null
+        "url": "http://localhost:3000/v1/qualifycourse/delete/"
       },
       "response": []
     },
@@ -4296,8 +3953,7 @@
         "method": "delete",
         "header": [],
         "body": {},
-        "url": "http://localhost:3000/v1/restrictedsecurities/reset/",
-        "description": null
+        "url": "http://localhost:3000/v1/restrictedsecurities/reset/"
       },
       "response": []
     },
@@ -4308,8 +3964,7 @@
         "method": "delete",
         "header": [],
         "body": {},
-        "url": "http://localhost:3000/v1/socialmedia/delete/",
-        "description": null
+        "url": "http://localhost:3000/v1/socialmedia/delete/"
       },
       "response": []
     },
@@ -4320,8 +3975,7 @@
         "method": "delete",
         "header": [],
         "body": {},
-        "url": "http://localhost:3000/v1/staff/delete/",
-        "description": null
+        "url": "http://localhost:3000/v1/staff/delete/"
       },
       "response": []
     },
@@ -4332,8 +3986,7 @@
         "method": "delete",
         "header": [],
         "body": {},
-        "url": "http://localhost:3000/v1/staffdesignation/delete/",
-        "description": null
+        "url": "http://localhost:3000/v1/staffdesignation/delete/"
       },
       "response": []
     },
@@ -4344,8 +3997,7 @@
         "method": "delete",
         "header": [],
         "body": {},
-        "url": "http://localhost:3000/v1/staffregistrationdocs/delete/",
-        "description": null
+        "url": "http://localhost:3000/v1/staffregistrationdocs/delete/"
       },
       "response": []
     },
@@ -4356,8 +4008,7 @@
         "method": "delete",
         "header": [],
         "body": {},
-        "url": "http://localhost:3000/v1/tradingaccount/delete/",
-        "description": null
+        "url": "http://localhost:3000/v1/tradingaccount/delete/"
       },
       "response": []
     },
@@ -4368,8 +4019,7 @@
         "method": "delete",
         "header": [],
         "body": {},
-        "url": "http://localhost:3000/v1/disclosure/document/delete/",
-        "description": null
+        "url": "http://localhost:3000/v1/disclosure/document/delete/"
       },
       "response": []
     },
@@ -4380,8 +4030,7 @@
         "method": "delete",
         "header": [],
         "body": {},
-        "url": "http://localhost:3000/v1/license/user/delete/",
-        "description": null
+        "url": "http://localhost:3000/v1/license/user/delete/"
       },
       "response": []
     },
@@ -4412,8 +4061,21 @@
               "value": null
             }
           ]
+        }
+      },
+      "response": []
+    },
+    {
+      "_postman_id": "7e54dc6d-ff3b-41ef-b8dc-f8f41c53172c",
+      "name": "http://localhost:3000/ Copy",
+      "request": {
+        "method": "POST",
+        "header": [],
+        "body": {
+          "mode": "raw",
+          "raw": "{\n\"email\":\"holdco@vigilantcs.com\",\n\"password\":\"vujade@B7\"\n}"
         },
-        "description": null
+        "url": "http://localhost:3000/v1/user/login/"
       },
       "response": []
     }
