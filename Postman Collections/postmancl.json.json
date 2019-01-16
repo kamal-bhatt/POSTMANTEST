@@ -32,6 +32,20 @@
       "response": []
     },
     {
+      "_postman_id": "7e54dc6d-ff3b-41ef-b8dc-f8f41c53172c",
+      "name": "http://localhost:3000/ Copy",
+      "request": {
+        "method": "POST",
+        "header": [],
+        "body": {
+          "mode": "raw",
+          "raw": "{\n\"email\":\"holdco@vigilantcs.com\",\n\"password\":\"vujade@B7\"\n}"
+        },
+        "url": "http://localhost:3000/v1/user/login/"
+      },
+      "response": []
+    },
+    {
       "_postman_id": "06e5edfd-2cf6-f733-9b7a-85cd45148607",
       "name": "explorer/",
       "request": {
@@ -4062,20 +4076,6 @@
             }
           ]
         }
-      },
-      "response": []
-    },
-    {
-      "_postman_id": "7e54dc6d-ff3b-41ef-b8dc-f8f41c53172c",
-      "name": "http://localhost:3000/ Copy",
-      "request": {
-        "method": "POST",
-        "header": [],
-        "body": {
-          "mode": "raw",
-          "raw": "{\n\"email\":\"holdco@vigilantcs.com\",\n\"password\":\"vujade@B7\"\n}"
-        },
-        "url": "http://localhost:3000/v1/user/login/"
       },
       "response": []
     }
