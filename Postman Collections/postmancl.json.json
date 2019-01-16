@@ -33,7 +33,7 @@
     },
     {
       "_postman_id": "7e54dc6d-ff3b-41ef-b8dc-f8f41c53172c",
-      "name": "http://localhost:3000/ Copy",
+      "name": "demo login",
       "request": {
         "method": "POST",
         "header": [],
